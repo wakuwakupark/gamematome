@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>パズドラ</key>
+	<dict>
+		<key>sites</key>
+		<dict>
+			<key>公式</key>
+			<string>http://mobile.gungho.jp/details/unei.html</string>
+			<key>wiki</key>
+			<string>http://pd.appbank.net/</string>
+			<key>攻略</key>
+			<string>http://www.dopr.net/pad</string>
+			<key>まとめ</key>
+			<string>http://pazusoku.blog.fc2.com/</string>
+		</dict>
+		<key>rss</key>
+		<dict>
+			<key>まとめ</key>
+			<string>http://pazusoku.blog.fc2.com/?xml</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

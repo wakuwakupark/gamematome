@@ -1,0 +1,1076 @@
+TGameMatome
+v6
+r1
+cCheck dependencies
+cDataModelVersionCompile /Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/DerivedData/GameMatome/Build/Products/Debug-iphonesimulator/GameMatome.app/GameMatome.momd /Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/GameMatome/GameMatome.xcdatamodeld
+cProcessPCH /Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/DerivedData/GameMatome/Build/Intermediates/PrecompiledHeaders/GameMatome-Prefix-dhwhfykjwhkgtvdawpwfkbtbimtb/GameMatome-Prefix.pch.pch GameMatome/GameMatome-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/GameMatome/Build/Intermediates/GameMatome.build/Debug-iphonesimulator/GameMatome.build/Objects-normal/x86_64/ForUseCoreData.o /Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/GameMatome/ForUseCoreData.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/GameMatome/Build/Intermediates/GameMatome.build/Debug-iphonesimulator/GameMatome.build/Objects-normal/x86_64/AppDelegate.o /Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/GameMatome/AppDelegate.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/GameMatome/Build/Intermediates/GameMatome.build/Debug-iphonesimulator/GameMatome.build/Objects-normal/x86_64/News.o /Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/GameMatome/News.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/GameMatome/Build/Intermediates/GameMatome.build/Debug-iphonesimulator/GameMatome.build/Objects-normal/x86_64/Game.o /Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/GameMatome/Game.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/GameMatome/Build/Intermediates/GameMatome.build/Debug-iphonesimulator/GameMatome.build/Objects-normal/x86_64/NewsViewController.o /Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/GameMatome/NewsViewController.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/GameMatome/Build/Intermediates/GameMatome.build/Debug-iphonesimulator/GameMatome.build/Objects-normal/x86_64/main.o /Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/GameMatome/main.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/GameMatome/Build/Intermediates/GameMatome.build/Debug-iphonesimulator/GameMatome.build/Objects-normal/x86_64/BrouserViewController.o /Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/GameMatome/BrouserViewController.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/GameMatome/Build/Intermediates/GameMatome.build/Debug-iphonesimulator/GameMatome.build/Objects-normal/x86_64/DetailSettingViewController.o /Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/GameMatome/DetailSettingViewController.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/GameMatome/Build/Intermediates/GameMatome.build/Debug-iphonesimulator/GameMatome.build/Objects-normal/x86_64/SettingViewController.o /Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/GameMatome/SettingViewController.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/GameMatome/Build/Intermediates/GameMatome.build/Debug-iphonesimulator/GameMatome.build/Objects-normal/x86_64/Site.o /Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/GameMatome/Site.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/GameMatome/Build/Intermediates/GameMatome.build/Debug-iphonesimulator/GameMatome.build/Objects-normal/x86_64/Memo.o /Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/GameMatome/Memo.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/DerivedData/GameMatome/Build/Products/Debug-iphonesimulator/GameMatome.app/GameMatome normal x86_64
+cCopyStringsFile /Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/DerivedData/GameMatome/Build/Products/Debug-iphonesimulator/GameMatome.app/en.lproj/InfoPlist.strings GameMatome/en.lproj/InfoPlist.strings
+cCompileStoryboard /Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/GameMatome/Main_iPhone.storyboard
+cCopyPlistFile /Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/DerivedData/GameMatome/Build/Products/Debug-iphonesimulator/GameMatome.app/SitesData.plist GameMatome/SitesData.plist
+cCompileAssetCatalog /Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/DerivedData/GameMatome/Build/Products/Debug-iphonesimulator/GameMatome.app /Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/GameMatome/Images.xcassets
+cProcessInfoPlistFile /Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/DerivedData/GameMatome/Build/Products/Debug-iphonesimulator/GameMatome.app/Info.plist /Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/GameMatome/GameMatome-Info.plist
+cGenerateDSYMFile /Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/DerivedData/GameMatome/Build/Products/Debug-iphonesimulator/GameMatome.app.dSYM /Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/DerivedData/GameMatome/Build/Products/Debug-iphonesimulator/GameMatome.app/GameMatome
+cTouch /Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/DerivedData/GameMatome/Build/Products/Debug-iphonesimulator/GameMatome.app
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk
+c00000000534899640000000000000198
+t1397266788
+s408
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/SDKSettings.plist
+c000000005325C64200000000000003B4
+t1394984514
+s948
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/CoreServices/SystemVersion.plist
+c000000005325C64A000000000000019E
+t1394984522
+s414
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CFNetwork.framework/CFNetwork
+c000000005325C64D000000000058E0E0
+t1394984525
+s5824736
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreData.framework/CoreData
+c000000005325C64D00000000006CED60
+t1394984525
+s7138656
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+c000000005325C64D00000000005B82F0
+t1394984525
+s5997296
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000005348993D0000000000446820
+t1397266749
+s4483104
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreImage.framework/CoreImage
+c000000005325C64D00000000003599D0
+t1394984525
+s3512784
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreText.framework/CoreText
+c000000005325C64E00000000002FC3B0
+t1394984526
+s3130288
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreVideo.framework/CoreVideo
+c000000005325C64E000000000004B000
+t1394984526
+s307200
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000005325C64F000000000088D8C0
+t1394984527
+s8968384
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/OpenGLES.framework/OpenGLES
+c000000005325C6510000000000037680
+t1394984529
+s226944
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+c000000005325C651000000000048F720
+t1394984529
+s4781856
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/Security.framework/Security
+c000000005325C651000000000013FD70
+t1394984529
+s1310064
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/Social.framework/Social
+c000000005325C6520000000000222210
+t1394984530
+s2236944
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/Twitter.framework/Twitter
+c000000005325C652000000000000C370
+t1394984530
+s50032
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000005325C6550000000001F1DE10
+t1394984533
+s32628240
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/PrivateFrameworks/UIFoundation.framework/UIFoundation
+c000000005325C66200000000002BC360
+t1394984546
+s2868064
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/crt1.o
+c000000005325C66A0000000000002338
+t1394984554
+s9016
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libSystem.dylib
+c000000005325C66B000000000008D370
+t1394984555
+s578416
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libobjc.dylib
+c000000005325C66B0000000000392E20
+t1394984555
+s3747360
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/host/libdyld.dylib
+c000000005377366000000000000141F0
+t1400321632
+s82416
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcache_sim.dylib
+c000000005325C66B0000000000014A80
+t1394984555
+s84608
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcommonCrypto_sim.dylib
+c000000005325C66B0000000000033BA0
+t1394984555
+s211872
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcompiler_rt_sim.dylib
+c000000005325C66B000000000001CFB0
+t1394984555
+s118704
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcopyfile_sim.dylib
+c000000005325C66B000000000001B2B0
+t1394984555
+s111280
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcorecrypto_sim.dylib
+c000000005325C66B00000000000C9570
+t1394984555
+s824688
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libdispatch.dylib
+c000000005325C66B0000000000063280
+t1394984555
+s406144
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libdyld_sim.dylib
+c000000005325C66B0000000000008880
+t1394984555
+s34944
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libmacho_sim.dylib
+c000000005325C66B0000000000015080
+t1394984555
+s86144
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libnotify_sim.dylib
+c000000005325C66B00000000000230F0
+t1394984555
+s143600
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libremovefile_sim.dylib
+c000000005325C66B000000000000E380
+t1394984555
+s58240
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_network.dylib
+c000000005325C66B0000000000089380
+t1394984555
+s562048
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_override.dylib
+c000000005325C66B0000000000017320
+t1394984555
+s95008
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_asl.dylib
+c000000005325C66B0000000000039CD0
+t1394984555
+s236752
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_blocks.dylib
+c000000005325C66B000000000000B0B0
+t1394984555
+s45232
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_c.dylib
+c000000005325C66C0000000000167E80
+t1394984556
+s1474176
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_configuration.dylib
+c000000005325C66C00000000000106A0
+t1394984556
+s67232
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_dnssd.dylib
+c000000005325C66C000000000001CE40
+t1394984556
+s118336
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_info.dylib
+c000000005325C66C00000000000740C0
+t1394984556
+s475328
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_m.dylib
+c000000005325C66C000000000006CA60
+t1394984556
+s445024
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libunwind_sim.dylib
+c000000005325C66C000000000001BAD0
+t1394984556
+s113360
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libxpc.dylib
+c000000005325C66C0000000000084A20
+t1394984556
+s543264
+
+N/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/include/module.map
+c000000005325C6720000000000000ADC
+t1394984562
+s2780
+
+N/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/lib/darwin/libclang_rt.ios.a
+c000000005348993D000000000000514C
+t1397266749
+s20812
+
+N/Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/DerivedData/GameMatome/Build/Intermediates/GameMatome.build/Debug-iphonesimulator/GameMatome.build/Objects-normal/x86_64/AppDelegate.o
+t1407632779
+s68676
+
+N/Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/DerivedData/GameMatome/Build/Intermediates/GameMatome.build/Debug-iphonesimulator/GameMatome.build/Objects-normal/x86_64/BrouserViewController.o
+t1407657888
+s100568
+
+N/Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/DerivedData/GameMatome/Build/Intermediates/GameMatome.build/Debug-iphonesimulator/GameMatome.build/Objects-normal/x86_64/DetailSettingViewController.o
+t1407657888
+s95272
+
+N/Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/DerivedData/GameMatome/Build/Intermediates/GameMatome.build/Debug-iphonesimulator/GameMatome.build/Objects-normal/x86_64/ForUseCoreData.o
+t1407647639
+s33580
+
+N/Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/DerivedData/GameMatome/Build/Intermediates/GameMatome.build/Debug-iphonesimulator/GameMatome.build/Objects-normal/x86_64/Game.o
+t1407647639
+s12280
+
+N/Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/DerivedData/GameMatome/Build/Intermediates/GameMatome.build/Debug-iphonesimulator/GameMatome.build/Objects-normal/x86_64/GameMatome.LinkFileList
+c0000000053E6FF96000000000000088D
+t1407647638
+s2189
+
+N/Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/DerivedData/GameMatome/Build/Intermediates/GameMatome.build/Debug-iphonesimulator/GameMatome.build/Objects-normal/x86_64/Memo.o
+t1407647639
+s9708
+
+N/Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/DerivedData/GameMatome/Build/Intermediates/GameMatome.build/Debug-iphonesimulator/GameMatome.build/Objects-normal/x86_64/News.o
+t1407647639
+s12264
+
+N/Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/DerivedData/GameMatome/Build/Intermediates/GameMatome.build/Debug-iphonesimulator/GameMatome.build/Objects-normal/x86_64/NewsViewController.o
+t1407657888
+s148628
+
+N/Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/DerivedData/GameMatome/Build/Intermediates/GameMatome.build/Debug-iphonesimulator/GameMatome.build/Objects-normal/x86_64/SettingViewController.o
+t1407654096
+s84924
+
+N/Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/DerivedData/GameMatome/Build/Intermediates/GameMatome.build/Debug-iphonesimulator/GameMatome.build/Objects-normal/x86_64/Site.o
+t1407647639
+s13224
+
+N/Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/DerivedData/GameMatome/Build/Intermediates/GameMatome.build/Debug-iphonesimulator/GameMatome.build/Objects-normal/x86_64/main.o
+t1407632788
+s3844
+
+N/Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/DerivedData/GameMatome/Build/Intermediates/GameMatome.build/Debug-iphonesimulator/GameMatome.build/assetcatalog_dependencies.txt
+t1407632790
+s527
+
+N/Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/DerivedData/GameMatome/Build/Intermediates/GameMatome.build/Debug-iphonesimulator/GameMatome.build/assetcatalog_generated_info.plist
+t1407632790
+s525
+
+N/Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/DerivedData/GameMatome/Build/Intermediates/PrecompiledHeaders/GameMatome-Prefix-dhwhfykjwhkgtvdawpwfkbtbimtb/GameMatome-Prefix.pch.pch
+t1407632779
+s117872
+
+N/Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/DerivedData/GameMatome/Build/Products/Debug-iphonesimulator/GameMatome.app
+t1407657888
+s374
+
+N/Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/DerivedData/GameMatome/Build/Products/Debug-iphonesimulator/GameMatome.app.dSYM
+t1407655531
+s102
+
+N/Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/DerivedData/GameMatome/Build/Products/Debug-iphonesimulator/GameMatome.app/GameMatome
+t1407657888
+s134100
+
+N/Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/DerivedData/GameMatome/Build/Products/Debug-iphonesimulator/GameMatome.app/GameMatome.momd
+t1407648382
+s136
+
+N/Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/DerivedData/GameMatome/Build/Products/Debug-iphonesimulator/GameMatome.app/Info.plist
+t1407632790
+s1033
+
+N/Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/DerivedData/GameMatome/Build/Products/Debug-iphonesimulator/GameMatome.app/Main_iPhone.storyboardc
+t1407654098
+s374
+
+N/Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/DerivedData/GameMatome/Build/Products/Debug-iphonesimulator/GameMatome.app/PkgInfo
+t1407632790
+s8
+
+N/Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/DerivedData/GameMatome/Build/Products/Debug-iphonesimulator/GameMatome.app/SitesData.plist
+t1407654899
+s280
+
+N/Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/DerivedData/GameMatome/Build/Products/Debug-iphonesimulator/GameMatome.app/en.lproj/InfoPlist.strings
+t1407632788
+s42
+
+N/Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/GameMatome/AppDelegate.h
+c0000000053E6C25C0000000000000126
+t1407631964
+s294
+
+N/Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/GameMatome/AppDelegate.m
+c0000000053E6C25C00000000000007E8
+t1407631964
+s2024
+
+N/Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/GameMatome/BrouserViewController.h
+c0000000053E7279F0000000000000471
+t1407657887
+s1137
+
+N/Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/GameMatome/BrouserViewController.m
+c0000000053E7279F0000000000001DF5
+t1407657887
+s7669
+
+N/Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/GameMatome/DetailSettingViewController.h
+c0000000053E718D00000000000000240
+t1407654096
+s576
+
+N/Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/GameMatome/DetailSettingViewController.m
+c0000000053E718D000000000000010A0
+t1407654096
+s4256
+
+N/Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/GameMatome/ForUseCoreData.h
+c0000000053E589CB00000000000002DA
+t1407551947
+s730
+
+N/Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/GameMatome/ForUseCoreData.m
+c0000000053E6FF960000000000001835
+t1407647638
+s6197
+
+N/Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/GameMatome/Game.h
+c0000000053E6FF960000000000000296
+t1407647638
+s662
+
+N/Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/GameMatome/Game.m
+c0000000053E6FDA5000000000000019A
+t1407647141
+s410
+
+N/Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/GameMatome/GameMatome-Info.plist
+c0000000053E6C2A700000000000004D4
+t1407632039
+s1236
+
+N/Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/GameMatome/GameMatome-Prefix.pch
+c0000000053E6C25C0000000000000158
+t1407631964
+s344
+
+N/Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/GameMatome/GameMatome.xcdatamodeld
+c0000000053E7027E0000000000000066
+t1407648382
+s102
+
+N/Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/GameMatome/Images.xcassets
+c0000000053E6C25C0000000000000088
+t1407631964
+s136
+
+N/Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/GameMatome/Main_iPhone.storyboard
+c0000000053E718D0000000000000BB0B
+t1407654096
+s47883
+
+N/Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/GameMatome/Memo.h
+c0000000053E6C56400000000000001CA
+t1407632740
+s458
+
+N/Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/GameMatome/Memo.m
+c0000000053E6C5640000000000000119
+t1407632740
+s281
+
+N/Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/GameMatome/News.h
+c0000000053E6FF9600000000000002E0
+t1407647638
+s736
+
+N/Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/GameMatome/News.m
+c0000000053E6FF9600000000000001C2
+t1407647638
+s450
+
+N/Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/GameMatome/NewsViewController.h
+c0000000053E6DA1700000000000006F1
+t1407638039
+s1777
+
+N/Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/GameMatome/NewsViewController.m
+c0000000053E71C3D0000000000005B69
+t1407654973
+s23401
+
+N/Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/GameMatome/SettingViewController.h
+c0000000053E6F640000000000000017D
+t1407645248
+s381
+
+N/Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/GameMatome/SettingViewController.m
+c0000000053E70CD30000000000000F1B
+t1407651027
+s3867
+
+N/Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/GameMatome/Site.h
+c0000000053E6FF9600000000000003C1
+t1407647638
+s961
+
+N/Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/GameMatome/Site.m
+c0000000053E6FF960000000000000218
+t1407647638
+s536
+
+N/Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/GameMatome/SitesData.plist
+c0000000053E71BF2000000000000029A
+t1407654898
+s666
+
+N/Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/GameMatome/en.lproj/InfoPlist.strings
+c0000000053E6C25C000000000000002D
+t1407631964
+s45
+
+N/Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/GameMatome/main.m
+c0000000053E6C25C0000000000000162
+t1407631964
+s354
+
+N/usr/lib/libSystem.B.dylib
+c0000000053773645000000000000E6D0
+t1400321605
+s59088
+
+N/usr/lib/system/libcache.dylib
+c00000000526788BD0000000000012A00
+t1382516925
+s76288
+
+N/usr/lib/system/libcommonCrypto.dylib
+c0000000052678899000000000002E320
+t1382516889
+s189216
+
+N/usr/lib/system/libcompiler_rt.dylib
+c00000000526788AA0000000000021860
+t1382516906
+s137312
+
+N/usr/lib/system/libcopyfile.dylib
+c0000000053BC07FF000000000001B610
+t1404831743
+s112144
+
+N/usr/lib/system/libcorecrypto.dylib
+c00000000526788BC00000000000BD920
+t1382516924
+s776480
+
+N/usr/lib/system/libdyld.dylib
+c000000005377366000000000000141F0
+t1400321632
+s82416
+
+N/usr/lib/system/libkeymgr.dylib
+c00000000526788BD000000000000A120
+t1382516925
+s41248
+
+N/usr/lib/system/liblaunch.dylib
+c0000000053BC07FF000000000001D550
+t1404831743
+s120144
+
+N/usr/lib/system/libmacho.dylib
+c00000000526788BC0000000000014EE0
+t1382516924
+s85728
+
+N/usr/lib/system/libquarantine.dylib
+c00000000526788BF0000000000010380
+t1382516927
+s66432
+
+N/usr/lib/system/libremovefile.dylib
+c00000000526788BF000000000000C4C0
+t1382516927
+s50368
+
+N/usr/lib/system/libsystem_asl.dylib
+c00000000526788BD00000000000357A0
+t1382516925
+s219040
+
+N/usr/lib/system/libsystem_blocks.dylib
+c00000000526788BD000000000000C070
+t1382516925
+s49264
+
+N/usr/lib/system/libsystem_c.dylib
+c00000000530299D10000000000168D00
+t1392679377
+s1477888
+
+N/usr/lib/system/libsystem_configuration.dylib
+c000000005377365C0000000000010630
+t1400321628
+s67120
+
+N/usr/lib/system/libsystem_dnssd.dylib
+c0000000053BC07FF000000000001DF10
+t1404831743
+s122640
+
+N/usr/lib/system/libsystem_info.dylib
+c00000000526788AA0000000000075B00
+t1382516906
+s482048
+
+N/usr/lib/system/libsystem_kernel.dylib
+c0000000053BC07FF000000000007CD60
+t1404831743
+s511328
+
+N/usr/lib/system/libsystem_m.dylib
+c00000000526788AA00000000000766C0
+t1382516906
+s485056
+
+N/usr/lib/system/libsystem_malloc.dylib
+c00000000530299D00000000000044DC0
+t1392679376
+s282048
+
+N/usr/lib/system/libsystem_notify.dylib
+c00000000526788AA0000000000021FA0
+t1382516906
+s139168
+
+N/usr/lib/system/libsystem_platform.dylib
+c00000000530FDB81000000000002D920
+t1393548161
+s186656
+
+N/usr/lib/system/libsystem_pthread.dylib
+c00000000526788BE000000000001E570
+t1382516926
+s124272
+
+N/usr/lib/system/libsystem_sandbox.dylib
+c0000000053BC07FF000000000000CC70
+t1404831743
+s52336
+
+N/usr/lib/system/libsystem_stats.dylib
+c00000000537736540000000000009A80
+t1400321620
+s39552
+
+N/usr/lib/system/libunc.dylib
+c00000000526788B6000000000000C3F0
+t1382516918
+s50160
+
+N/usr/lib/system/libunwind.dylib
+c00000000526788BE00000000000199F0
+t1382516926
+s104944
+
+CBuild AST from /Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/GameMatome/AppDelegate.m
+r0
+
+CBuild AST from /Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/GameMatome/BrouserViewController.m
+r0
+
+CBuild AST from /Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/GameMatome/DetailSettingViewController.m
+r0
+
+CBuild AST from /Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/GameMatome/ForUseCoreData.m
+r0
+
+CBuild AST from /Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/GameMatome/Game.m
+r0
+
+CBuild AST from /Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/GameMatome/Memo.m
+r0
+
+CBuild AST from /Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/GameMatome/News.m
+r0
+
+CBuild AST from /Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/GameMatome/NewsViewController.m
+r0
+
+CBuild AST from /Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/GameMatome/SettingViewController.m
+r0
+
+CBuild AST from /Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/GameMatome/Site.m
+r0
+
+CBuild AST from /Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/GameMatome/main.m
+r0
+
+CCheck dependencies
+r0
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependenciesf3043e1f5f97b941^b308551f5f97b941^---0#1#1#--18"Check dependencies36"07277603-FF4C-48E0-893C-730DF798E660-
+
+CCompileAssetCatalog /Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/DerivedData/GameMatome/Build/Products/Debug-iphonesimulator/GameMatome.app /Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/GameMatome/Images.xcassets
+s429325588.817641
+e429325590.013314
+r1
+xCompileAssetCatalog
+x/Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/DerivedData/GameMatome/Build/Products/Debug-iphonesimulator/GameMatome.app
+x/Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/GameMatome/Images.xcassets
+o/* com.apple.actool.compilation-results */
+o/Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/DerivedData/GameMatome/Build/Products/Debug-iphonesimulator/GameMatome.app/LaunchImage-700-568h@2x.png
+o/Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/DerivedData/GameMatome/Build/Products/Debug-iphonesimulator/GameMatome.app/Assets.car
+o/Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/DerivedData/GameMatome/Build/Intermediates/GameMatome.build/Debug-iphonesimulator/GameMatome.build/assetcatalog_generated_info.plist
+o
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection121"CompileAssetCatalog DerivedData/GameMatome/Build/Products/Debug-iphonesimulator/GameMatome.app GameMatome/Images.xcassets121"CompileAssetCatalog DerivedData/GameMatome/Build/Products/Debug-iphonesimulator/GameMatome.app GameMatome/Images.xcassets47acd114fd96b941^e0680316fd96b941^-555"/* com.apple.actool.compilation-results *//Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/DerivedData/GameMatome/Build/Products/Debug-iphonesimulator/GameMatome.app/LaunchImage-700-568h@2x.png/Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/DerivedData/GameMatome/Build/Products/Debug-iphonesimulator/GameMatome.app/Assets.car/Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/DerivedData/GameMatome/Build/Intermediates/GameMatome.build/Debug-iphonesimulator/GameMatome.build/assetcatalog_generated_info.plist-0#0#1#-19%DVTDocumentLocation2@97"file:///Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/GameMatome/Images.xcassets/0000000000000000^1374"CompileAssetCatalog DerivedData/GameMatome/Build/Products/Debug-iphonesimulator/GameMatome.app GameMatome/Images.xcassets    cd /Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/actool --output-format human-readable-text --notices --warnings --export-dependency-info /Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/DerivedData/GameMatome/Build/Intermediates/GameMatome.build/Debug-iphonesimulator/GameMatome.build/assetcatalog_dependencies.txt --output-partial-info-plist /Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/DerivedData/GameMatome/Build/Intermediates/GameMatome.build/Debug-iphonesimulator/GameMatome.build/assetcatalog_generated_info.plist --app-icon AppIcon --launch-image LaunchImage --platform iphonesimulator --minimum-deployment-target 7.1 --target-device iphone --compress-pngs --compile /Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/DerivedData/GameMatome/Build/Products/Debug-iphonesimulator/GameMatome.app /Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/GameMatome/Images.xcassets36"7F86E943-0140-4A73-B440-CA8326A4EC53-
+b92474A4D-7EAF-4E67-A227-4B1A3729A5D0
+
+CCompileC DerivedData/GameMatome/Build/Intermediates/GameMatome.build/Debug-iphonesimulator/GameMatome.build/Objects-normal/x86_64/AppDelegate.o /Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/GameMatome/AppDelegate.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s429325579.482783
+e429325579.590494
+r1
+xCompileC
+xDerivedData/GameMatome/Build/Intermediates/GameMatome.build/Debug-iphonesimulator/GameMatome.build/Objects-normal/x86_64/AppDelegate.o
+x/Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/GameMatome/AppDelegate.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/GameMatome/AppDelegate.m
+d/Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/GameMatome/AppDelegate.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection95"Compile /Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/GameMatome/AppDelegate.m238"CompileC DerivedData/GameMatome/Build/Intermediates/GameMatome.build/Debug-iphonesimulator/GameMatome.build/Objects-normal/x86_64/AppDelegate.o GameMatome/AppDelegate.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler3be37b0bfd96b941^ae2e970bfd96b941^---0#0#1#-19%DVTDocumentLocation2@94"file:///Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/GameMatome/AppDelegate.m0000000000000000^4410"CompileC DerivedData/GameMatome/Build/Intermediates/GameMatome.build/Debug-iphonesimulator/GameMatome.build/Objects-normal/x86_64/AppDelegate.o GameMatome/AppDelegate.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.1 -iquote /Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/DerivedData/GameMatome/Build/Intermediates/GameMatome.build/Debug-iphonesimulator/GameMatome.build/GameMatome-generated-files.hmap -I/Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/DerivedData/GameMatome/Build/Intermediates/GameMatome.build/Debug-iphonesimulator/GameMatome.build/GameMatome-own-target-headers.hmap -I/Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/DerivedData/GameMatome/Build/Intermediates/GameMatome.build/Debug-iphonesimulator/GameMatome.build/GameMatome-all-target-headers.hmap -iquote /Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/DerivedData/GameMatome/Build/Intermediates/GameMatome.build/Debug-iphonesimulator/GameMatome.build/GameMatome-project-headers.hmap -I/Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/DerivedData/GameMatome/Build/Products/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/DerivedData/GameMatome/Build/Intermediates/GameMatome.build/Debug-iphonesimulator/GameMatome.build/DerivedSources/x86_64 -I/Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/DerivedData/GameMatome/Build/Intermediates/GameMatome.build/Debug-iphonesimulator/GameMatome.build/DerivedSources -F/Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/DerivedData/GameMatome/Build/Products/Debug-iphonesimulator -include /Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/DerivedData/GameMatome/Build/Intermediates/PrecompiledHeaders/GameMatome-Prefix-dhwhfykjwhkgtvdawpwfkbtbimtb/GameMatome-Prefix.pch -MMD -MT dependencies -MF /Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/DerivedData/GameMatome/Build/Intermediates/GameMatome.build/Debug-iphonesimulator/GameMatome.build/Objects-normal/x86_64/AppDelegate.d --serialize-diagnostics /Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/DerivedData/GameMatome/Build/Intermediates/GameMatome.build/Debug-iphonesimulator/GameMatome.build/Objects-normal/x86_64/AppDelegate.dia -c /Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/GameMatome/AppDelegate.m -o /Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/DerivedData/GameMatome/Build/Intermediates/GameMatome.build/Debug-iphonesimulator/GameMatome.build/Objects-normal/x86_64/AppDelegate.o36"0E6F0276-93E8-49C6-949E-F533A53D7352-
+b10B3EEA6-BE46-4147-BE9D-2EEC7C825E4A
+
+CCompileC DerivedData/GameMatome/Build/Intermediates/GameMatome.build/Debug-iphonesimulator/GameMatome.build/Objects-normal/x86_64/BrouserViewController.o /Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/GameMatome/BrouserViewController.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s429350687.334943
+e429350688.430366
+r1
+xCompileC
+xDerivedData/GameMatome/Build/Intermediates/GameMatome.build/Debug-iphonesimulator/GameMatome.build/Objects-normal/x86_64/BrouserViewController.o
+x/Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/GameMatome/BrouserViewController.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/GameMatome/BrouserViewController.m
+d/Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/GameMatome/BrouserViewController.h
+d/Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/GameMatome/News.h
+d/Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/GameMatome/Memo.h
+d/Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/GameMatome/Site.h
+d/Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/GameMatome/Game.h
+d/Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/GameMatome/ForUseCoreData.h
+o/Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/GameMatome/BrouserViewController.m:244:9: warning: 'TWTweetComposeViewController' is deprecated: first deprecated in iOS 6.0 [-Wdeprecated-declarations]
+o        TWTweetComposeViewController *twitter = [[TWTweetComposeViewController alloc] init];
+o        ^
+oIn module 'Twitter' imported from /Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/GameMatome/BrouserViewController.h:11:
+o/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/Twitter.framework/Headers/TWTweetComposeViewController.h:32:12: note: 'TWTweetComposeViewController' declared here
+o@interface TWTweetComposeViewController : UIViewController
+o           ^
+o/Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/GameMatome/BrouserViewController.m:244:80: warning: 'TWTweetComposeViewController' is deprecated: first deprecated in iOS 6.0 [-Wdeprecated-declarations]
+o        TWTweetComposeViewController *twitter = [[TWTweetComposeViewController alloc] init];
+o                                                                               ^
+oIn module 'Twitter' imported from /Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/GameMatome/BrouserViewController.h:11:
+o/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/Twitter.framework/Headers/TWTweetComposeViewController.h:32:12: note: 'TWTweetComposeViewController' declared here
+o@interface TWTweetComposeViewController : UIViewController
+o           ^
+o/Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/GameMatome/BrouserViewController.m:258:15: warning: 'presentModalViewController:animated:' is deprecated: first deprecated in iOS 6.0 [-Wdeprecated-declarations]
+o        [self presentModalViewController:twitter animated:YES];
+o              ^
+oIn module 'UIKit' imported from /Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/GameMatome/BrouserViewController.h:9:
+o/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIViewController.h:251:1: note: method 'presentModalViewController:animated:' declared here
+o- (void)presentModalViewController:(UIViewController *)modalViewController animated:(BOOL)animated NS_DEPRECATED_IOS(2_0, 6_0);
+o^
+o3 warnings generated.
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection105"Compile /Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/GameMatome/BrouserViewController.m258"CompileC DerivedData/GameMatome/Build/Intermediates/GameMatome.build/Debug-iphonesimulator/GameMatome.build/Objects-normal/x86_64/BrouserViewController.o GameMatome/BrouserViewController.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compilerc4e8551f5f97b941^ae2b6e205f97b941^-2488"/Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/GameMatome/BrouserViewController.m:244:9: warning: 'TWTweetComposeViewController' is deprecated: first deprecated in iOS 6.0 [-Wdeprecated-declarations]        TWTweetComposeViewController *twitter = [[TWTweetComposeViewController alloc] init];        ^In module 'Twitter' imported from /Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/GameMatome/BrouserViewController.h:11:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/Twitter.framework/Headers/TWTweetComposeViewController.h:32:12: note: 'TWTweetComposeViewController' declared here@interface TWTweetComposeViewController : UIViewController           ^/Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/GameMatome/BrouserViewController.m:244:80: warning: 'TWTweetComposeViewController' is deprecated: first deprecated in iOS 6.0 [-Wdeprecated-declarations]        TWTweetComposeViewController *twitter = [[TWTweetComposeViewController alloc] init];                                                                               ^In module 'Twitter' imported from /Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/GameMatome/BrouserViewController.h:11:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/Twitter.framework/Headers/TWTweetComposeViewController.h:32:12: note: 'TWTweetComposeViewController' declared here@interface TWTweetComposeViewController : UIViewController           ^/Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/GameMatome/BrouserViewController.m:258:15: warning: 'presentModalViewController:animated:' is deprecated: first deprecated in iOS 6.0 [-Wdeprecated-declarations]        [self presentModalViewController:twitter animated:YES];              ^In module 'UIKit' imported from /Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/GameMatome/BrouserViewController.h:9:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIViewController.h:251:1: note: method 'presentModalViewController:animated:' declared here- (void)presentModalViewController:(UIViewController *)modalViewController animated:(BOOL)animated NS_DEPRECATED_IOS(2_0, 6_0);^3 warnings generated.3(36%IDEClangDiagnosticActivityLogMessage2@73"'TWTweetComposeViewController' is deprecated: first deprecated in iOS 6.0-429350688#18446744073709551615#0#1(2@44"'TWTweetComposeViewController' declared here-429350688#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@205"file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/Twitter.framework/Headers/TWTweetComposeViewController.h0000000000000000^31#11#31#11#1315#0#14"Semantic Issue--1#27"com.apple.dt.IDE.diagnostic3@104"file:///Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/GameMatome/BrouserViewController.m0000000000000000^243#8#243#8#6640#0#12"Deprecations--2@73"'TWTweetComposeViewController' is deprecated: first deprecated in iOS 6.0-429350688#18446744073709551615#0#1(2@44"'TWTweetComposeViewController' declared here-429350688#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@205"file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/Twitter.framework/Headers/TWTweetComposeViewController.h0000000000000000^31#11#31#11#1315#0#14"Semantic Issue--1#27"com.apple.dt.IDE.diagnostic3@104"file:///Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/GameMatome/BrouserViewController.m0000000000000000^243#79#243#79#6711#0#12"Deprecations--2@81"'presentModalViewController:animated:' is deprecated: first deprecated in iOS 6.0-429350688#18446744073709551615#0#1(2@59"Method 'presentModalViewController:animated:' declared here-429350688#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@191"file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIViewController.h0000000000000000^250#0#250#0#13300#0#14"Semantic Issue--1#27"com.apple.dt.IDE.diagnostic3@104"file:///Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/GameMatome/BrouserViewController.m0000000000000000^257#14#257#14#7447#0#12"Deprecations--0#0#1#-19%DVTDocumentLocation4@104"file:///Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/GameMatome/BrouserViewController.m0000000000000000^4470"CompileC DerivedData/GameMatome/Build/Intermediates/GameMatome.build/Debug-iphonesimulator/GameMatome.build/Objects-normal/x86_64/BrouserViewController.o GameMatome/BrouserViewController.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.1 -iquote /Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/DerivedData/GameMatome/Build/Intermediates/GameMatome.build/Debug-iphonesimulator/GameMatome.build/GameMatome-generated-files.hmap -I/Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/DerivedData/GameMatome/Build/Intermediates/GameMatome.build/Debug-iphonesimulator/GameMatome.build/GameMatome-own-target-headers.hmap -I/Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/DerivedData/GameMatome/Build/Intermediates/GameMatome.build/Debug-iphonesimulator/GameMatome.build/GameMatome-all-target-headers.hmap -iquote /Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/DerivedData/GameMatome/Build/Intermediates/GameMatome.build/Debug-iphonesimulator/GameMatome.build/GameMatome-project-headers.hmap -I/Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/DerivedData/GameMatome/Build/Products/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/DerivedData/GameMatome/Build/Intermediates/GameMatome.build/Debug-iphonesimulator/GameMatome.build/DerivedSources/x86_64 -I/Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/DerivedData/GameMatome/Build/Intermediates/GameMatome.build/Debug-iphonesimulator/GameMatome.build/DerivedSources -F/Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/DerivedData/GameMatome/Build/Products/Debug-iphonesimulator -include /Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/DerivedData/GameMatome/Build/Intermediates/PrecompiledHeaders/GameMatome-Prefix-dhwhfykjwhkgtvdawpwfkbtbimtb/GameMatome-Prefix.pch -MMD -MT dependencies -MF /Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/DerivedData/GameMatome/Build/Intermediates/GameMatome.build/Debug-iphonesimulator/GameMatome.build/Objects-normal/x86_64/BrouserViewController.d --serialize-diagnostics /Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/DerivedData/GameMatome/Build/Intermediates/GameMatome.build/Debug-iphonesimulator/GameMatome.build/Objects-normal/x86_64/BrouserViewController.dia -c /Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/GameMatome/BrouserViewController.m -o /Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/DerivedData/GameMatome/Build/Intermediates/GameMatome.build/Debug-iphonesimulator/GameMatome.build/Objects-normal/x86_64/BrouserViewController.o36"30803E81-D0C5-40D5-9B70-F9F05AE347D8-
+b3F2D1ECC-C875-492D-BE54-D0152BD7D2CD
+
+CCompileC DerivedData/GameMatome/Build/Intermediates/GameMatome.build/Debug-iphonesimulator/GameMatome.build/Objects-normal/x86_64/DetailSettingViewController.o /Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/GameMatome/DetailSettingViewController.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s429350687.335303
+e429350688.543317
+r1
+xCompileC
+xDerivedData/GameMatome/Build/Intermediates/GameMatome.build/Debug-iphonesimulator/GameMatome.build/Objects-normal/x86_64/DetailSettingViewController.o
+x/Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/GameMatome/DetailSettingViewController.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/GameMatome/DetailSettingViewController.m
+d/Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/GameMatome/DetailSettingViewController.h
+d/Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/GameMatome/Game.h
+d/Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/GameMatome/Site.h
+d/Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/GameMatome/ForUseCoreData.h
+d/Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/GameMatome/BrouserViewController.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection111"Compile /Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/GameMatome/DetailSettingViewController.m270"CompileC DerivedData/GameMatome/Build/Intermediates/GameMatome.build/Debug-iphonesimulator/GameMatome.build/Objects-normal/x86_64/DetailSettingViewController.o GameMatome/DetailSettingViewController.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler3430561f5f97b941^76188b205f97b941^---0#0#1#-19%DVTDocumentLocation2@110"file:///Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/GameMatome/DetailSettingViewController.m0000000000000000^4506"CompileC DerivedData/GameMatome/Build/Intermediates/GameMatome.build/Debug-iphonesimulator/GameMatome.build/Objects-normal/x86_64/DetailSettingViewController.o GameMatome/DetailSettingViewController.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.1 -iquote /Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/DerivedData/GameMatome/Build/Intermediates/GameMatome.build/Debug-iphonesimulator/GameMatome.build/GameMatome-generated-files.hmap -I/Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/DerivedData/GameMatome/Build/Intermediates/GameMatome.build/Debug-iphonesimulator/GameMatome.build/GameMatome-own-target-headers.hmap -I/Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/DerivedData/GameMatome/Build/Intermediates/GameMatome.build/Debug-iphonesimulator/GameMatome.build/GameMatome-all-target-headers.hmap -iquote /Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/DerivedData/GameMatome/Build/Intermediates/GameMatome.build/Debug-iphonesimulator/GameMatome.build/GameMatome-project-headers.hmap -I/Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/DerivedData/GameMatome/Build/Products/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/DerivedData/GameMatome/Build/Intermediates/GameMatome.build/Debug-iphonesimulator/GameMatome.build/DerivedSources/x86_64 -I/Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/DerivedData/GameMatome/Build/Intermediates/GameMatome.build/Debug-iphonesimulator/GameMatome.build/DerivedSources -F/Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/DerivedData/GameMatome/Build/Products/Debug-iphonesimulator -include /Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/DerivedData/GameMatome/Build/Intermediates/PrecompiledHeaders/GameMatome-Prefix-dhwhfykjwhkgtvdawpwfkbtbimtb/GameMatome-Prefix.pch -MMD -MT dependencies -MF /Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/DerivedData/GameMatome/Build/Intermediates/GameMatome.build/Debug-iphonesimulator/GameMatome.build/Objects-normal/x86_64/DetailSettingViewController.d --serialize-diagnostics /Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/DerivedData/GameMatome/Build/Intermediates/GameMatome.build/Debug-iphonesimulator/GameMatome.build/Objects-normal/x86_64/DetailSettingViewController.dia -c /Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/GameMatome/DetailSettingViewController.m -o /Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/DerivedData/GameMatome/Build/Intermediates/GameMatome.build/Debug-iphonesimulator/GameMatome.build/Objects-normal/x86_64/DetailSettingViewController.o36"52DD3D8F-3B03-4158-89ED-2B60F576204D-
+b3F2D1ECC-C875-492D-BE54-D0152BD7D2CD
+
+CCompileC DerivedData/GameMatome/Build/Intermediates/GameMatome.build/Debug-iphonesimulator/GameMatome.build/Objects-normal/x86_64/ForUseCoreData.o /Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/GameMatome/ForUseCoreData.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s429340438.983574
+e429340439.088469
+r1
+xCompileC
+xDerivedData/GameMatome/Build/Intermediates/GameMatome.build/Debug-iphonesimulator/GameMatome.build/Objects-normal/x86_64/ForUseCoreData.o
+x/Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/GameMatome/ForUseCoreData.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/GameMatome/ForUseCoreData.m
+d/Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/GameMatome/ForUseCoreData.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection98"Compile /Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/GameMatome/ForUseCoreData.m244"CompileC DerivedData/GameMatome/Build/Intermediates/GameMatome.build/Debug-iphonesimulator/GameMatome.build/Objects-normal/x86_64/ForUseCoreData.o GameMatome/ForUseCoreData.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compilerf2effb163797b941^b9a816173797b941^---0#0#1#-19%DVTDocumentLocation2@97"file:///Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/GameMatome/ForUseCoreData.m0000000000000000^4428"CompileC DerivedData/GameMatome/Build/Intermediates/GameMatome.build/Debug-iphonesimulator/GameMatome.build/Objects-normal/x86_64/ForUseCoreData.o GameMatome/ForUseCoreData.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.1 -iquote /Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/DerivedData/GameMatome/Build/Intermediates/GameMatome.build/Debug-iphonesimulator/GameMatome.build/GameMatome-generated-files.hmap -I/Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/DerivedData/GameMatome/Build/Intermediates/GameMatome.build/Debug-iphonesimulator/GameMatome.build/GameMatome-own-target-headers.hmap -I/Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/DerivedData/GameMatome/Build/Intermediates/GameMatome.build/Debug-iphonesimulator/GameMatome.build/GameMatome-all-target-headers.hmap -iquote /Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/DerivedData/GameMatome/Build/Intermediates/GameMatome.build/Debug-iphonesimulator/GameMatome.build/GameMatome-project-headers.hmap -I/Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/DerivedData/GameMatome/Build/Products/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/DerivedData/GameMatome/Build/Intermediates/GameMatome.build/Debug-iphonesimulator/GameMatome.build/DerivedSources/x86_64 -I/Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/DerivedData/GameMatome/Build/Intermediates/GameMatome.build/Debug-iphonesimulator/GameMatome.build/DerivedSources -F/Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/DerivedData/GameMatome/Build/Products/Debug-iphonesimulator -include /Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/DerivedData/GameMatome/Build/Intermediates/PrecompiledHeaders/GameMatome-Prefix-dhwhfykjwhkgtvdawpwfkbtbimtb/GameMatome-Prefix.pch -MMD -MT dependencies -MF /Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/DerivedData/GameMatome/Build/Intermediates/GameMatome.build/Debug-iphonesimulator/GameMatome.build/Objects-normal/x86_64/ForUseCoreData.d --serialize-diagnostics /Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/DerivedData/GameMatome/Build/Intermediates/GameMatome.build/Debug-iphonesimulator/GameMatome.build/Objects-normal/x86_64/ForUseCoreData.dia -c /Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/GameMatome/ForUseCoreData.m -o /Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/DerivedData/GameMatome/Build/Intermediates/GameMatome.build/Debug-iphonesimulator/GameMatome.build/Objects-normal/x86_64/ForUseCoreData.o36"EFA3F3DD-52FC-41FF-9581-A2EDA877AFCC-
+b1D089CF6-3ED1-434E-AB0F-C081AA4A42E8
+
+CCompileC DerivedData/GameMatome/Build/Intermediates/GameMatome.build/Debug-iphonesimulator/GameMatome.build/Objects-normal/x86_64/Game.o /Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/GameMatome/Game.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s429340438.984330
+e429340439.062240
+r1
+xCompileC
+xDerivedData/GameMatome/Build/Intermediates/GameMatome.build/Debug-iphonesimulator/GameMatome.build/Objects-normal/x86_64/Game.o
+x/Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/GameMatome/Game.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/GameMatome/Game.m
+d/Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/GameMatome/Game.h
+d/Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/GameMatome/Site.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection88"Compile /Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/GameMatome/Game.m224"CompileC DerivedData/GameMatome/Build/Intermediates/GameMatome.build/Debug-iphonesimulator/GameMatome.build/Objects-normal/x86_64/Game.o GameMatome/Game.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compilerbd1efc163797b941^f20a10173797b941^---0#0#1#-19%DVTDocumentLocation2@87"file:///Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/GameMatome/Game.m0000000000000000^4368"CompileC DerivedData/GameMatome/Build/Intermediates/GameMatome.build/Debug-iphonesimulator/GameMatome.build/Objects-normal/x86_64/Game.o GameMatome/Game.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.1 -iquote /Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/DerivedData/GameMatome/Build/Intermediates/GameMatome.build/Debug-iphonesimulator/GameMatome.build/GameMatome-generated-files.hmap -I/Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/DerivedData/GameMatome/Build/Intermediates/GameMatome.build/Debug-iphonesimulator/GameMatome.build/GameMatome-own-target-headers.hmap -I/Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/DerivedData/GameMatome/Build/Intermediates/GameMatome.build/Debug-iphonesimulator/GameMatome.build/GameMatome-all-target-headers.hmap -iquote /Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/DerivedData/GameMatome/Build/Intermediates/GameMatome.build/Debug-iphonesimulator/GameMatome.build/GameMatome-project-headers.hmap -I/Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/DerivedData/GameMatome/Build/Products/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/DerivedData/GameMatome/Build/Intermediates/GameMatome.build/Debug-iphonesimulator/GameMatome.build/DerivedSources/x86_64 -I/Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/DerivedData/GameMatome/Build/Intermediates/GameMatome.build/Debug-iphonesimulator/GameMatome.build/DerivedSources -F/Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/DerivedData/GameMatome/Build/Products/Debug-iphonesimulator -include /Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/DerivedData/GameMatome/Build/Intermediates/PrecompiledHeaders/GameMatome-Prefix-dhwhfykjwhkgtvdawpwfkbtbimtb/GameMatome-Prefix.pch -MMD -MT dependencies -MF /Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/DerivedData/GameMatome/Build/Intermediates/GameMatome.build/Debug-iphonesimulator/GameMatome.build/Objects-normal/x86_64/Game.d --serialize-diagnostics /Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/DerivedData/GameMatome/Build/Intermediates/GameMatome.build/Debug-iphonesimulator/GameMatome.build/Objects-normal/x86_64/Game.dia -c /Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/GameMatome/Game.m -o /Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/DerivedData/GameMatome/Build/Intermediates/GameMatome.build/Debug-iphonesimulator/GameMatome.build/Objects-normal/x86_64/Game.o36"EA95D560-6F85-4A08-8B78-7C2035B5A257-
+b1D089CF6-3ED1-434E-AB0F-C081AA4A42E8
+
+CCompileC DerivedData/GameMatome/Build/Intermediates/GameMatome.build/Debug-iphonesimulator/GameMatome.build/Objects-normal/x86_64/Memo.o /Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/GameMatome/Memo.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s429340439.168521
+e429340439.238708
+r1
+xCompileC
+xDerivedData/GameMatome/Build/Intermediates/GameMatome.build/Debug-iphonesimulator/GameMatome.build/Objects-normal/x86_64/Memo.o
+x/Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/GameMatome/Memo.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/GameMatome/Memo.m
+d/Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/GameMatome/Memo.h
+d/Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/GameMatome/News.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection88"Compile /Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/GameMatome/Memo.m224"CompileC DerivedData/GameMatome/Build/Intermediates/GameMatome.build/Debug-iphonesimulator/GameMatome.build/Objects-normal/x86_64/Memo.o GameMatome/Memo.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler2b4c2b173797b941^4c1c3d173797b941^---0#0#1#-19%DVTDocumentLocation2@87"file:///Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/GameMatome/Memo.m0000000000000000^4368"CompileC DerivedData/GameMatome/Build/Intermediates/GameMatome.build/Debug-iphonesimulator/GameMatome.build/Objects-normal/x86_64/Memo.o GameMatome/Memo.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.1 -iquote /Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/DerivedData/GameMatome/Build/Intermediates/GameMatome.build/Debug-iphonesimulator/GameMatome.build/GameMatome-generated-files.hmap -I/Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/DerivedData/GameMatome/Build/Intermediates/GameMatome.build/Debug-iphonesimulator/GameMatome.build/GameMatome-own-target-headers.hmap -I/Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/DerivedData/GameMatome/Build/Intermediates/GameMatome.build/Debug-iphonesimulator/GameMatome.build/GameMatome-all-target-headers.hmap -iquote /Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/DerivedData/GameMatome/Build/Intermediates/GameMatome.build/Debug-iphonesimulator/GameMatome.build/GameMatome-project-headers.hmap -I/Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/DerivedData/GameMatome/Build/Products/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/DerivedData/GameMatome/Build/Intermediates/GameMatome.build/Debug-iphonesimulator/GameMatome.build/DerivedSources/x86_64 -I/Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/DerivedData/GameMatome/Build/Intermediates/GameMatome.build/Debug-iphonesimulator/GameMatome.build/DerivedSources -F/Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/DerivedData/GameMatome/Build/Products/Debug-iphonesimulator -include /Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/DerivedData/GameMatome/Build/Intermediates/PrecompiledHeaders/GameMatome-Prefix-dhwhfykjwhkgtvdawpwfkbtbimtb/GameMatome-Prefix.pch -MMD -MT dependencies -MF /Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/DerivedData/GameMatome/Build/Intermediates/GameMatome.build/Debug-iphonesimulator/GameMatome.build/Objects-normal/x86_64/Memo.d --serialize-diagnostics /Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/DerivedData/GameMatome/Build/Intermediates/GameMatome.build/Debug-iphonesimulator/GameMatome.build/Objects-normal/x86_64/Memo.dia -c /Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/GameMatome/Memo.m -o /Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/DerivedData/GameMatome/Build/Intermediates/GameMatome.build/Debug-iphonesimulator/GameMatome.build/Objects-normal/x86_64/Memo.o36"87AA85D8-58B9-4023-8289-54DFCC5343B6-
+b1D089CF6-3ED1-434E-AB0F-C081AA4A42E8
+
+CCompileC DerivedData/GameMatome/Build/Intermediates/GameMatome.build/Debug-iphonesimulator/GameMatome.build/Objects-normal/x86_64/News.o /Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/GameMatome/News.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s429340438.983279
+e429340439.066090
+r1
+xCompileC
+xDerivedData/GameMatome/Build/Intermediates/GameMatome.build/Debug-iphonesimulator/GameMatome.build/Objects-normal/x86_64/News.o
+x/Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/GameMatome/News.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/GameMatome/News.m
+d/Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/GameMatome/News.h
+d/Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/GameMatome/Memo.h
+d/Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/GameMatome/Site.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection88"Compile /Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/GameMatome/News.m224"CompileC DerivedData/GameMatome/Build/Intermediates/GameMatome.build/Debug-iphonesimulator/GameMatome.build/Objects-normal/x86_64/News.o GameMatome/News.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compilerb6dafb163797b941^333111173797b941^---0#0#1#-19%DVTDocumentLocation2@87"file:///Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/GameMatome/News.m0000000000000000^4368"CompileC DerivedData/GameMatome/Build/Intermediates/GameMatome.build/Debug-iphonesimulator/GameMatome.build/Objects-normal/x86_64/News.o GameMatome/News.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.1 -iquote /Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/DerivedData/GameMatome/Build/Intermediates/GameMatome.build/Debug-iphonesimulator/GameMatome.build/GameMatome-generated-files.hmap -I/Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/DerivedData/GameMatome/Build/Intermediates/GameMatome.build/Debug-iphonesimulator/GameMatome.build/GameMatome-own-target-headers.hmap -I/Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/DerivedData/GameMatome/Build/Intermediates/GameMatome.build/Debug-iphonesimulator/GameMatome.build/GameMatome-all-target-headers.hmap -iquote /Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/DerivedData/GameMatome/Build/Intermediates/GameMatome.build/Debug-iphonesimulator/GameMatome.build/GameMatome-project-headers.hmap -I/Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/DerivedData/GameMatome/Build/Products/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/DerivedData/GameMatome/Build/Intermediates/GameMatome.build/Debug-iphonesimulator/GameMatome.build/DerivedSources/x86_64 -I/Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/DerivedData/GameMatome/Build/Intermediates/GameMatome.build/Debug-iphonesimulator/GameMatome.build/DerivedSources -F/Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/DerivedData/GameMatome/Build/Products/Debug-iphonesimulator -include /Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/DerivedData/GameMatome/Build/Intermediates/PrecompiledHeaders/GameMatome-Prefix-dhwhfykjwhkgtvdawpwfkbtbimtb/GameMatome-Prefix.pch -MMD -MT dependencies -MF /Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/DerivedData/GameMatome/Build/Intermediates/GameMatome.build/Debug-iphonesimulator/GameMatome.build/Objects-normal/x86_64/News.d --serialize-diagnostics /Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/DerivedData/GameMatome/Build/Intermediates/GameMatome.build/Debug-iphonesimulator/GameMatome.build/Objects-normal/x86_64/News.dia -c /Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/GameMatome/News.m -o /Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/DerivedData/GameMatome/Build/Intermediates/GameMatome.build/Debug-iphonesimulator/GameMatome.build/Objects-normal/x86_64/News.o36"516B3B24-D7DA-488C-997D-61F7A36678FB-
+b1D089CF6-3ED1-434E-AB0F-C081AA4A42E8
+
+CCompileC DerivedData/GameMatome/Build/Intermediates/GameMatome.build/Debug-iphonesimulator/GameMatome.build/Objects-normal/x86_64/NewsViewController.o /Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/GameMatome/NewsViewController.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s429350687.334451
+e429350688.426199
+r1
+xCompileC
+xDerivedData/GameMatome/Build/Intermediates/GameMatome.build/Debug-iphonesimulator/GameMatome.build/Objects-normal/x86_64/NewsViewController.o
+x/Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/GameMatome/NewsViewController.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/GameMatome/NewsViewController.m
+d/Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/GameMatome/NewsViewController.h
+d/Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/GameMatome/BrouserViewController.h
+d/Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/GameMatome/ForUseCoreData.h
+d/Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/GameMatome/Game.h
+d/Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/GameMatome/Site.h
+d/Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/GameMatome/News.h
+d/Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/GameMatome/Memo.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection102"Compile /Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/GameMatome/NewsViewController.m252"CompileC DerivedData/GameMatome/Build/Intermediates/GameMatome.build/Debug-iphonesimulator/GameMatome.build/Objects-normal/x86_64/NewsViewController.o GameMatome/NewsViewController.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler67b8551f5f97b941^8b346d205f97b941^---0#0#1#-19%DVTDocumentLocation2@101"file:///Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/GameMatome/NewsViewController.m0000000000000000^4452"CompileC DerivedData/GameMatome/Build/Intermediates/GameMatome.build/Debug-iphonesimulator/GameMatome.build/Objects-normal/x86_64/NewsViewController.o GameMatome/NewsViewController.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.1 -iquote /Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/DerivedData/GameMatome/Build/Intermediates/GameMatome.build/Debug-iphonesimulator/GameMatome.build/GameMatome-generated-files.hmap -I/Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/DerivedData/GameMatome/Build/Intermediates/GameMatome.build/Debug-iphonesimulator/GameMatome.build/GameMatome-own-target-headers.hmap -I/Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/DerivedData/GameMatome/Build/Intermediates/GameMatome.build/Debug-iphonesimulator/GameMatome.build/GameMatome-all-target-headers.hmap -iquote /Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/DerivedData/GameMatome/Build/Intermediates/GameMatome.build/Debug-iphonesimulator/GameMatome.build/GameMatome-project-headers.hmap -I/Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/DerivedData/GameMatome/Build/Products/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/DerivedData/GameMatome/Build/Intermediates/GameMatome.build/Debug-iphonesimulator/GameMatome.build/DerivedSources/x86_64 -I/Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/DerivedData/GameMatome/Build/Intermediates/GameMatome.build/Debug-iphonesimulator/GameMatome.build/DerivedSources -F/Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/DerivedData/GameMatome/Build/Products/Debug-iphonesimulator -include /Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/DerivedData/GameMatome/Build/Intermediates/PrecompiledHeaders/GameMatome-Prefix-dhwhfykjwhkgtvdawpwfkbtbimtb/GameMatome-Prefix.pch -MMD -MT dependencies -MF /Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/DerivedData/GameMatome/Build/Intermediates/GameMatome.build/Debug-iphonesimulator/GameMatome.build/Objects-normal/x86_64/NewsViewController.d --serialize-diagnostics /Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/DerivedData/GameMatome/Build/Intermediates/GameMatome.build/Debug-iphonesimulator/GameMatome.build/Objects-normal/x86_64/NewsViewController.dia -c /Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/GameMatome/NewsViewController.m -o /Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/DerivedData/GameMatome/Build/Intermediates/GameMatome.build/Debug-iphonesimulator/GameMatome.build/Objects-normal/x86_64/NewsViewController.o36"32EC0632-7CB9-48A8-896B-7D24E2B226B1-
+b3F2D1ECC-C875-492D-BE54-D0152BD7D2CD
+
+CCompileC DerivedData/GameMatome/Build/Intermediates/GameMatome.build/Debug-iphonesimulator/GameMatome.build/Objects-normal/x86_64/SettingViewController.o /Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/GameMatome/SettingViewController.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s429346896.215958
+e429346896.384254
+r1
+xCompileC
+xDerivedData/GameMatome/Build/Intermediates/GameMatome.build/Debug-iphonesimulator/GameMatome.build/Objects-normal/x86_64/SettingViewController.o
+x/Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/GameMatome/SettingViewController.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/GameMatome/SettingViewController.m
+d/Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/GameMatome/SettingViewController.h
+d/Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/GameMatome/ForUseCoreData.h
+d/Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/GameMatome/Game.h
+d/Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/GameMatome/DetailSettingViewController.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection105"Compile /Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/GameMatome/SettingViewController.m258"CompileC DerivedData/GameMatome/Build/Intermediates/GameMatome.build/Debug-iphonesimulator/GameMatome.build/Objects-normal/x86_64/SettingViewController.o GameMatome/SettingViewController.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler596c37505097b941^5cae62505097b941^---0#0#1#-19%DVTDocumentLocation2@104"file:///Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/GameMatome/SettingViewController.m0000000000000000^4470"CompileC DerivedData/GameMatome/Build/Intermediates/GameMatome.build/Debug-iphonesimulator/GameMatome.build/Objects-normal/x86_64/SettingViewController.o GameMatome/SettingViewController.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.1 -iquote /Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/DerivedData/GameMatome/Build/Intermediates/GameMatome.build/Debug-iphonesimulator/GameMatome.build/GameMatome-generated-files.hmap -I/Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/DerivedData/GameMatome/Build/Intermediates/GameMatome.build/Debug-iphonesimulator/GameMatome.build/GameMatome-own-target-headers.hmap -I/Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/DerivedData/GameMatome/Build/Intermediates/GameMatome.build/Debug-iphonesimulator/GameMatome.build/GameMatome-all-target-headers.hmap -iquote /Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/DerivedData/GameMatome/Build/Intermediates/GameMatome.build/Debug-iphonesimulator/GameMatome.build/GameMatome-project-headers.hmap -I/Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/DerivedData/GameMatome/Build/Products/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/DerivedData/GameMatome/Build/Intermediates/GameMatome.build/Debug-iphonesimulator/GameMatome.build/DerivedSources/x86_64 -I/Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/DerivedData/GameMatome/Build/Intermediates/GameMatome.build/Debug-iphonesimulator/GameMatome.build/DerivedSources -F/Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/DerivedData/GameMatome/Build/Products/Debug-iphonesimulator -include /Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/DerivedData/GameMatome/Build/Intermediates/PrecompiledHeaders/GameMatome-Prefix-dhwhfykjwhkgtvdawpwfkbtbimtb/GameMatome-Prefix.pch -MMD -MT dependencies -MF /Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/DerivedData/GameMatome/Build/Intermediates/GameMatome.build/Debug-iphonesimulator/GameMatome.build/Objects-normal/x86_64/SettingViewController.d --serialize-diagnostics /Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/DerivedData/GameMatome/Build/Intermediates/GameMatome.build/Debug-iphonesimulator/GameMatome.build/Objects-normal/x86_64/SettingViewController.dia -c /Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/GameMatome/SettingViewController.m -o /Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/DerivedData/GameMatome/Build/Intermediates/GameMatome.build/Debug-iphonesimulator/GameMatome.build/Objects-normal/x86_64/SettingViewController.o36"0E0CE554-734A-4EAE-B2C7-109243960759-
+b8BCE48AB-B6D1-4A21-8C6F-547F3212F02E
+
+CCompileC DerivedData/GameMatome/Build/Intermediates/GameMatome.build/Debug-iphonesimulator/GameMatome.build/Objects-normal/x86_64/Site.o /Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/GameMatome/Site.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s429340439.090400
+e429340439.167644
+r1
+xCompileC
+xDerivedData/GameMatome/Build/Intermediates/GameMatome.build/Debug-iphonesimulator/GameMatome.build/Objects-normal/x86_64/Site.o
+x/Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/GameMatome/Site.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/GameMatome/Site.m
+d/Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/GameMatome/Site.h
+d/Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/GameMatome/Game.h
+d/Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/GameMatome/News.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection88"Compile /Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/GameMatome/Site.m224"CompileC DerivedData/GameMatome/Build/Intermediates/GameMatome.build/Debug-iphonesimulator/GameMatome.build/Objects-normal/x86_64/Site.o GameMatome/Site.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compilerf14917173797b941^2bfb2a173797b941^---0#0#1#-19%DVTDocumentLocation2@87"file:///Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/GameMatome/Site.m0000000000000000^4368"CompileC DerivedData/GameMatome/Build/Intermediates/GameMatome.build/Debug-iphonesimulator/GameMatome.build/Objects-normal/x86_64/Site.o GameMatome/Site.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.1 -iquote /Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/DerivedData/GameMatome/Build/Intermediates/GameMatome.build/Debug-iphonesimulator/GameMatome.build/GameMatome-generated-files.hmap -I/Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/DerivedData/GameMatome/Build/Intermediates/GameMatome.build/Debug-iphonesimulator/GameMatome.build/GameMatome-own-target-headers.hmap -I/Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/DerivedData/GameMatome/Build/Intermediates/GameMatome.build/Debug-iphonesimulator/GameMatome.build/GameMatome-all-target-headers.hmap -iquote /Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/DerivedData/GameMatome/Build/Intermediates/GameMatome.build/Debug-iphonesimulator/GameMatome.build/GameMatome-project-headers.hmap -I/Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/DerivedData/GameMatome/Build/Products/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/DerivedData/GameMatome/Build/Intermediates/GameMatome.build/Debug-iphonesimulator/GameMatome.build/DerivedSources/x86_64 -I/Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/DerivedData/GameMatome/Build/Intermediates/GameMatome.build/Debug-iphonesimulator/GameMatome.build/DerivedSources -F/Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/DerivedData/GameMatome/Build/Products/Debug-iphonesimulator -include /Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/DerivedData/GameMatome/Build/Intermediates/PrecompiledHeaders/GameMatome-Prefix-dhwhfykjwhkgtvdawpwfkbtbimtb/GameMatome-Prefix.pch -MMD -MT dependencies -MF /Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/DerivedData/GameMatome/Build/Intermediates/GameMatome.build/Debug-iphonesimulator/GameMatome.build/Objects-normal/x86_64/Site.d --serialize-diagnostics /Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/DerivedData/GameMatome/Build/Intermediates/GameMatome.build/Debug-iphonesimulator/GameMatome.build/Objects-normal/x86_64/Site.dia -c /Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/GameMatome/Site.m -o /Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/DerivedData/GameMatome/Build/Intermediates/GameMatome.build/Debug-iphonesimulator/GameMatome.build/Objects-normal/x86_64/Site.o36"2AFA4E0E-D1C2-417D-B929-C8A960CA4503-
+b1D089CF6-3ED1-434E-AB0F-C081AA4A42E8
+
+CCompileC DerivedData/GameMatome/Build/Intermediates/GameMatome.build/Debug-iphonesimulator/GameMatome.build/Objects-normal/x86_64/main.o /Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/GameMatome/main.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s429325588.442524
+e429325588.518428
+r1
+xCompileC
+xDerivedData/GameMatome/Build/Intermediates/GameMatome.build/Debug-iphonesimulator/GameMatome.build/Objects-normal/x86_64/main.o
+x/Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/GameMatome/main.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/GameMatome/main.m
+d/Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/GameMatome/AppDelegate.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection88"Compile /Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/GameMatome/main.m224"CompileC DerivedData/GameMatome/Build/Intermediates/GameMatome.build/Debug-iphonesimulator/GameMatome.build/Objects-normal/x86_64/main.o GameMatome/main.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler32737114fd96b941^c2128714fd96b941^---0#0#1#-19%DVTDocumentLocation2@87"file:///Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/GameMatome/main.m0000000000000000^4368"CompileC DerivedData/GameMatome/Build/Intermediates/GameMatome.build/Debug-iphonesimulator/GameMatome.build/Objects-normal/x86_64/main.o GameMatome/main.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.1 -iquote /Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/DerivedData/GameMatome/Build/Intermediates/GameMatome.build/Debug-iphonesimulator/GameMatome.build/GameMatome-generated-files.hmap -I/Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/DerivedData/GameMatome/Build/Intermediates/GameMatome.build/Debug-iphonesimulator/GameMatome.build/GameMatome-own-target-headers.hmap -I/Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/DerivedData/GameMatome/Build/Intermediates/GameMatome.build/Debug-iphonesimulator/GameMatome.build/GameMatome-all-target-headers.hmap -iquote /Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/DerivedData/GameMatome/Build/Intermediates/GameMatome.build/Debug-iphonesimulator/GameMatome.build/GameMatome-project-headers.hmap -I/Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/DerivedData/GameMatome/Build/Products/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/DerivedData/GameMatome/Build/Intermediates/GameMatome.build/Debug-iphonesimulator/GameMatome.build/DerivedSources/x86_64 -I/Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/DerivedData/GameMatome/Build/Intermediates/GameMatome.build/Debug-iphonesimulator/GameMatome.build/DerivedSources -F/Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/DerivedData/GameMatome/Build/Products/Debug-iphonesimulator -include /Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/DerivedData/GameMatome/Build/Intermediates/PrecompiledHeaders/GameMatome-Prefix-dhwhfykjwhkgtvdawpwfkbtbimtb/GameMatome-Prefix.pch -MMD -MT dependencies -MF /Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/DerivedData/GameMatome/Build/Intermediates/GameMatome.build/Debug-iphonesimulator/GameMatome.build/Objects-normal/x86_64/main.d --serialize-diagnostics /Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/DerivedData/GameMatome/Build/Intermediates/GameMatome.build/Debug-iphonesimulator/GameMatome.build/Objects-normal/x86_64/main.dia -c /Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/GameMatome/main.m -o /Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/DerivedData/GameMatome/Build/Intermediates/GameMatome.build/Debug-iphonesimulator/GameMatome.build/Objects-normal/x86_64/main.o36"8B7380EA-B93B-4E7D-8864-DA09C4F104B8-
+b92474A4D-7EAF-4E67-A227-4B1A3729A5D0
+
+CCompileStoryboard /Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/GameMatome/Main_iPhone.storyboard
+s429346896.496969
+e429346898.301529
+r1
+xCompileStoryboard
+x/Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/GameMatome/Main_iPhone.storyboard
+onwi_state: registration failed (1000000)
+o/* com.apple.ibtool.document.warnings */
+o/Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/GameMatome/Main_iPhone.storyboard:XLt-sT-zZN: warning: Plain Style unsupported in a Navigation Item [9]
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection51"CompileStoryboard GameMatome/Main_iPhone.storyboard51"CompileStoryboard GameMatome/Main_iPhone.storyboard514f7f505097b941^77314d525097b941^-245"nwi_state: registration failed (1000000)/* com.apple.ibtool.document.warnings *//Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/GameMatome/Main_iPhone.storyboard:XLt-sT-zZN: warning: Plain Style unsupported in a Navigation Item1(21%IDEActivityLogMessage2@44"Plain Style unsupported in a Navigation Item-429346898#18446744073709551615#0#-1#-23%DVTTextDocumentLocation3@103"file:///Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/GameMatome/Main_iPhone.storyboard0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#25"Unsupported Configuration--0#0#1#-19%DVTDocumentLocation4@103"file:///Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/GameMatome/Main_iPhone.storyboard0000000000000000^931"CompileStoryboard GameMatome/Main_iPhone.storyboard    cd /Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome    export IBSC_MINIMUM_COMPATIBILITY_VERSION=7.1    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    export XCODE_DEVELOPER_USR_PATH=/Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/ibtool --errors --warnings --notices --minimum-deployment-target 7.1 --output-format human-readable-text --compile /Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/DerivedData/GameMatome/Build/Products/Debug-iphonesimulator/GameMatome.app/Main_iPhone.storyboardc /Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/GameMatome/Main_iPhone.storyboard36"CBAA9857-771E-4C5D-8545-E898AD6F9709-
+b8BCE48AB-B6D1-4A21-8C6F-547F3212F02E
+
+CCopyPlistFile /Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/DerivedData/GameMatome/Build/Products/Debug-iphonesimulator/GameMatome.app/SitesData.plist GameMatome/SitesData.plist
+s429347699.252304
+e429347699.253916
+r1
+xCopyPlistFile
+x/Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/DerivedData/GameMatome/Build/Products/Debug-iphonesimulator/GameMatome.app/SitesData.plist
+xGameMatome/SitesData.plist
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection31"Copy GameMatome/SitesData.plist131"CopyPlistFile DerivedData/GameMatome/Build/Products/Debug-iphonesimulator/GameMatome.app/SitesData.plist GameMatome/SitesData.plistdaaa40735397b941^e20141735397b941^---0#0#1#-19%DVTDocumentLocation2@96"file:///Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/GameMatome/SitesData.plist0000000000000000^614"CopyPlistFile DerivedData/GameMatome/Build/Products/Debug-iphonesimulator/GameMatome.app/SitesData.plist GameMatome/SitesData.plist    cd /Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copyPlist --convert binary1 --outdir /Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/DerivedData/GameMatome/Build/Products/Debug-iphonesimulator/GameMatome.app -- GameMatome/SitesData.plist36"F0575E83-4518-41A1-84F9-56B549A1C843-
+b5E96D881-1AEC-408B-92FA-CB63E2AC5963
+
+CCopyStringsFile /Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/DerivedData/GameMatome/Build/Products/Debug-iphonesimulator/GameMatome.app/en.lproj/InfoPlist.strings GameMatome/en.lproj/InfoPlist.strings
+s429325588.816221
+e429325588.846724
+r1
+xCopyStringsFile
+x/Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/DerivedData/GameMatome/Build/Products/Debug-iphonesimulator/GameMatome.app/en.lproj/InfoPlist.strings
+xGameMatome/en.lproj/InfoPlist.strings
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection42"Copy GameMatome/en.lproj/InfoPlist.strings155"CopyStringsFile DerivedData/GameMatome/Build/Products/Debug-iphonesimulator/GameMatome.app/en.lproj/InfoPlist.strings GameMatome/en.lproj/InfoPlist.strings2c0cd114fd96b941^0709d914fd96b941^---0#0#1#-19%DVTDocumentLocation2@107"file:///Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/GameMatome/en.lproj/InfoPlist.strings0000000000000000^699"CopyStringsFile DerivedData/GameMatome/Build/Products/Debug-iphonesimulator/GameMatome.app/en.lproj/InfoPlist.strings GameMatome/en.lproj/InfoPlist.strings    cd /Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/DerivedData/GameMatome/Build/Products/Debug-iphonesimulator/GameMatome.app/en.lproj -- GameMatome/en.lproj/InfoPlist.strings36"26B213B9-79E7-43C7-BDF7-831F3A5CD6EB-
+b92474A4D-7EAF-4E67-A227-4B1A3729A5D0
+
+CDataModelVersionCompile /Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/DerivedData/GameMatome/Build/Products/Debug-iphonesimulator/GameMatome.app/GameMatome.momd /Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/GameMatome/GameMatome.xcdatamodeld
+s429341182.577332
+e429341182.829041
+r1
+xDataModelVersionCompile
+x/Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/DerivedData/GameMatome/Build/Products/Debug-iphonesimulator/GameMatome.app/GameMatome.momd
+x/Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/GameMatome/GameMatome.xcdatamodeld
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection149"DataModelVersionCompile DerivedData/GameMatome/Build/Products/Debug-iphonesimulator/GameMatome.app/GameMatome.momd GameMatome/GameMatome.xcdatamodeld149"DataModelVersionCompile DerivedData/GameMatome/Build/Products/Debug-iphonesimulator/GameMatome.app/GameMatome.momd GameMatome/GameMatome.xcdatamodeldcee093fe3997b941^014dd4fe3997b941^---0#0#1#-19%DVTDocumentLocation2@105"file:///Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/GameMatome/GameMatome.xcdatamodeld/0000000000000000^1023"DataModelVersionCompile DerivedData/GameMatome/Build/Products/Debug-iphonesimulator/GameMatome.app/GameMatome.momd GameMatome/GameMatome.xcdatamodeld    cd /Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/momc -XD_MOMC_SDKROOT=/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -XD_MOMC_IOS_TARGET_VERSION=7.1 -MOMC_PLATFORMS iphonesimulator -MOMC_PLATFORMS iphoneos -XD_MOMC_TARGET_VERSION=10.6 /Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/GameMatome/GameMatome.xcdatamodeld /Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/DerivedData/GameMatome/Build/Products/Debug-iphonesimulator/GameMatome.app/GameMatome.momd36"918F111B-7579-4E83-89FD-CDA01F7C40A6-
+bBF7EBC9C-6FA9-4F19-B131-B7A33F2D54F5
+
+CGenerateDSYMFile /Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/DerivedData/GameMatome/Build/Products/Debug-iphonesimulator/GameMatome.app.dSYM /Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/DerivedData/GameMatome/Build/Products/Debug-iphonesimulator/GameMatome.app/GameMatome
+s429350688.641378
+e429350688.712316
+r1
+xGenerateDSYMFile
+x/Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/DerivedData/GameMatome/Build/Products/Debug-iphonesimulator/GameMatome.app.dSYM
+x/Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/DerivedData/GameMatome/Build/Products/Debug-iphonesimulator/GameMatome.app/GameMatome
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection151"Generate /Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/DerivedData/GameMatome/Build/Products/Debug-iphonesimulator/GameMatome.app.dSYM182"GenerateDSYMFile DerivedData/GameMatome/Build/Products/Debug-iphonesimulator/GameMatome.app.dSYM DerivedData/GameMatome/Build/Products/Debug-iphonesimulator/GameMatome.app/GameMatome8941a4205f97b941^d95bb6205f97b941^---0#0#1#-19%DVTDocumentLocation2@150"file:///Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/DerivedData/GameMatome/Build/Products/Debug-iphonesimulator/GameMatome.app.dSYM/0000000000000000^843"GenerateDSYMFile DerivedData/GameMatome/Build/Products/Debug-iphonesimulator/GameMatome.app.dSYM DerivedData/GameMatome/Build/Products/Debug-iphonesimulator/GameMatome.app/GameMatome    cd /Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/DerivedData/GameMatome/Build/Products/Debug-iphonesimulator/GameMatome.app/GameMatome -o /Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/DerivedData/GameMatome/Build/Products/Debug-iphonesimulator/GameMatome.app.dSYM36"875BE8DB-6558-47E4-B6D7-A11BB972113A-
+b3F2D1ECC-C875-492D-BE54-D0152BD7D2CD
+
+CLd /Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/DerivedData/GameMatome/Build/Products/Debug-iphonesimulator/GameMatome.app/GameMatome normal x86_64
+s429350688.545603
+e429350688.639096
+r1
+xLd
+x/Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/DerivedData/GameMatome/Build/Products/Debug-iphonesimulator/GameMatome.app/GameMatome
+xnormal
+xx86_64
+d/Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/DerivedData/GameMatome/Build/Intermediates/GameMatome.build/Debug-iphonesimulator/GameMatome.build/Objects-normal/x86_64/GameMatome.LinkFileList
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/crt1.o
+d/Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/DerivedData/GameMatome/Build/Intermediates/GameMatome.build/Debug-iphonesimulator/GameMatome.build/Objects-normal/x86_64/ForUseCoreData.o
+d/Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/DerivedData/GameMatome/Build/Intermediates/GameMatome.build/Debug-iphonesimulator/GameMatome.build/Objects-normal/x86_64/AppDelegate.o
+d/Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/DerivedData/GameMatome/Build/Intermediates/GameMatome.build/Debug-iphonesimulator/GameMatome.build/Objects-normal/x86_64/News.o
+d/Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/DerivedData/GameMatome/Build/Intermediates/GameMatome.build/Debug-iphonesimulator/GameMatome.build/Objects-normal/x86_64/Game.o
+d/Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/DerivedData/GameMatome/Build/Intermediates/GameMatome.build/Debug-iphonesimulator/GameMatome.build/Objects-normal/x86_64/NewsViewController.o
+d/Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/DerivedData/GameMatome/Build/Intermediates/GameMatome.build/Debug-iphonesimulator/GameMatome.build/Objects-normal/x86_64/main.o
+d/Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/DerivedData/GameMatome/Build/Intermediates/GameMatome.build/Debug-iphonesimulator/GameMatome.build/Objects-normal/x86_64/BrouserViewController.o
+d/Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/DerivedData/GameMatome/Build/Intermediates/GameMatome.build/Debug-iphonesimulator/GameMatome.build/Objects-normal/x86_64/DetailSettingViewController.o
+d/Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/DerivedData/GameMatome/Build/Intermediates/GameMatome.build/Debug-iphonesimulator/GameMatome.build/Objects-normal/x86_64/SettingViewController.o
+d/Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/DerivedData/GameMatome/Build/Intermediates/GameMatome.build/Debug-iphonesimulator/GameMatome.build/Objects-normal/x86_64/Site.o
+d/Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/DerivedData/GameMatome/Build/Intermediates/GameMatome.build/Debug-iphonesimulator/GameMatome.build/Objects-normal/x86_64/Memo.o
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/Twitter.framework/Twitter
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/Social.framework/Social
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libobjc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libSystem.dylib
+d/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/lib/darwin/libclang_rt.ios.a
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreVideo.framework/CoreVideo
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreText.framework/CoreText
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreData.framework/CoreData
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreImage.framework/CoreImage
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/Security.framework/Security
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CFNetwork.framework/CFNetwork
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/OpenGLES.framework/OpenGLES
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/PrivateFrameworks/UIFoundation.framework/UIFoundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_override.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcache_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcommonCrypto_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcorecrypto_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcompiler_rt_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcopyfile_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libdispatch.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libdyld_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libmacho_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libnotify_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libremovefile_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_blocks.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_c.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_dnssd.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_info.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_m.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_network.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libunwind_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libxpc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_configuration.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_asl.dylib
+d/usr/lib/libSystem.B.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/host/libdyld.dylib
+d/usr/lib/system/libcache.dylib
+d/usr/lib/system/libcommonCrypto.dylib
+d/usr/lib/system/libcompiler_rt.dylib
+d/usr/lib/system/libcopyfile.dylib
+d/usr/lib/system/libcorecrypto.dylib
+d/usr/lib/system/libkeymgr.dylib
+d/usr/lib/system/liblaunch.dylib
+d/usr/lib/system/libmacho.dylib
+d/usr/lib/system/libquarantine.dylib
+d/usr/lib/system/libremovefile.dylib
+d/usr/lib/system/libsystem_asl.dylib
+d/usr/lib/system/libsystem_blocks.dylib
+d/usr/lib/system/libsystem_c.dylib
+d/usr/lib/system/libsystem_configuration.dylib
+d/usr/lib/system/libsystem_dnssd.dylib
+d/usr/lib/system/libsystem_info.dylib
+d/usr/lib/system/libsystem_kernel.dylib
+d/usr/lib/system/libsystem_m.dylib
+d/usr/lib/system/libsystem_malloc.dylib
+d/usr/lib/system/libsystem_notify.dylib
+d/usr/lib/system/libsystem_platform.dylib
+d/usr/lib/system/libsystem_pthread.dylib
+d/usr/lib/system/libsystem_sandbox.dylib
+d/usr/lib/system/libsystem_stats.dylib
+d/usr/lib/system/libunc.dylib
+d/usr/lib/system/libunwind.dylib
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection153"Link /Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/DerivedData/GameMatome/Build/Products/Debug-iphonesimulator/GameMatome.app/GameMatome102"Ld DerivedData/GameMatome/Build/Products/Debug-iphonesimulator/GameMatome.app/GameMatome normal x86_644bcc8b205f97b941^53cea3205f97b941^---0#0#1#--1746"Ld DerivedData/GameMatome/Build/Products/Debug-iphonesimulator/GameMatome.app/GameMatome normal x86_64    cd /Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome    export IPHONEOS_DEPLOYMENT_TARGET=7.1    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -L/Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/DerivedData/GameMatome/Build/Products/Debug-iphonesimulator -F/Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/DerivedData/GameMatome/Build/Products/Debug-iphonesimulator -filelist /Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/DerivedData/GameMatome/Build/Intermediates/GameMatome.build/Debug-iphonesimulator/GameMatome.build/Objects-normal/x86_64/GameMatome.LinkFileList -Xlinker -objc_abi_version -Xlinker 2 -fobjc-arc -fobjc-link-runtime -Xlinker -no_implicit_dylibs -mios-simulator-version-min=7.1 -framework Twitter -framework Social -framework CoreGraphics -framework UIKit -framework Foundation -Xlinker -dependency_info -Xlinker /Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/DerivedData/GameMatome/Build/Intermediates/GameMatome.build/Debug-iphonesimulator/GameMatome.build/Objects-normal/x86_64/GameMatome_dependency_info.dat -o /Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/DerivedData/GameMatome/Build/Products/Debug-iphonesimulator/GameMatome.app/GameMatome36"B97F17A7-0BD2-4374-8DC9-8B993FDD99DC-
+b3F2D1ECC-C875-492D-BE54-D0152BD7D2CD
+
+CProcessInfoPlistFile /Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/DerivedData/GameMatome/Build/Products/Debug-iphonesimulator/GameMatome.app/Info.plist /Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/GameMatome/GameMatome-Info.plist
+s429325590.856577
+e429325590.859597
+r1
+xProcessInfoPlistFile
+x/Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/DerivedData/GameMatome/Build/Products/Debug-iphonesimulator/GameMatome.app/Info.plist
+x/Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/GameMatome/GameMatome-Info.plist
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection103"Process /Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/GameMatome/GameMatome-Info.plist139"ProcessInfoPlistFile DerivedData/GameMatome/Build/Products/Debug-iphonesimulator/GameMatome.app/Info.plist GameMatome/GameMatome-Info.plist8257db16fd96b941^7310dc16fd96b941^---0#0#1#-19%DVTDocumentLocation2@102"file:///Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/GameMatome/GameMatome-Info.plist0000000000000000^1121"ProcessInfoPlistFile DerivedData/GameMatome/Build/Products/Debug-iphonesimulator/GameMatome.app/Info.plist GameMatome/GameMatome-Info.plist    cd /Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility /Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/GameMatome/GameMatome-Info.plist -genpkginfo /Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/DerivedData/GameMatome/Build/Products/Debug-iphonesimulator/GameMatome.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -additionalcontentfile /Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/DerivedData/GameMatome/Build/Intermediates/GameMatome.build/Debug-iphonesimulator/GameMatome.build/assetcatalog_generated_info.plist -o /Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/DerivedData/GameMatome/Build/Products/Debug-iphonesimulator/GameMatome.app/Info.plist36"1B606043-6D6E-499F-B7E1-D8D843202D69-
+b92474A4D-7EAF-4E67-A227-4B1A3729A5D0
+
+CProcessPCH /Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/DerivedData/GameMatome/Build/Intermediates/PrecompiledHeaders/GameMatome-Prefix-dhwhfykjwhkgtvdawpwfkbtbimtb/GameMatome-Prefix.pch.pch GameMatome/GameMatome-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s429325577.787183
+e429325579.481079
+r1
+xProcessPCH
+x/Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/DerivedData/GameMatome/Build/Intermediates/PrecompiledHeaders/GameMatome-Prefix-dhwhfykjwhkgtvdawpwfkbtbimtb/GameMatome-Prefix.pch.pch
+xGameMatome/GameMatome-Prefix.pch
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/GameMatome/GameMatome-Prefix.pch
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection43"Precompile GameMatome/GameMatome-Prefix.pch248"ProcessPCH DerivedData/GameMatome/Build/Intermediates/PrecompiledHeaders/GameMatome-Prefix-dhwhfykjwhkgtvdawpwfkbtbimtb/GameMatome-Prefix.pch.pch GameMatome/GameMatome-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler92aec909fd96b941^062a7b0bfd96b941^---0#0#1#-19%DVTDocumentLocation2@102"file:///Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/GameMatome/GameMatome-Prefix.pch0000000000000000^4228"ProcessPCH DerivedData/GameMatome/Build/Intermediates/PrecompiledHeaders/GameMatome-Prefix-dhwhfykjwhkgtvdawpwfkbtbimtb/GameMatome-Prefix.pch.pch GameMatome/GameMatome-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.1 -iquote /Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/DerivedData/GameMatome/Build/Intermediates/GameMatome.build/Debug-iphonesimulator/GameMatome.build/GameMatome-generated-files.hmap -I/Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/DerivedData/GameMatome/Build/Intermediates/GameMatome.build/Debug-iphonesimulator/GameMatome.build/GameMatome-own-target-headers.hmap -I/Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/DerivedData/GameMatome/Build/Intermediates/GameMatome.build/Debug-iphonesimulator/GameMatome.build/GameMatome-all-target-headers.hmap -iquote /Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/DerivedData/GameMatome/Build/Intermediates/GameMatome.build/Debug-iphonesimulator/GameMatome.build/GameMatome-project-headers.hmap -I/Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/DerivedData/GameMatome/Build/Products/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/DerivedData/GameMatome/Build/Intermediates/GameMatome.build/Debug-iphonesimulator/GameMatome.build/DerivedSources/x86_64 -I/Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/DerivedData/GameMatome/Build/Intermediates/GameMatome.build/Debug-iphonesimulator/GameMatome.build/DerivedSources -F/Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/DerivedData/GameMatome/Build/Products/Debug-iphonesimulator --serialize-diagnostics /Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/DerivedData/GameMatome/Build/Intermediates/PrecompiledHeaders/GameMatome-Prefix-dhwhfykjwhkgtvdawpwfkbtbimtb/GameMatome-Prefix.pch.dia -MMD -MT dependencies -MF /Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/DerivedData/GameMatome/Build/Intermediates/PrecompiledHeaders/GameMatome-Prefix-dhwhfykjwhkgtvdawpwfkbtbimtb/GameMatome-Prefix.pch.d -c /Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/GameMatome/GameMatome-Prefix.pch -o /Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/DerivedData/GameMatome/Build/Intermediates/PrecompiledHeaders/GameMatome-Prefix-dhwhfykjwhkgtvdawpwfkbtbimtb/GameMatome-Prefix.pch.pch36"71A9F64E-95F7-46FC-B830-93167ABB3AE6-
+b10B3EEA6-BE46-4147-BE9D-2EEC7C825E4A
+
+CProcessPCH /Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/DerivedData/GameMatome/Index/PrecompiledHeaders/GameMatome-Prefix-bnajmgtqnfriibgmentwdftdnqfn_ast/GameMatome-Prefix.pch.pch GameMatome/GameMatome-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CTouch /Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/DerivedData/GameMatome/Build/Products/Debug-iphonesimulator/GameMatome.app
+r0
+

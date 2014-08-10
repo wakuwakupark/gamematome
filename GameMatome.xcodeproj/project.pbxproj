@@ -1,0 +1,604 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FF9D39C91996F9DB0097A6C9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF9D39C81996F9DB0097A6C9 /* Foundation.framework */; };
+		FF9D39CB1996F9DC0097A6C9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF9D39CA1996F9DB0097A6C9 /* CoreGraphics.framework */; };
+		FF9D39CD1996F9DC0097A6C9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF9D39CC1996F9DC0097A6C9 /* UIKit.framework */; };
+		FF9D39D31996F9DC0097A6C9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FF9D39D11996F9DC0097A6C9 /* InfoPlist.strings */; };
+		FF9D39D51996F9DC0097A6C9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FF9D39D41996F9DC0097A6C9 /* main.m */; };
+		FF9D39D91996F9DC0097A6C9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FF9D39D81996F9DC0097A6C9 /* AppDelegate.m */; };
+		FF9D39E11996F9DC0097A6C9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF9D39E01996F9DC0097A6C9 /* Images.xcassets */; };
+		FF9D39E81996F9DC0097A6C9 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF9D39E71996F9DC0097A6C9 /* XCTest.framework */; };
+		FF9D39E91996F9DC0097A6C9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF9D39C81996F9DB0097A6C9 /* Foundation.framework */; };
+		FF9D39EA1996F9DC0097A6C9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF9D39CC1996F9DC0097A6C9 /* UIKit.framework */; };
+		FF9D39F21996F9DC0097A6C9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FF9D39F01996F9DC0097A6C9 /* InfoPlist.strings */; };
+		FF9D39F41996F9DC0097A6C9 /* GameMatomeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FF9D39F31996F9DC0097A6C9 /* GameMatomeTests.m */; };
+		FF9D39FE1996FA250097A6C9 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF9D39FD1996FA250097A6C9 /* Main_iPhone.storyboard */; };
+		FF9D3A071996FA570097A6C9 /* ForUseCoreData.m in Sources */ = {isa = PBXBuildFile; fileRef = FF9D3A001996FA570097A6C9 /* ForUseCoreData.m */; };
+		FF9D3A081996FA570097A6C9 /* BrouserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF9D3A021996FA570097A6C9 /* BrouserViewController.m */; };
+		FF9D3A091996FA570097A6C9 /* NewsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF9D3A041996FA570097A6C9 /* NewsViewController.m */; };
+		FF9D3A0A1996FA570097A6C9 /* SettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF9D3A061996FA570097A6C9 /* SettingViewController.m */; };
+		FF9D3A0E1996FA7B0097A6C9 /* GameMatome.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FF9D3A0C1996FA7B0097A6C9 /* GameMatome.xcdatamodeld */; };
+		FF9D3A101996FCC10097A6C9 /* SitesData.plist in Resources */ = {isa = PBXBuildFile; fileRef = FF9D3A0F1996FCC10097A6C9 /* SitesData.plist */; };
+		FF9D3A131996FCE50097A6C9 /* Game.m in Sources */ = {isa = PBXBuildFile; fileRef = FF9D3A121996FCE50097A6C9 /* Game.m */; };
+		FF9D3A161996FCE50097A6C9 /* Site.m in Sources */ = {isa = PBXBuildFile; fileRef = FF9D3A151996FCE50097A6C9 /* Site.m */; };
+		FF9D3A1C1996FCE50097A6C9 /* Memo.m in Sources */ = {isa = PBXBuildFile; fileRef = FF9D3A1B1996FCE50097A6C9 /* Memo.m */; };
+		FF9D3A26199725C70097A6C9 /* DetailSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF9D3A25199725C70097A6C9 /* DetailSettingViewController.m */; };
+		FF9D3A29199733980097A6C9 /* News.m in Sources */ = {isa = PBXBuildFile; fileRef = FF9D3A28199733980097A6C9 /* News.m */; };
+		FF9D3A2B1997540D0097A6C9 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF9D3A2A1997540D0097A6C9 /* Social.framework */; };
+		FF9D3A2D19975EE90097A6C9 /* Twitter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF9D3A2C19975EE90097A6C9 /* Twitter.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FF9D39EB1996F9DC0097A6C9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF9D39BD1996F9DB0097A6C9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF9D39C41996F9DB0097A6C9;
+			remoteInfo = GameMatome;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FF9D39C51996F9DB0097A6C9 /* GameMatome.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GameMatome.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF9D39C81996F9DB0097A6C9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FF9D39CA1996F9DB0097A6C9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FF9D39CC1996F9DC0097A6C9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FF9D39D01996F9DC0097A6C9 /* GameMatome-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GameMatome-Info.plist"; sourceTree = "<group>"; };
+		FF9D39D21996F9DC0097A6C9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FF9D39D41996F9DC0097A6C9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FF9D39D61996F9DC0097A6C9 /* GameMatome-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GameMatome-Prefix.pch"; sourceTree = "<group>"; };
+		FF9D39D71996F9DC0097A6C9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FF9D39D81996F9DC0097A6C9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FF9D39E01996F9DC0097A6C9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FF9D39E61996F9DC0097A6C9 /* GameMatomeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GameMatomeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF9D39E71996F9DC0097A6C9 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		FF9D39EF1996F9DC0097A6C9 /* GameMatomeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GameMatomeTests-Info.plist"; sourceTree = "<group>"; };
+		FF9D39F11996F9DC0097A6C9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FF9D39F31996F9DC0097A6C9 /* GameMatomeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameMatomeTests.m; sourceTree = "<group>"; };
+		FF9D39FD1996FA250097A6C9 /* Main_iPhone.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main_iPhone.storyboard; sourceTree = "<group>"; };
+		FF9D39FF1996FA570097A6C9 /* ForUseCoreData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ForUseCoreData.h; sourceTree = "<group>"; };
+		FF9D3A001996FA570097A6C9 /* ForUseCoreData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ForUseCoreData.m; sourceTree = "<group>"; };
+		FF9D3A011996FA570097A6C9 /* BrouserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BrouserViewController.h; sourceTree = "<group>"; };
+		FF9D3A021996FA570097A6C9 /* BrouserViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BrouserViewController.m; sourceTree = "<group>"; };
+		FF9D3A031996FA570097A6C9 /* NewsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsViewController.h; sourceTree = "<group>"; };
+		FF9D3A041996FA570097A6C9 /* NewsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsViewController.m; sourceTree = "<group>"; };
+		FF9D3A051996FA570097A6C9 /* SettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingViewController.h; sourceTree = "<group>"; };
+		FF9D3A061996FA570097A6C9 /* SettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingViewController.m; sourceTree = "<group>"; };
+		FF9D3A0D1996FA7B0097A6C9 /* GameMatome.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GameMatome.xcdatamodel; sourceTree = "<group>"; };
+		FF9D3A0F1996FCC10097A6C9 /* SitesData.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = SitesData.plist; sourceTree = "<group>"; };
+		FF9D3A111996FCE50097A6C9 /* Game.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Game.h; sourceTree = "<group>"; };
+		FF9D3A121996FCE50097A6C9 /* Game.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Game.m; sourceTree = "<group>"; };
+		FF9D3A141996FCE50097A6C9 /* Site.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Site.h; sourceTree = "<group>"; };
+		FF9D3A151996FCE50097A6C9 /* Site.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Site.m; sourceTree = "<group>"; };
+		FF9D3A1A1996FCE50097A6C9 /* Memo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Memo.h; sourceTree = "<group>"; };
+		FF9D3A1B1996FCE50097A6C9 /* Memo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Memo.m; sourceTree = "<group>"; };
+		FF9D3A24199725C70097A6C9 /* DetailSettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailSettingViewController.h; sourceTree = "<group>"; };
+		FF9D3A25199725C70097A6C9 /* DetailSettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailSettingViewController.m; sourceTree = "<group>"; };
+		FF9D3A27199733980097A6C9 /* News.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = News.h; sourceTree = "<group>"; };
+		FF9D3A28199733980097A6C9 /* News.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = News.m; sourceTree = "<group>"; };
+		FF9D3A2A1997540D0097A6C9 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		FF9D3A2C19975EE90097A6C9 /* Twitter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Twitter.framework; path = System/Library/Frameworks/Twitter.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FF9D39C21996F9DB0097A6C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF9D3A2D19975EE90097A6C9 /* Twitter.framework in Frameworks */,
+				FF9D3A2B1997540D0097A6C9 /* Social.framework in Frameworks */,
+				FF9D39CB1996F9DC0097A6C9 /* CoreGraphics.framework in Frameworks */,
+				FF9D39CD1996F9DC0097A6C9 /* UIKit.framework in Frameworks */,
+				FF9D39C91996F9DB0097A6C9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF9D39E31996F9DC0097A6C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF9D39E81996F9DC0097A6C9 /* XCTest.framework in Frameworks */,
+				FF9D39EA1996F9DC0097A6C9 /* UIKit.framework in Frameworks */,
+				FF9D39E91996F9DC0097A6C9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FF9D39BC1996F9DB0097A6C9 = {
+			isa = PBXGroup;
+			children = (
+				FF9D39CE1996F9DC0097A6C9 /* GameMatome */,
+				FF9D39ED1996F9DC0097A6C9 /* GameMatomeTests */,
+				FF9D39C71996F9DB0097A6C9 /* Frameworks */,
+				FF9D39C61996F9DB0097A6C9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FF9D39C61996F9DB0097A6C9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FF9D39C51996F9DB0097A6C9 /* GameMatome.app */,
+				FF9D39E61996F9DC0097A6C9 /* GameMatomeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FF9D39C71996F9DB0097A6C9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FF9D3A2C19975EE90097A6C9 /* Twitter.framework */,
+				FF9D3A2A1997540D0097A6C9 /* Social.framework */,
+				FF9D39C81996F9DB0097A6C9 /* Foundation.framework */,
+				FF9D39CA1996F9DB0097A6C9 /* CoreGraphics.framework */,
+				FF9D39CC1996F9DC0097A6C9 /* UIKit.framework */,
+				FF9D39E71996F9DC0097A6C9 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FF9D39CE1996F9DC0097A6C9 /* GameMatome */ = {
+			isa = PBXGroup;
+			children = (
+				FF9D3A1F1996FD780097A6C9 /* ViewController */,
+				FF9D3A1E1996FD6A0097A6C9 /* ForUseCoreData */,
+				FF9D3A1D1996FD5E0097A6C9 /* SitesData */,
+				FF9D3A0B1996FA6C0097A6C9 /* ManagedObject */,
+				FF9D39FD1996FA250097A6C9 /* Main_iPhone.storyboard */,
+				FF9D39D71996F9DC0097A6C9 /* AppDelegate.h */,
+				FF9D39D81996F9DC0097A6C9 /* AppDelegate.m */,
+				FF9D39E01996F9DC0097A6C9 /* Images.xcassets */,
+				FF9D39CF1996F9DC0097A6C9 /* Supporting Files */,
+			);
+			path = GameMatome;
+			sourceTree = "<group>";
+		};
+		FF9D39CF1996F9DC0097A6C9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FF9D39D01996F9DC0097A6C9 /* GameMatome-Info.plist */,
+				FF9D39D11996F9DC0097A6C9 /* InfoPlist.strings */,
+				FF9D39D41996F9DC0097A6C9 /* main.m */,
+				FF9D39D61996F9DC0097A6C9 /* GameMatome-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FF9D39ED1996F9DC0097A6C9 /* GameMatomeTests */ = {
+			isa = PBXGroup;
+			children = (
+				FF9D39F31996F9DC0097A6C9 /* GameMatomeTests.m */,
+				FF9D39EE1996F9DC0097A6C9 /* Supporting Files */,
+			);
+			path = GameMatomeTests;
+			sourceTree = "<group>";
+		};
+		FF9D39EE1996F9DC0097A6C9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FF9D39EF1996F9DC0097A6C9 /* GameMatomeTests-Info.plist */,
+				FF9D39F01996F9DC0097A6C9 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FF9D3A0B1996FA6C0097A6C9 /* ManagedObject */ = {
+			isa = PBXGroup;
+			children = (
+				FF9D3A0C1996FA7B0097A6C9 /* GameMatome.xcdatamodeld */,
+				FF9D3A1A1996FCE50097A6C9 /* Memo.h */,
+				FF9D3A1B1996FCE50097A6C9 /* Memo.m */,
+				FF9D3A141996FCE50097A6C9 /* Site.h */,
+				FF9D3A151996FCE50097A6C9 /* Site.m */,
+				FF9D3A111996FCE50097A6C9 /* Game.h */,
+				FF9D3A121996FCE50097A6C9 /* Game.m */,
+				FF9D3A27199733980097A6C9 /* News.h */,
+				FF9D3A28199733980097A6C9 /* News.m */,
+			);
+			name = ManagedObject;
+			sourceTree = "<group>";
+		};
+		FF9D3A1D1996FD5E0097A6C9 /* SitesData */ = {
+			isa = PBXGroup;
+			children = (
+				FF9D3A0F1996FCC10097A6C9 /* SitesData.plist */,
+			);
+			name = SitesData;
+			sourceTree = "<group>";
+		};
+		FF9D3A1E1996FD6A0097A6C9 /* ForUseCoreData */ = {
+			isa = PBXGroup;
+			children = (
+				FF9D39FF1996FA570097A6C9 /* ForUseCoreData.h */,
+				FF9D3A001996FA570097A6C9 /* ForUseCoreData.m */,
+			);
+			name = ForUseCoreData;
+			sourceTree = "<group>";
+		};
+		FF9D3A1F1996FD780097A6C9 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				FF9D3A221996FDA50097A6C9 /* SettingView */,
+				FF9D3A211996FD9C0097A6C9 /* NewsView */,
+				FF9D3A201996FD8F0097A6C9 /* BrouserView */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		FF9D3A201996FD8F0097A6C9 /* BrouserView */ = {
+			isa = PBXGroup;
+			children = (
+				FF9D3A011996FA570097A6C9 /* BrouserViewController.h */,
+				FF9D3A021996FA570097A6C9 /* BrouserViewController.m */,
+			);
+			name = BrouserView;
+			sourceTree = "<group>";
+		};
+		FF9D3A211996FD9C0097A6C9 /* NewsView */ = {
+			isa = PBXGroup;
+			children = (
+				FF9D3A031996FA570097A6C9 /* NewsViewController.h */,
+				FF9D3A041996FA570097A6C9 /* NewsViewController.m */,
+			);
+			name = NewsView;
+			sourceTree = "<group>";
+		};
+		FF9D3A221996FDA50097A6C9 /* SettingView */ = {
+			isa = PBXGroup;
+			children = (
+				FF9D3A231997259E0097A6C9 /* DetailSettingView */,
+				FF9D3A051996FA570097A6C9 /* SettingViewController.h */,
+				FF9D3A061996FA570097A6C9 /* SettingViewController.m */,
+			);
+			name = SettingView;
+			sourceTree = "<group>";
+		};
+		FF9D3A231997259E0097A6C9 /* DetailSettingView */ = {
+			isa = PBXGroup;
+			children = (
+				FF9D3A24199725C70097A6C9 /* DetailSettingViewController.h */,
+				FF9D3A25199725C70097A6C9 /* DetailSettingViewController.m */,
+			);
+			name = DetailSettingView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FF9D39C41996F9DB0097A6C9 /* GameMatome */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF9D39F71996F9DC0097A6C9 /* Build configuration list for PBXNativeTarget "GameMatome" */;
+			buildPhases = (
+				FF9D39C11996F9DB0097A6C9 /* Sources */,
+				FF9D39C21996F9DB0097A6C9 /* Frameworks */,
+				FF9D39C31996F9DB0097A6C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GameMatome;
+			productName = GameMatome;
+			productReference = FF9D39C51996F9DB0097A6C9 /* GameMatome.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FF9D39E51996F9DC0097A6C9 /* GameMatomeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF9D39FA1996F9DC0097A6C9 /* Build configuration list for PBXNativeTarget "GameMatomeTests" */;
+			buildPhases = (
+				FF9D39E21996F9DC0097A6C9 /* Sources */,
+				FF9D39E31996F9DC0097A6C9 /* Frameworks */,
+				FF9D39E41996F9DC0097A6C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FF9D39EC1996F9DC0097A6C9 /* PBXTargetDependency */,
+			);
+			name = GameMatomeTests;
+			productName = GameMatomeTests;
+			productReference = FF9D39E61996F9DC0097A6C9 /* GameMatomeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FF9D39BD1996F9DB0097A6C9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Hiroyuki Yahagi";
+				TargetAttributes = {
+					FF9D39E51996F9DC0097A6C9 = {
+						TestTargetID = FF9D39C41996F9DB0097A6C9;
+					};
+				};
+			};
+			buildConfigurationList = FF9D39C01996F9DB0097A6C9 /* Build configuration list for PBXProject "GameMatome" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FF9D39BC1996F9DB0097A6C9;
+			productRefGroup = FF9D39C61996F9DB0097A6C9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FF9D39C41996F9DB0097A6C9 /* GameMatome */,
+				FF9D39E51996F9DC0097A6C9 /* GameMatomeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FF9D39C31996F9DB0097A6C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF9D39E11996F9DC0097A6C9 /* Images.xcassets in Resources */,
+				FF9D39D31996F9DC0097A6C9 /* InfoPlist.strings in Resources */,
+				FF9D39FE1996FA250097A6C9 /* Main_iPhone.storyboard in Resources */,
+				FF9D3A101996FCC10097A6C9 /* SitesData.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF9D39E41996F9DC0097A6C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF9D39F21996F9DC0097A6C9 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FF9D39C11996F9DB0097A6C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF9D3A071996FA570097A6C9 /* ForUseCoreData.m in Sources */,
+				FF9D39D91996F9DC0097A6C9 /* AppDelegate.m in Sources */,
+				FF9D3A29199733980097A6C9 /* News.m in Sources */,
+				FF9D3A0E1996FA7B0097A6C9 /* GameMatome.xcdatamodeld in Sources */,
+				FF9D3A131996FCE50097A6C9 /* Game.m in Sources */,
+				FF9D3A091996FA570097A6C9 /* NewsViewController.m in Sources */,
+				FF9D39D51996F9DC0097A6C9 /* main.m in Sources */,
+				FF9D3A081996FA570097A6C9 /* BrouserViewController.m in Sources */,
+				FF9D3A26199725C70097A6C9 /* DetailSettingViewController.m in Sources */,
+				FF9D3A0A1996FA570097A6C9 /* SettingViewController.m in Sources */,
+				FF9D3A161996FCE50097A6C9 /* Site.m in Sources */,
+				FF9D3A1C1996FCE50097A6C9 /* Memo.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF9D39E21996F9DC0097A6C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF9D39F41996F9DC0097A6C9 /* GameMatomeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FF9D39EC1996F9DC0097A6C9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FF9D39C41996F9DB0097A6C9 /* GameMatome */;
+			targetProxy = FF9D39EB1996F9DC0097A6C9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FF9D39D11996F9DC0097A6C9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF9D39D21996F9DC0097A6C9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		FF9D39F01996F9DC0097A6C9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF9D39F11996F9DC0097A6C9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FF9D39F51996F9DC0097A6C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FF9D39F61996F9DC0097A6C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FF9D39F81996F9DC0097A6C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GameMatome/GameMatome-Prefix.pch";
+				INFOPLIST_FILE = "GameMatome/GameMatome-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FF9D39F91996F9DC0097A6C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GameMatome/GameMatome-Prefix.pch";
+				INFOPLIST_FILE = "GameMatome/GameMatome-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		FF9D39FB1996F9DC0097A6C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/GameMatome.app/GameMatome";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GameMatome/GameMatome-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "GameMatomeTests/GameMatomeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		FF9D39FC1996F9DC0097A6C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/GameMatome.app/GameMatome";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GameMatome/GameMatome-Prefix.pch";
+				INFOPLIST_FILE = "GameMatomeTests/GameMatomeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FF9D39C01996F9DB0097A6C9 /* Build configuration list for PBXProject "GameMatome" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF9D39F51996F9DC0097A6C9 /* Debug */,
+				FF9D39F61996F9DC0097A6C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF9D39F71996F9DC0097A6C9 /* Build configuration list for PBXNativeTarget "GameMatome" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF9D39F81996F9DC0097A6C9 /* Debug */,
+				FF9D39F91996F9DC0097A6C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FF9D39FA1996F9DC0097A6C9 /* Build configuration list for PBXNativeTarget "GameMatomeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF9D39FB1996F9DC0097A6C9 /* Debug */,
+				FF9D39FC1996F9DC0097A6C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FF9D3A0C1996FA7B0097A6C9 /* GameMatome.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FF9D3A0D1996FA7B0097A6C9 /* GameMatome.xcdatamodel */,
+			);
+			currentVersion = FF9D3A0D1996FA7B0097A6C9 /* GameMatome.xcdatamodel */;
+			path = GameMatome.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = FF9D39BD1996F9DB0097A6C9 /* Project object */;
+}
