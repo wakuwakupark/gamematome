@@ -12,6 +12,7 @@
 #import "Site.h"
 #import "Game.h"
 #import "ForUseCoreData.h"
+#import "GADBannerView.h"
 
 @interface BrouserViewController ()
 
@@ -33,6 +34,15 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     
+    //広告の設定
+    bannerView = [[GADBannerView alloc]initWithAdSize:kGADAdSizeBanner];
+    bannerView.adUnitID = @"ca-app-pub-9624460734614700/2398975874";
+    bannerView.rootViewController = self;
+    [self.view addSubview:bannerView];
+    [bannerView loadRequest:[GADRequest request]];
+    [bannerView setFrame:CGRectMake(0, 474, 320, 50)];
+    
+    
     if(_showingNews != NULL){
         _naviItem.title = _showingNews.title;
     }else{
@@ -42,7 +52,14 @@
     _doneButton.hidden = YES;
     _textView.hidden = YES;
     _backgroundView.hidden = YES;
+    
+    _webView.delegate = self;
+    
+    _backButton.enabled = NO;
+    _proceedButton.enabled = NO;
 }
+
+
 
 - (void)viewDidAppear:(BOOL)animated
 {
@@ -265,6 +282,35 @@
         return [_showingSite pageURL];
     }else{
         return [_showingNews contentURL];
+    }
+}
+
+
+#pragma mark webView
+
+- (void)webViewDidStartLoad:(UIWebView *)webView {
+
+    [UIApplication sharedApplication].networkActivityIndicatorVisible = YES;
+}
+
+- (void)webViewDidFinishLoad:(UIWebView *)webView
+{
+    [UIApplication sharedApplication].networkActivityIndicatorVisible = NO;
+    
+    _backButton.enabled = [webView canGoBack];
+    _proceedButton.enabled = [webView canGoForward];
+}
+
+- (void)webView:(UIWebView *)webView didFailLoadWithError:(NSError *)error {
+
+    [UIApplication sharedApplication].networkActivityIndicatorVisible = NO;
+    
+    if ([error code] != NSURLErrorCancelled) {
+
+        NSString* errString = [NSString stringWithFormat:
+                               @"<html><center><font size=+7 color='red'>エラーが発生しました。:<br>%@</font></center></html>",
+                               error.localizedDescription];
+        [webView loadHTMLString:errString baseURL:nil];
     }
 }
 

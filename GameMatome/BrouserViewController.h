@@ -13,8 +13,12 @@
 @class News;
 @class Memo;
 @class Site;
+@class GADBannerView;
 
-@interface BrouserViewController : UIViewController<UIActionSheetDelegate>
+@interface BrouserViewController : UIViewController<UIActionSheetDelegate,UIWebViewDelegate>
+{
+    GADBannerView* bannerView;
+}
 
 @property (nonatomic, retain) NSString* firstURL;
 
@@ -22,6 +26,13 @@
 @property (weak, nonatomic) IBOutlet UIButton *doneButton;
 @property (weak, nonatomic) IBOutlet UITextView *textView;
 @property (weak, nonatomic) IBOutlet UIView *backgroundView;
+
+
+@property (weak, nonatomic) IBOutlet UIBarButtonItem *backButton;
+@property (weak, nonatomic) IBOutlet UIBarButtonItem *proceedButton;
+
+
+
 
 @property (weak, nonatomic) IBOutlet UINavigationItem *naviItem;
 

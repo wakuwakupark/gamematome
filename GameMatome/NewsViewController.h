@@ -8,10 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
+
 //@class Item;
 @class Site;
 @class News;
 @class Memo;
+@class GADBannerView;
 
 @interface NewsViewController : UIViewController<UITableViewDataSource,UITableViewDelegate,NSXMLParserDelegate>
 {
@@ -44,6 +46,9 @@
     Memo* editingMemo;
     
     int mode; //0 all  1 favorite
+    
+    
+    GADBannerView* bannerView;
 }
 
 @property (weak, nonatomic) IBOutlet UITableView *tableView;

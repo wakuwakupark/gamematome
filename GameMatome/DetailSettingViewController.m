@@ -11,6 +11,7 @@
 #import "Site.h"
 #import "ForUseCoreData.h"
 #import "BrouserViewController.h"
+#import "GADBannerView.h"
 
 @interface DetailSettingViewController ()
 
@@ -31,6 +32,15 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    
+    //広告の設定
+    bannerView = [[GADBannerView alloc]initWithAdSize:kGADAdSizeBanner];
+    bannerView.adUnitID = @"ca-app-pub-9624460734614700/2538576676";
+    bannerView.rootViewController = self;
+    [self.view addSubview:bannerView];
+    [bannerView loadRequest:[GADRequest request]];
+    [bannerView setFrame:CGRectMake(0, 20, 320, 50)];
+    
     
     _tableView.delegate = self;
     _tableView.dataSource = self;

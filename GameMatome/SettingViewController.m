@@ -10,6 +10,7 @@
 #import "ForUseCoreData.h"
 #import "Game.h"
 #import "DetailSettingViewController.h"
+#import "GADBannerView.h"
 
 @interface SettingViewController ()
 
@@ -29,7 +30,16 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    
+    //広告の設定
+    bannerView = [[GADBannerView alloc]initWithAdSize:kGADAdSizeBanner];
+    bannerView.adUnitID = @"ca-app-pub-9624460734614700/2538576676";
+    bannerView.rootViewController = self;
+    [self.view addSubview:bannerView];
+    [bannerView loadRequest:[GADRequest request]];
+    [bannerView setFrame:CGRectMake(0, 20, 320, 50)];
+
+    
     gamesArray = [ForUseCoreData getEntityDataEntityNameWithEntityName:@"Game"];
 
     

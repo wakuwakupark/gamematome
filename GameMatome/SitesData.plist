@@ -2,7 +2,69 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>パズドラ</key>
+	<key>キャンディークラッシュ
+キャンディークラッシュ
+キャンディークラッシュ</key>
+	<dict>
+		<key>sites</key>
+		<dict>
+			<key>公式</key>
+			<string>http://jp.candycrushsaga.com/</string>
+			<key>wiki</key>
+			<string>http://xn--dcktah6a9cva9qva7a4gve.com/</string>
+		</dict>
+		<key>rss</key>
+		<dict>
+			<key>wiki</key>
+			<string>http://xn--dcktah6a9cva9qva7a4gve.com/feed</string>
+		</dict>
+	</dict>
+	<key>ぷよぷよクエスト</key>
+	<dict>
+		<key>sites</key>
+		<dict>
+			<key>攻略</key>
+			<string>http://xn--39j8a0f1a5738dnjua.jp/</string>
+			<key>公式</key>
+			<string>http://puyopuyoquest.sega-net.com/</string>
+			<key>wiki</key>
+			<string>http://xn--39ja4cb4nqb6d4ft606ck17a.gamerch.com/?agent=sp</string>
+		</dict>
+		<key>rss</key>
+		<dict>
+			<key>攻略</key>
+			<string>http://xn--39j8a0f1a5738dnjua.jp/feed</string>
+			<key>wiki</key>
+			<string>http://xn--39ja4cb4nqb6d4ft606ck17a.gamerch.com/?agent=sp/?feed=rss2#</string>
+		</dict>
+	</dict>
+	<key>黒猫のウィズ</key>
+	<dict>
+		<key>sites</key>
+		<dict>
+			<key>wiki</key>
+			<string>http://nekowiz.com/</string>
+		</dict>
+		<key>rss</key>
+		<dict>
+			<key>wiki</key>
+			<string>http://nekowiz.com/index.rdf</string>
+		</dict>
+	</dict>
+	<key>モンスターストライク</key>
+	<dict>
+		<key>sites</key>
+		<dict>
+			<key>wiki</key>
+			<string>http://monst-sokuhou.blog.jp/</string>
+		</dict>
+		<key>rss</key>
+		<dict>
+			<key>wiki</key>
+			<string>http://monst-sokuhou.blog.jp/index.rdf</string>
+		</dict>
+	</dict>
+	<key>パズル＆ドラゴンズ</key>
 	<dict>
 		<key>sites</key>
 		<dict>

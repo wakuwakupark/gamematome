@@ -9,11 +9,14 @@
 #import <UIKit/UIKit.h>
 
 @class Game;
+@class GADBannerView;
 
 @interface DetailSettingViewController : UIViewController
 <UITableViewDataSource, UITableViewDelegate>
 {
     NSMutableArray* sitesArray;
+    
+    GADBannerView* bannerView;
 }
 
 @property (weak, nonatomic) IBOutlet UITableView *tableView;

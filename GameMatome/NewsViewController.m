@@ -13,7 +13,7 @@
 #import "Site.h"
 #import "News.h"
 #import "Memo.h"
-
+#import "GADBannerView.h"
 
 @interface NewsViewController ()
 
@@ -40,7 +40,16 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    
+    
+    //広告の設定
+    bannerView = [[GADBannerView alloc]initWithAdSize:kGADAdSizeBanner];
+    bannerView.adUnitID = @"ca-app-pub-9624460734614700/2538576676";
+    bannerView.rootViewController = self;
+    [self.view addSubview:bannerView];
+    [bannerView loadRequest:[GADRequest request]];
+    [bannerView setFrame:CGRectMake(0, 20, 320, 50)];
+    
     
     _tableView.dataSource = self;
     _tableView.delegate = self;
@@ -49,8 +58,15 @@
     _textView.hidden = YES;
     _editDoneButton.hidden = YES;
     
+    
+    //ゲームデータを収集
     [self getSitesData];
-    [self refresh];
+    
+    
+    //RSSから読み取り
+    [self rssDataRead];
+    newsArray = [ForUseCoreData getAllNewsOrderByDate];
+    
     
     _refreshControl = [[UIRefreshControl alloc] init];
     [_refreshControl addTarget:self action:@selector(refresh) forControlEvents:UIControlEventValueChanged];
@@ -66,7 +82,6 @@
 - (void)viewDidAppear:(BOOL)animated
 {
     favoriteArray = [ForUseCoreData getFavoriteNewsOrderByDate];
-    newsArray = [ForUseCoreData getAllNewsOrderByDate];
     [_tableView reloadData];
 }
 
@@ -141,9 +156,10 @@
 - (void)refresh
 {
     [_refreshControl endRefreshing];
-    [self rssDataRead];
     
-    [self setNewsData];
+    [self rssDataRead];
+    newsArray = [ForUseCoreData getAllNewsOrderByDate];
+    favoriteArray = [ForUseCoreData getFavoriteNewsOrderByDate];
     
     [_tableView reloadData];
     
@@ -154,14 +170,6 @@
     [_refreshControl endRefreshing];
 }
 
-
-
-- (void)setNewsData
-{
-    newsArray = [ForUseCoreData getAllNewsOrderByDate];
-    favoriteArray = [ForUseCoreData getFavoriteNewsOrderByDate];
-    
-}
 
 - (void)rssDataRead
 {
@@ -430,6 +438,12 @@ foundCharacters:(NSString *)string
 
                 if ([readingSite lastUpdated]== NULL || [[readingSite lastUpdated] compare:dateBuffer] == NSOrderedAscending) {
                     
+                    //未来のデータは無視
+                    if([dateBuffer compare:[NSDate date]] == NSOrderedDescending){
+                        return;
+                    }
+                    
+                    
                     //新しいニュースエンティティを作成
                     checkingNews = [NSEntityDescription insertNewObjectForEntityForName:@"News" inManagedObjectContext:[ForUseCoreData getManagedObjectContext]];
                     
@@ -461,6 +475,12 @@ foundCharacters:(NSString *)string
                 //サイトの最終更新時間と比較して新しかったらエンティティを生成してデータを代入
 
                 if ([readingSite lastUpdated]== NULL || [[readingSite lastUpdated] compare:dateBuffer] == NSOrderedAscending) {
+                    
+                    //未来のデータは無視
+                    if([dateBuffer compare:[NSDate date]] == NSOrderedDescending){
+                        return;
+                    }
+                    
                     
                     //新しいニュースエンティティを作成
                     checkingNews = [NSEntityDescription insertNewObjectForEntityForName:@"News" inManagedObjectContext:[ForUseCoreData getManagedObjectContext]];
@@ -574,9 +594,12 @@ foundCharacters:(NSString *)string
                     break;
                 case 3:
                 {
-                    if(item.image != NULL){
+                    if(item.image != NULL && item.image.length >= 500){
                         UIImageView *imageView = (UIImageView*) view;
                         imageView.image = [UIImage imageWithData:item.image];
+                    }else{
+                        UIImageView *imageView = (UIImageView*) view;
+                        imageView.image = [UIImage imageNamed:@"noimage.jpg"];
                     }
                 }
                     break;
@@ -591,6 +614,15 @@ foundCharacters:(NSString *)string
                 {
                     UILabel* textView = (UILabel*) view;
                     textView.text = item.site.name;
+                }
+                    break;
+                case 6:
+                {
+                    UILabel* textView = (UILabel*) view;
+                    NSDate *date = [item date];
+                    NSDateFormatter *formatter = [[NSDateFormatter alloc] init];
+                    [formatter setDateFormat:@"yyyy/MM/dd HH:mm"];
+                     textView.text = [formatter stringFromDate:date];
                 }
                     break;
                 default:

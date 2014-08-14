@@ -1,0 +1,1 @@
+/Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/DerivedData/GameMatome/Build/Intermediates/ArchiveIntermediates/GameMatome/InstallationBuildProductsLocation/Applications/GameMatome.app
