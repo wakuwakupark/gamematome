@@ -8,6 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import <CoreData/CoreData.h>
+#import <sqlite3.h>
 
 @class Game;
 @class Site;
@@ -27,6 +28,7 @@
 + (NSArray*) getEntityDataEntityNameWithEntityName:(NSString*)entityName condition:(NSString*)condition;
 + (NSArray*) getAllNewsOrderByDate;
 + (NSArray*) getFavoriteNewsOrderByDate;
++ (NSArray*) getAllMemoOrderByDate;
 + (void) deleteAllObjects;
 
 

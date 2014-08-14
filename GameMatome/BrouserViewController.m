@@ -100,7 +100,7 @@
     
     //データの読み込み
     _textView.text = _editingMemo.contents;
-    
+    initialTextOfEditingMemo = _editingMemo.contents;
     
     //表示
     [self fadeinMemoView];
@@ -116,6 +116,10 @@
     
     _showingNews.memo = _editingMemo;
     _editingMemo.news = _showingNews;
+    
+    if(![initialTextOfEditingMemo isEqualToString:[_textView text]]){
+        _editingMemo.updateDate =  [NSDate date];
+    }
     
     [[ForUseCoreData getManagedObjectContext] save:NULL];
     
@@ -308,7 +312,7 @@
     if ([error code] != NSURLErrorCancelled) {
 
         NSString* errString = [NSString stringWithFormat:
-                               @"<html><center><font size=+7 color='red'>エラーが発生しました。:<br>%@</font></center></html>",
+                               @"<html><center><font size=+7 color='red'>通信エラー:<br>%@</font></center></html>",
                                error.localizedDescription];
         [webView loadHTMLString:errString baseURL:nil];
     }

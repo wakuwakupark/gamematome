@@ -170,6 +170,30 @@ static NSManagedObjectContext* managedObjectContext;
     
 }
 
++ (NSArray*)getAllMemoOrderByDate
+{
+    NSEntityDescription *entity = [NSEntityDescription entityForName:@"Memo" inManagedObjectContext:[self getManagedObjectContext]];
+    
+    NSFetchRequest *request = [[NSFetchRequest alloc]init];
+    //取ってくるエンティティの設定を行う
+    [request setEntity:entity];
+    
+    
+    //長さ1以上のみ取得
+    NSPredicate *predicate =[NSPredicate predicateWithFormat:@"contents!=nil&&contents.length>=1"];
+    [request setPredicate:predicate];
+    
+    
+    //dateでソート
+    NSSortDescriptor *sortDesc =[NSSortDescriptor sortDescriptorWithKey:@"updateDate" ascending:NO];
+    [request setSortDescriptors:[NSArray arrayWithObject:sortDesc]];
+    
+    NSError *error = nil;
+    
+    //データのフェッチを行う Data Fetching.
+    return [[self getManagedObjectContext] executeFetchRequest:request error:&error];
+}
+
 
 
 @end

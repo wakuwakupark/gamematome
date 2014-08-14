@@ -13,6 +13,8 @@
 		FF29E6C8199C4AEE00AF0AD6 /* settings.png in Resources */ = {isa = PBXBuildFile; fileRef = FF29E6C7199C4AEE00AF0AD6 /* settings.png */; };
 		FF29E6CA199C503400AF0AD6 /* noimage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FF29E6C9199C503400AF0AD6 /* noimage.jpg */; };
 		FF29E6CE199C5EA800AF0AD6 /* FavoriteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF29E6CD199C5EA800AF0AD6 /* FavoriteViewController.m */; };
+		FF29E6D2199C6E4600AF0AD6 /* MemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF29E6D1199C6E4600AF0AD6 /* MemoViewController.m */; };
+		FF29E6D4199C7C8A00AF0AD6 /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = FF29E6D3199C7C8A00AF0AD6 /* libsqlite3.0.dylib */; };
 		FF9224871998D8D7005B62FB /* libGoogleAdMobAds.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FF9224851998D8D7005B62FB /* libGoogleAdMobAds.a */; };
 		FF9224881998D8D7005B62FB /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = FF9224861998D8D7005B62FB /* README.txt */; };
 		FF92248B1998D931005B62FB /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF92248A1998D931005B62FB /* AdSupport.framework */; };
@@ -68,6 +70,9 @@
 		FF29E6C9199C503400AF0AD6 /* noimage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = noimage.jpg; sourceTree = "<group>"; };
 		FF29E6CC199C5EA800AF0AD6 /* FavoriteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FavoriteViewController.h; sourceTree = "<group>"; };
 		FF29E6CD199C5EA800AF0AD6 /* FavoriteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FavoriteViewController.m; sourceTree = "<group>"; };
+		FF29E6D0199C6E4600AF0AD6 /* MemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MemoViewController.h; sourceTree = "<group>"; };
+		FF29E6D1199C6E4600AF0AD6 /* MemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MemoViewController.m; sourceTree = "<group>"; };
+		FF29E6D3199C7C8A00AF0AD6 /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
 		FF9224791998D8D7005B62FB /* GADAdMobExtras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADAdMobExtras.h; sourceTree = "<group>"; };
 		FF92247A1998D8D7005B62FB /* GADAdNetworkExtras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADAdNetworkExtras.h; sourceTree = "<group>"; };
 		FF92247B1998D8D7005B62FB /* GADAdSize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADAdSize.h; sourceTree = "<group>"; };
@@ -135,6 +140,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF29E6D4199C7C8A00AF0AD6 /* libsqlite3.0.dylib in Frameworks */,
 				FF9224971998DA8A005B62FB /* CoreTelephony.framework in Frameworks */,
 				FF9224951998D967005B62FB /* SystemConfiguration.framework in Frameworks */,
 				FF9224931998D959005B62FB /* StoreKit.framework in Frameworks */,
@@ -185,6 +191,15 @@
 			name = FavoriteView;
 			sourceTree = "<group>";
 		};
+		FF29E6CF199C6E3200AF0AD6 /* MemoView */ = {
+			isa = PBXGroup;
+			children = (
+				FF29E6D0199C6E4600AF0AD6 /* MemoViewController.h */,
+				FF29E6D1199C6E4600AF0AD6 /* MemoViewController.m */,
+			);
+			name = MemoView;
+			sourceTree = "<group>";
+		};
 		FF9224891998D8E8005B62FB /* Admob */ = {
 			isa = PBXGroup;
 			children = (
@@ -230,6 +245,7 @@
 		FF9D39C71996F9DB0097A6C9 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				FF29E6D3199C7C8A00AF0AD6 /* libsqlite3.0.dylib */,
 				FF9224961998DA8A005B62FB /* CoreTelephony.framework */,
 				FF9224941998D967005B62FB /* SystemConfiguration.framework */,
 				FF9224921998D959005B62FB /* StoreKit.framework */,
@@ -328,6 +344,7 @@
 		FF9D3A1F1996FD780097A6C9 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				FF29E6CF199C6E3200AF0AD6 /* MemoView */,
 				FF29E6CB199C5E9800AF0AD6 /* FavoriteView */,
 				FF9D3A221996FDA50097A6C9 /* SettingView */,
 				FF9D3A211996FD9C0097A6C9 /* NewsView */,
@@ -487,6 +504,7 @@
 				FF9D3A081996FA570097A6C9 /* BrouserViewController.m in Sources */,
 				FF9D3A26199725C70097A6C9 /* DetailSettingViewController.m in Sources */,
 				FF9D3A0A1996FA570097A6C9 /* SettingViewController.m in Sources */,
+				FF29E6D2199C6E4600AF0AD6 /* MemoViewController.m in Sources */,
 				FF9D3A161996FCE50097A6C9 /* Site.m in Sources */,
 				FF9D3A1C1996FCE50097A6C9 /* Memo.m in Sources */,
 				FF29E6CE199C5EA800AF0AD6 /* FavoriteViewController.m in Sources */,

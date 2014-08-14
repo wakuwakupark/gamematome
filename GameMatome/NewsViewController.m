@@ -87,8 +87,9 @@
 
 - (void)getSitesData
 {
-    //データベースから取得
+    //データを取得
     gamesArray = [ForUseCoreData getEntityDataEntityNameWithEntityName:@"Game"];
+    
     
     //サイズ0ならplistから設定
     if(gamesArray.count != 0){
@@ -96,9 +97,10 @@
         return;
     }
     
+    
+    
     //データベースをリフレッシュ
     [ForUseCoreData deleteAllObjects];
-    
     
     NSString* path = [[NSBundle mainBundle] pathForResource:@"SitesData" ofType:@"plist"];
     
@@ -199,7 +201,7 @@
             readingSite = site;
             [self rssDataReadOfSite:[site rssURL]];
             
-            [site setLastUpdated:[NSDate date]];
+            [site setLastUpdated: [NSDate date]];
         }
     }
     
@@ -261,7 +263,6 @@ didStartElement:(NSString *)elementName
             
             //itemデータ作成mode
             else if ([_elementName isEqualToString:@"item"]){
-                
                 
                 checkingMode = 2;
 
@@ -439,7 +440,7 @@ foundCharacters:(NSString *)string
                 if ([readingSite lastUpdated]== NULL || [[readingSite lastUpdated] compare:dateBuffer] == NSOrderedAscending) {
                     
                     //未来のデータは無視
-                    if([dateBuffer compare:[NSDate date]] == NSOrderedDescending){
+                    if([dateBuffer compare: [NSDate date]] == NSOrderedDescending){
                         return;
                     }
                     
@@ -477,7 +478,7 @@ foundCharacters:(NSString *)string
                 if ([readingSite lastUpdated]== NULL || [[readingSite lastUpdated] compare:dateBuffer] == NSOrderedAscending) {
                     
                     //未来のデータは無視
-                    if([dateBuffer compare:[NSDate date]] == NSOrderedDescending){
+                    if([dateBuffer compare: [NSDate date]] == NSOrderedDescending){
                         return;
                     }
                     
@@ -686,7 +687,7 @@ foundCharacters:(NSString *)string
     }
     
     _textView.text = editingMemo.contents;
-    
+    initialTextOfEditingMemo = editingMemo.contents;
     
     [self fadeinMemoView];
     
@@ -726,11 +727,14 @@ foundCharacters:(NSString *)string
     
     editingMemo.contents = _textView.text;
     
-    [[ForUseCoreData getManagedObjectContext] save:NULL];
+    //データが変更されていれば更新日時を書き換え
+    if (![initialTextOfEditingMemo isEqualToString:[_textView text]]) {
+        editingMemo.updateDate =  [NSDate date];
+    }
     
-//    _backgroundView.hidden = YES;
-//    _textView.hidden = YES;
-//    _editDoneButton.hidden = YES;
+    
+    [[ForUseCoreData getManagedObjectContext] save:NULL];
+
 
     [self fadeOutMemoView];
 }

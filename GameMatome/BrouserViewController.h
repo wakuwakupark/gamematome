@@ -18,6 +18,7 @@
 @interface BrouserViewController : UIViewController<UIActionSheetDelegate,UIWebViewDelegate>
 {
     GADBannerView* bannerView;
+    NSString* initialTextOfEditingMemo;
 }
 
 @property (nonatomic, retain) NSString* firstURL;

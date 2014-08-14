@@ -49,6 +49,9 @@
     
     
     GADBannerView* bannerView;
+    
+    
+    NSString* initialTextOfEditingMemo;
 }
 
 @property (weak, nonatomic) IBOutlet UITableView *tableView;

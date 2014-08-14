@@ -675,7 +675,7 @@ foundCharacters:(NSString *)string
     }
     
     _textView.text = editingMemo.contents;
-    
+    initialTextOfEditingMemo = editingMemo.contents;
     
     [self fadeinMemoView];
     
@@ -715,11 +715,13 @@ foundCharacters:(NSString *)string
     
     editingMemo.contents = _textView.text;
     
-    [[ForUseCoreData getManagedObjectContext] save:NULL];
+    //データが変更されていれば更新日時を書き換え
+    if (![initialTextOfEditingMemo isEqualToString:[_textView text]]) {
+        editingMemo.updateDate =  [NSDate date];
+    }
     
-    //    _backgroundView.hidden = YES;
-    //    _textView.hidden = YES;
-    //    _editDoneButton.hidden = YES;
+    
+    [[ForUseCoreData getManagedObjectContext] save:NULL];
     
     [self fadeOutMemoView];
 }
