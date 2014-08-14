@@ -14,6 +14,7 @@
 @dynamic name;
 @dynamic unuse;
 @dynamic sites;
+@dynamic gameId;
 
 - (void)changeUnuseState:(int)value
 {

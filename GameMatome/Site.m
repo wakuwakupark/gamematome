@@ -22,6 +22,7 @@
 @dynamic unuse;
 @dynamic game;
 @dynamic news;
+@dynamic siteId;
 
 - (void) changeUnuseState:(int)value
 {

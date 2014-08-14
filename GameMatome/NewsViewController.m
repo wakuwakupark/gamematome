@@ -14,6 +14,13 @@
 #import "News.h"
 #import "Memo.h"
 #import "GADBannerView.h"
+#import "GetGameList.h"
+#import "GetSiteList.h"
+#import "GetUpdate.h"
+
+
+#define MODE 1 // 0:local 1:web
+#define MAX_NEWS_SIXE 300
 
 @interface NewsViewController ()
 
@@ -60,7 +67,14 @@
     
     
     //ゲームデータを収集
-    [self getSitesData];
+    switch (MODE) {
+        case 0:
+            [self getSitesData];
+            break;
+        case 1:
+            [self setGameListWithDataBase];
+            break;
+    }
     
     
     //RSSから読み取り
@@ -84,6 +98,8 @@
     favoriteArray = [ForUseCoreData getFavoriteNewsOrderByDate];
     [_tableView reloadData];
 }
+
+
 
 - (void)getSitesData
 {
@@ -159,6 +175,14 @@
 {
     [_refreshControl endRefreshing];
     
+    switch (MODE) {
+        case 1:
+            [self setGameListWithDataBase];
+            break;
+        default:
+            break;
+    }
+    
     [self rssDataRead];
     newsArray = [ForUseCoreData getAllNewsOrderByDate];
     favoriteArray = [ForUseCoreData getFavoriteNewsOrderByDate];
@@ -205,7 +229,15 @@
         }
     }
     
+    //最大サイズを超えていたら削除
+    if([newsArray count]> MAX_NEWS_SIXE){
+        for (int i=MAX_NEWS_SIXE; i<[newsArray count]; i++) {
+            [[ForUseCoreData getManagedObjectContext]deleteObject:[newsArray objectAtIndex:i]];
+        }
+    }
+    
     [[ForUseCoreData getManagedObjectContext] save:NULL];
+
 }
 
 - (void)rssDataReadOfSite:(NSString*) feed
@@ -787,5 +819,83 @@ foundCharacters:(NSString *)string
     }
 }
 
+- (void) setGameListWithDataBase
+{
+    NSUserDefaults* ud = [NSUserDefaults standardUserDefaults];
+    GetUpdate* gu = [[GetUpdate alloc]init];
+    if([ud objectForKey:@"lastUpdate"] != NULL){
+        NSDate* date = [ud objectForKey:@"lastUpdate"];
+        if([date compare:[gu returnUpdate]] != NSOrderedAscending){
+            gamesArray = [ForUseCoreData getEntityDataEntityNameWithEntityName:@"Game"];
+            return;
+        }
+    }
+    
+    
+    [ud setObject:[gu returnUpdate] forKey:@"lastUpdate"];
+    
+    GetGameList* gg = [[GetGameList alloc]init];
+    GetSiteList* gs = [[GetSiteList alloc]init];
+    
+    NSMutableArray* gamesBuffer = [[ForUseCoreData getEntityDataEntityNameWithEntityName:@"Game"] mutableCopy];
+    
+    NSDictionary* dbGames = [gg returnGameArray];
+    NSDictionary* dbSites = [gs returnSiteArray];
+    
+    for (NSDictionary* dic in [dbGames allValues]) {
+        BOOL flag = false;
+        for(Game* g in gamesBuffer){
+            if([g.gameId intValue] == [[dic objectForKey:@"id"]intValue]){
+                flag = true;
+                break;
+            }
+        }
+        
+        if (!flag) {
+            Game* newGame = [NSEntityDescription insertNewObjectForEntityForName:@"Game" inManagedObjectContext:[ForUseCoreData getManagedObjectContext]];
+            [newGame setName:[dic objectForKey:@"name"]];
+            [newGame setGameId:[NSNumber numberWithInt:[[dic objectForKey:@"id"]intValue]]];
+            [newGame setUnuse:@(0)];
+            [gamesBuffer addObject:newGame];
+        }
+    }
+    
+    NSMutableArray* siteBuffer = [[ForUseCoreData getEntityDataEntityNameWithEntityName:@"Site"] mutableCopy];
+    
+    for (NSDictionary* dic in [dbSites allValues]) {
+        BOOL flag = false;
+        NSString* gameId = [dic objectForKey:@"game_id"];
+        NSString* siteId = [dic objectForKey:@"site_id"];
+        
+        for (Site* s in siteBuffer) {
+
+            if([s.siteId intValue] == [siteId intValue]){
+                flag = true;
+                break;
+            }
+        }
+        
+        if(!flag){
+            Site* site = [NSEntityDescription insertNewObjectForEntityForName:@"Site" inManagedObjectContext:[ForUseCoreData getManagedObjectContext]];
+            [site setName:[dic objectForKey:@"name"]];
+            [site setPageURL:[dic objectForKey:@"contentsURL"]];
+            [site setRssURL:[dic objectForKey:@"rssURL"]];
+            [site setSiteId:[NSNumber numberWithInt:[siteId intValue]]];
+            
+            for (Game* g in gamesBuffer) {
+                if ([g.gameId intValue] == [gameId intValue]) {
+                    [site setGame:g];
+                    break;
+                }
+            }
+        }
+    }
+    
+    
+    [[ForUseCoreData getManagedObjectContext]save:NULL];
+    
+    gamesArray = [ForUseCoreData getEntityDataEntityNameWithEntityName:@"Game"];
+    return;
+}
 
 @end

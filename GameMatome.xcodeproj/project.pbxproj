@@ -15,6 +15,9 @@
 		FF29E6CE199C5EA800AF0AD6 /* FavoriteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF29E6CD199C5EA800AF0AD6 /* FavoriteViewController.m */; };
 		FF29E6D2199C6E4600AF0AD6 /* MemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF29E6D1199C6E4600AF0AD6 /* MemoViewController.m */; };
 		FF29E6D4199C7C8A00AF0AD6 /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = FF29E6D3199C7C8A00AF0AD6 /* libsqlite3.0.dylib */; };
+		FF2CD934199CE29E001491BD /* GetGameList.m in Sources */ = {isa = PBXBuildFile; fileRef = FF2CD933199CE29E001491BD /* GetGameList.m */; };
+		FF2CD937199CE2AB001491BD /* GetSiteList.m in Sources */ = {isa = PBXBuildFile; fileRef = FF2CD936199CE2AB001491BD /* GetSiteList.m */; };
+		FF2CD93A199CE95B001491BD /* GetUpdate.m in Sources */ = {isa = PBXBuildFile; fileRef = FF2CD939199CE95B001491BD /* GetUpdate.m */; };
 		FF9224871998D8D7005B62FB /* libGoogleAdMobAds.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FF9224851998D8D7005B62FB /* libGoogleAdMobAds.a */; };
 		FF9224881998D8D7005B62FB /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = FF9224861998D8D7005B62FB /* README.txt */; };
 		FF92248B1998D931005B62FB /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF92248A1998D931005B62FB /* AdSupport.framework */; };
@@ -73,6 +76,12 @@
 		FF29E6D0199C6E4600AF0AD6 /* MemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MemoViewController.h; sourceTree = "<group>"; };
 		FF29E6D1199C6E4600AF0AD6 /* MemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MemoViewController.m; sourceTree = "<group>"; };
 		FF29E6D3199C7C8A00AF0AD6 /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
+		FF2CD932199CE29E001491BD /* GetGameList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GetGameList.h; sourceTree = "<group>"; };
+		FF2CD933199CE29E001491BD /* GetGameList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GetGameList.m; sourceTree = "<group>"; };
+		FF2CD935199CE2AB001491BD /* GetSiteList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GetSiteList.h; sourceTree = "<group>"; };
+		FF2CD936199CE2AB001491BD /* GetSiteList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GetSiteList.m; sourceTree = "<group>"; };
+		FF2CD938199CE95B001491BD /* GetUpdate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GetUpdate.h; sourceTree = "<group>"; };
+		FF2CD939199CE95B001491BD /* GetUpdate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GetUpdate.m; sourceTree = "<group>"; };
 		FF9224791998D8D7005B62FB /* GADAdMobExtras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADAdMobExtras.h; sourceTree = "<group>"; };
 		FF92247A1998D8D7005B62FB /* GADAdNetworkExtras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADAdNetworkExtras.h; sourceTree = "<group>"; };
 		FF92247B1998D8D7005B62FB /* GADAdSize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADAdSize.h; sourceTree = "<group>"; };
@@ -328,6 +337,12 @@
 			isa = PBXGroup;
 			children = (
 				FF9D3A0F1996FCC10097A6C9 /* SitesData.plist */,
+				FF2CD932199CE29E001491BD /* GetGameList.h */,
+				FF2CD933199CE29E001491BD /* GetGameList.m */,
+				FF2CD935199CE2AB001491BD /* GetSiteList.h */,
+				FF2CD936199CE2AB001491BD /* GetSiteList.m */,
+				FF2CD938199CE95B001491BD /* GetUpdate.h */,
+				FF2CD939199CE95B001491BD /* GetUpdate.m */,
 			);
 			name = SitesData;
 			sourceTree = "<group>";
@@ -496,6 +511,7 @@
 			files = (
 				FF9D3A071996FA570097A6C9 /* ForUseCoreData.m in Sources */,
 				FF9D39D91996F9DC0097A6C9 /* AppDelegate.m in Sources */,
+				FF2CD93A199CE95B001491BD /* GetUpdate.m in Sources */,
 				FF9D3A29199733980097A6C9 /* News.m in Sources */,
 				FF9D3A0E1996FA7B0097A6C9 /* GameMatome.xcdatamodeld in Sources */,
 				FF9D3A131996FCE50097A6C9 /* Game.m in Sources */,
@@ -503,11 +519,13 @@
 				FF9D39D51996F9DC0097A6C9 /* main.m in Sources */,
 				FF9D3A081996FA570097A6C9 /* BrouserViewController.m in Sources */,
 				FF9D3A26199725C70097A6C9 /* DetailSettingViewController.m in Sources */,
+				FF2CD937199CE2AB001491BD /* GetSiteList.m in Sources */,
 				FF9D3A0A1996FA570097A6C9 /* SettingViewController.m in Sources */,
 				FF29E6D2199C6E4600AF0AD6 /* MemoViewController.m in Sources */,
 				FF9D3A161996FCE50097A6C9 /* Site.m in Sources */,
 				FF9D3A1C1996FCE50097A6C9 /* Memo.m in Sources */,
 				FF29E6CE199C5EA800AF0AD6 /* FavoriteViewController.m in Sources */,
+				FF2CD934199CE29E001491BD /* GetGameList.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

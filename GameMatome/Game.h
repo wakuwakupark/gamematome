@@ -15,6 +15,7 @@
 @property (nonatomic, retain) NSString * name;
 @property (nonatomic, retain) NSNumber * unuse;
 @property (nonatomic, retain) NSMutableSet *sites;
+@property (nonatomic, retain) NSNumber *gameId;
 @end
 
 @interface Game (CoreDataGeneratedAccessors)

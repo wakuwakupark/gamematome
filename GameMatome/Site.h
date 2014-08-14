@@ -22,6 +22,7 @@
 @property (nonatomic, retain) NSNumber * unuse;
 @property (nonatomic, retain) Game *game;
 @property (nonatomic, retain) NSMutableSet *news;
+@property (nonatomic, retain) NSNumber * siteId;
 @end
 
 @interface Site (CoreDataGeneratedAccessors)
