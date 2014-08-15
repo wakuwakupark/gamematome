@@ -7,17 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		FF29E6C2199C4A3D00AF0AD6 /* favourite.png in Resources */ = {isa = PBXBuildFile; fileRef = FF29E6C1199C4A3D00AF0AD6 /* favourite.png */; };
 		FF29E6C4199C4AE600AF0AD6 /* list.png in Resources */ = {isa = PBXBuildFile; fileRef = FF29E6C3199C4AE600AF0AD6 /* list.png */; };
 		FF29E6C6199C4AEB00AF0AD6 /* memo.png in Resources */ = {isa = PBXBuildFile; fileRef = FF29E6C5199C4AEB00AF0AD6 /* memo.png */; };
 		FF29E6C8199C4AEE00AF0AD6 /* settings.png in Resources */ = {isa = PBXBuildFile; fileRef = FF29E6C7199C4AEE00AF0AD6 /* settings.png */; };
 		FF29E6CA199C503400AF0AD6 /* noimage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FF29E6C9199C503400AF0AD6 /* noimage.jpg */; };
 		FF29E6CE199C5EA800AF0AD6 /* FavoriteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF29E6CD199C5EA800AF0AD6 /* FavoriteViewController.m */; };
 		FF29E6D2199C6E4600AF0AD6 /* MemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF29E6D1199C6E4600AF0AD6 /* MemoViewController.m */; };
-		FF29E6D4199C7C8A00AF0AD6 /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = FF29E6D3199C7C8A00AF0AD6 /* libsqlite3.0.dylib */; };
 		FF2CD934199CE29E001491BD /* GetGameList.m in Sources */ = {isa = PBXBuildFile; fileRef = FF2CD933199CE29E001491BD /* GetGameList.m */; };
 		FF2CD937199CE2AB001491BD /* GetSiteList.m in Sources */ = {isa = PBXBuildFile; fileRef = FF2CD936199CE2AB001491BD /* GetSiteList.m */; };
 		FF2CD93A199CE95B001491BD /* GetUpdate.m in Sources */ = {isa = PBXBuildFile; fileRef = FF2CD939199CE95B001491BD /* GetUpdate.m */; };
+		FF3390B1199D272D006C407F /* favorite.png in Resources */ = {isa = PBXBuildFile; fileRef = FF3390B0199D272D006C407F /* favorite.png */; };
+		FF3390B7199D86BC006C407F /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = FF3390B6199D86BC006C407F /* libsqlite3.0.dylib */; };
+		FF3390BD199D8BE1006C407F /* Parser.m in Sources */ = {isa = PBXBuildFile; fileRef = FF3390BC199D8BE1006C407F /* Parser.m */; };
 		FF9224871998D8D7005B62FB /* libGoogleAdMobAds.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FF9224851998D8D7005B62FB /* libGoogleAdMobAds.a */; };
 		FF9224881998D8D7005B62FB /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = FF9224861998D8D7005B62FB /* README.txt */; };
 		FF92248B1998D931005B62FB /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF92248A1998D931005B62FB /* AdSupport.framework */; };
@@ -66,7 +67,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		FF29E6C1199C4A3D00AF0AD6 /* favourite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = favourite.png; sourceTree = "<group>"; };
 		FF29E6C3199C4AE600AF0AD6 /* list.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = list.png; sourceTree = "<group>"; };
 		FF29E6C5199C4AEB00AF0AD6 /* memo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = memo.png; sourceTree = "<group>"; };
 		FF29E6C7199C4AEE00AF0AD6 /* settings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = settings.png; sourceTree = "<group>"; };
@@ -75,13 +75,16 @@
 		FF29E6CD199C5EA800AF0AD6 /* FavoriteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FavoriteViewController.m; sourceTree = "<group>"; };
 		FF29E6D0199C6E4600AF0AD6 /* MemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MemoViewController.h; sourceTree = "<group>"; };
 		FF29E6D1199C6E4600AF0AD6 /* MemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MemoViewController.m; sourceTree = "<group>"; };
-		FF29E6D3199C7C8A00AF0AD6 /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
 		FF2CD932199CE29E001491BD /* GetGameList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GetGameList.h; sourceTree = "<group>"; };
 		FF2CD933199CE29E001491BD /* GetGameList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GetGameList.m; sourceTree = "<group>"; };
 		FF2CD935199CE2AB001491BD /* GetSiteList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GetSiteList.h; sourceTree = "<group>"; };
 		FF2CD936199CE2AB001491BD /* GetSiteList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GetSiteList.m; sourceTree = "<group>"; };
 		FF2CD938199CE95B001491BD /* GetUpdate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GetUpdate.h; sourceTree = "<group>"; };
 		FF2CD939199CE95B001491BD /* GetUpdate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GetUpdate.m; sourceTree = "<group>"; };
+		FF3390B0199D272D006C407F /* favorite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = favorite.png; sourceTree = "<group>"; };
+		FF3390B6199D86BC006C407F /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
+		FF3390BB199D8BE1006C407F /* Parser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Parser.h; sourceTree = "<group>"; };
+		FF3390BC199D8BE1006C407F /* Parser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Parser.m; sourceTree = "<group>"; };
 		FF9224791998D8D7005B62FB /* GADAdMobExtras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADAdMobExtras.h; sourceTree = "<group>"; };
 		FF92247A1998D8D7005B62FB /* GADAdNetworkExtras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADAdNetworkExtras.h; sourceTree = "<group>"; };
 		FF92247B1998D8D7005B62FB /* GADAdSize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADAdSize.h; sourceTree = "<group>"; };
@@ -149,7 +152,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FF29E6D4199C7C8A00AF0AD6 /* libsqlite3.0.dylib in Frameworks */,
+				FF3390B7199D86BC006C407F /* libsqlite3.0.dylib in Frameworks */,
 				FF9224971998DA8A005B62FB /* CoreTelephony.framework in Frameworks */,
 				FF9224951998D967005B62FB /* SystemConfiguration.framework in Frameworks */,
 				FF9224931998D959005B62FB /* StoreKit.framework in Frameworks */,
@@ -184,9 +187,9 @@
 			children = (
 				FF29E6C9199C503400AF0AD6 /* noimage.jpg */,
 				FF29E6C5199C4AEB00AF0AD6 /* memo.png */,
+				FF3390B0199D272D006C407F /* favorite.png */,
 				FF29E6C7199C4AEE00AF0AD6 /* settings.png */,
 				FF29E6C3199C4AE600AF0AD6 /* list.png */,
-				FF29E6C1199C4A3D00AF0AD6 /* favourite.png */,
 			);
 			name = img;
 			sourceTree = "<group>";
@@ -207,6 +210,28 @@
 				FF29E6D1199C6E4600AF0AD6 /* MemoViewController.m */,
 			);
 			name = MemoView;
+			sourceTree = "<group>";
+		};
+		FF3390B8199D8BA7006C407F /* DBConnection */ = {
+			isa = PBXGroup;
+			children = (
+				FF2CD932199CE29E001491BD /* GetGameList.h */,
+				FF2CD933199CE29E001491BD /* GetGameList.m */,
+				FF2CD935199CE2AB001491BD /* GetSiteList.h */,
+				FF2CD936199CE2AB001491BD /* GetSiteList.m */,
+				FF2CD938199CE95B001491BD /* GetUpdate.h */,
+				FF2CD939199CE95B001491BD /* GetUpdate.m */,
+			);
+			name = DBConnection;
+			sourceTree = "<group>";
+		};
+		FF3390BA199D8BCE006C407F /* Parser */ = {
+			isa = PBXGroup;
+			children = (
+				FF3390BB199D8BE1006C407F /* Parser.h */,
+				FF3390BC199D8BE1006C407F /* Parser.m */,
+			);
+			name = Parser;
 			sourceTree = "<group>";
 		};
 		FF9224891998D8E8005B62FB /* Admob */ = {
@@ -254,7 +279,7 @@
 		FF9D39C71996F9DB0097A6C9 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				FF29E6D3199C7C8A00AF0AD6 /* libsqlite3.0.dylib */,
+				FF3390B6199D86BC006C407F /* libsqlite3.0.dylib */,
 				FF9224961998DA8A005B62FB /* CoreTelephony.framework */,
 				FF9224941998D967005B62FB /* SystemConfiguration.framework */,
 				FF9224921998D959005B62FB /* StoreKit.framework */,
@@ -336,13 +361,9 @@
 		FF9D3A1D1996FD5E0097A6C9 /* SitesData */ = {
 			isa = PBXGroup;
 			children = (
+				FF3390BA199D8BCE006C407F /* Parser */,
+				FF3390B8199D8BA7006C407F /* DBConnection */,
 				FF9D3A0F1996FCC10097A6C9 /* SitesData.plist */,
-				FF2CD932199CE29E001491BD /* GetGameList.h */,
-				FF2CD933199CE29E001491BD /* GetGameList.m */,
-				FF2CD935199CE2AB001491BD /* GetSiteList.h */,
-				FF2CD936199CE2AB001491BD /* GetSiteList.m */,
-				FF2CD938199CE95B001491BD /* GetUpdate.h */,
-				FF2CD939199CE95B001491BD /* GetUpdate.m */,
 			);
 			name = SitesData;
 			sourceTree = "<group>";
@@ -482,12 +503,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				FF29E6CA199C503400AF0AD6 /* noimage.jpg in Resources */,
+				FF3390B1199D272D006C407F /* favorite.png in Resources */,
 				FF29E6C4199C4AE600AF0AD6 /* list.png in Resources */,
 				FF29E6C6199C4AEB00AF0AD6 /* memo.png in Resources */,
 				FF9D39E11996F9DC0097A6C9 /* Images.xcassets in Resources */,
 				FF9D39D31996F9DC0097A6C9 /* InfoPlist.strings in Resources */,
 				FF9D39FE1996FA250097A6C9 /* Main_iPhone.storyboard in Resources */,
-				FF29E6C2199C4A3D00AF0AD6 /* favourite.png in Resources */,
 				FF29E6C8199C4AEE00AF0AD6 /* settings.png in Resources */,
 				FF9D3A101996FCC10097A6C9 /* SitesData.plist in Resources */,
 				FF9224881998D8D7005B62FB /* README.txt in Resources */,
@@ -525,6 +546,7 @@
 				FF9D3A161996FCE50097A6C9 /* Site.m in Sources */,
 				FF9D3A1C1996FCE50097A6C9 /* Memo.m in Sources */,
 				FF29E6CE199C5EA800AF0AD6 /* FavoriteViewController.m in Sources */,
+				FF3390BD199D8BE1006C407F /* Parser.m in Sources */,
 				FF2CD934199CE29E001491BD /* GetGameList.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -644,6 +666,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SMPCM-ARC.embeddedframework",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GameMatome/GameMatome-Prefix.pch";
 				INFOPLIST_FILE = "GameMatome/GameMatome-Info.plist";
@@ -662,6 +688,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SMPCM-ARC.embeddedframework",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GameMatome/GameMatome-Prefix.pch";
 				INFOPLIST_FILE = "GameMatome/GameMatome-Info.plist";
@@ -756,6 +786,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SMPCM-ARC.embeddedframework",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GameMatome/GameMatome-Prefix.pch";
 				INFOPLIST_FILE = "GameMatome/GameMatome-Info.plist";

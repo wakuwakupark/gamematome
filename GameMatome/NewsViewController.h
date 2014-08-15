@@ -19,29 +19,11 @@
 {
     NSArray* gamesArray;        //ゲームエンティティが格納される配列
 
-    NSXMLParser *_parser;
-
     NSArray* newsArray;      //表示用ニュース配列
     NSArray* favoriteArray; //お気に入りニュース用
-    int rssSiteNumber;
     
     //引っ張って更新
     UIRefreshControl *_refreshControl;
-    
-    //parser
-    NSString *_elementName; //読み取り中のDOM要素名
-    int version;            //読み取り中のRSSのバージョン
-    int checkingMode;   //読み取りモード
-
-    
-    Site* readingSite;      //RSS読み取り中のサイト
-    News* checkingNews;     //データ設定中のニュース
-    
-    //パース用データバッファ
-    NSString* titleBuffer;
-    NSString* contentURLBuffer;
-    NSDate* dateBuffer;
-    NSData* imgBuffer;
     
     Memo* editingMemo;
     

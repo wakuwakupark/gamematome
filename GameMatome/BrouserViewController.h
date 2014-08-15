@@ -45,6 +45,8 @@
 
 - (IBAction)ProceedButtonPressed:(id)sender;
 
+- (IBAction)refreshButtonPressed:(id)sender;
+
 - (IBAction)goBackListButtonPressed:(id)sender;
 
 - (IBAction)noteButtonPressed:(id)sender;

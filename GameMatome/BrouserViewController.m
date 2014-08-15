@@ -57,6 +57,8 @@
     
     _backButton.enabled = NO;
     _proceedButton.enabled = NO;
+    
+    [self registerForKeyboardNotifications];
 }
 
 
@@ -86,6 +88,10 @@
 
 - (IBAction)ProceedButtonPressed:(id)sender {
     [_webView goForward];
+}
+
+- (IBAction)refreshButtonPressed:(id)sender {
+    [_webView reload];
 }
 
 - (IBAction)goBackListButtonPressed:(id)sender {
@@ -316,6 +322,31 @@
                                error.localizedDescription];
         [webView loadHTMLString:errString baseURL:nil];
     }
+}
+
+#pragma mark keyboardAction
+
+- (void)registerForKeyboardNotifications
+{
+    [[NSNotificationCenter defaultCenter] addObserver:self
+                                             selector:@selector(keyboardWasShown:)
+                                                 name:UIKeyboardDidShowNotification object:nil];
+    [[NSNotificationCenter defaultCenter] addObserver:self
+                                             selector:@selector(keyboardWillBeHidden:)
+                                                 name:UIKeyboardWillHideNotification object:nil];
+}
+
+- (void)keyboardWasShown:(NSNotification*)aNotification
+{
+    [_doneButton setFrame:CGRectMake(254.0, 100, 46.0, 30.0)];
+    [_textView setFrame:CGRectMake(20,140, 280, 200)];
+}
+
+
+- (void)keyboardWillBeHidden:(NSNotification*)aNotification
+{
+    [_doneButton setFrame:CGRectMake(254.0, 144.0, 46.0, 30.0)];
+    [_textView setFrame:CGRectMake(20,182, 280, 267)];
 }
 
 @end

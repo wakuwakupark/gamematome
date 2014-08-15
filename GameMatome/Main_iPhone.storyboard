@@ -63,14 +63,14 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <button opaque="NO" tag="2" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zJb-s8-ADd">
-                                                    <rect key="frame" x="287" y="43" width="20" height="20"/>
+                                                    <rect key="frame" x="287" y="40" width="27" height="27"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <state key="normal" image="memo.png">
                                                         <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                                     </state>
                                                 </button>
                                                 <button opaque="NO" tag="1" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HT5-9N-FJp">
-                                                    <rect key="frame" x="279" y="0.0" width="35" height="35"/>
+                                                    <rect key="frame" x="287" y="5" width="25" height="25"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                                     <state key="normal" title="★">
@@ -178,6 +178,11 @@
                                                 <action selector="goBackListButtonPressed:" destination="mMG-XY-TKi" id="c4J-FT-Llo"/>
                                             </connections>
                                         </barButtonItem>
+                                        <barButtonItem key="rightBarButtonItem" systemItem="refresh" id="ZGb-fV-LYW">
+                                            <connections>
+                                                <action selector="refreshButtonPressed:" destination="mMG-XY-TKi" id="MW9-X6-GDT"/>
+                                            </connections>
+                                        </barButtonItem>
                                     </navigationItem>
                                 </items>
                             </navigationBar>
@@ -185,14 +190,9 @@
                                 <rect key="frame" x="0.0" y="524" width="320" height="44"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <items>
-                                    <barButtonItem title=" ◀︎ " id="Uwo-Gu-ud0">
+                                    <barButtonItem title=" ◀︎ " width="40" id="Uwo-Gu-ud0">
                                         <connections>
                                             <action selector="BackButtonPressed:" destination="mMG-XY-TKi" id="yRv-Fe-rZe"/>
-                                        </connections>
-                                    </barButtonItem>
-                                    <barButtonItem title=" ▶︎ " id="2Yo-I5-Dwb">
-                                        <connections>
-                                            <action selector="ProceedButtonPressed:" destination="mMG-XY-TKi" id="8N7-hc-arx"/>
                                         </connections>
                                     </barButtonItem>
                                     <barButtonItem style="plain" systemItem="flexibleSpace" id="g8l-Qr-NIQ"/>
@@ -201,12 +201,18 @@
                                             <action selector="actionButtonPressed:" destination="mMG-XY-TKi" id="gfl-8l-njA"/>
                                         </connections>
                                     </barButtonItem>
-                                    <barButtonItem systemItem="compose" id="2cw-OS-sSX">
+                                    <barButtonItem width="30" style="plain" systemItem="fixedSpace" id="LG7-TD-RCi"/>
+                                    <barButtonItem width="40" systemItem="compose" id="2cw-OS-sSX">
                                         <connections>
                                             <action selector="noteButtonPressed:" destination="mMG-XY-TKi" id="Yny-nt-0qU"/>
                                         </connections>
                                     </barButtonItem>
-                                    <barButtonItem systemItem="refresh" id="ZGb-fV-LYW"/>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="pj2-3G-1qb"/>
+                                    <barButtonItem title=" ▶︎ " id="2Yo-I5-Dwb">
+                                        <connections>
+                                            <action selector="ProceedButtonPressed:" destination="mMG-XY-TKi" id="8N7-hc-arx"/>
+                                        </connections>
+                                    </barButtonItem>
                                 </items>
                             </toolbar>
                             <webView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Paz-6b-de5">
@@ -425,14 +431,14 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <button opaque="NO" tag="2" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="114-xf-UQt">
-                                                    <rect key="frame" x="287" y="43" width="20" height="20"/>
+                                                    <rect key="frame" x="287" y="40" width="27" height="27"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <state key="normal" image="memo.png">
                                                         <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                                     </state>
                                                 </button>
                                                 <button opaque="NO" tag="1" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NmM-91-nHC">
-                                                    <rect key="frame" x="279" y="0.0" width="35" height="35"/>
+                                                    <rect key="frame" x="287" y="5" width="25" height="25"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                                     <state key="normal" title="★">
@@ -506,7 +512,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="お気に入り" image="favourite.png" id="gei-9z-jAy"/>
+                    <tabBarItem key="tabBarItem" title="お気に入り" image="favorite.png" id="gei-9z-jAy"/>
                     <connections>
                         <outlet property="backgroundView" destination="UhX-2t-EJL" id="BaY-gU-95o"/>
                         <outlet property="editDoneButton" destination="RYz-1q-G30" id="znO-Jz-cls"/>
@@ -550,14 +556,14 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <button opaque="NO" tag="2" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2jt-1d-UPO">
-                                                    <rect key="frame" x="287" y="43" width="20" height="20"/>
+                                                    <rect key="frame" x="287" y="40" width="27" height="27"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <state key="normal" image="memo.png">
                                                         <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                                     </state>
                                                 </button>
                                                 <button opaque="NO" tag="1" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lrc-5X-k5B">
-                                                    <rect key="frame" x="279" y="0.0" width="35" height="35"/>
+                                                    <rect key="frame" x="287" y="5" width="25" height="25"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                                     <state key="normal" title="★">
@@ -645,7 +651,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="favourite.png" width="32" height="32"/>
+        <image name="favorite.png" width="32" height="32"/>
         <image name="list.png" width="32" height="32"/>
         <image name="memo.png" width="32" height="32"/>
         <image name="noimage.jpg" width="300" height="300"/>
@@ -657,6 +663,6 @@
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="2hq-ZR-2gz"/>
+        <segue reference="MqJ-wA-DES"/>
     </inferredMetricsTieBreakers>
 </document>

@@ -62,6 +62,9 @@
     [_refreshControl addTarget:self action:@selector(refresh) forControlEvents:UIControlEventValueChanged];
     [_tableView addSubview:_refreshControl];
     
+    
+    [self registerForKeyboardNotifications];
+    
 }
 
 - (void)viewWillDisappear:(BOOL)animated
@@ -339,5 +342,29 @@
     
 }
 
+#pragma mark keyboardAction
+
+- (void)registerForKeyboardNotifications
+{
+    [[NSNotificationCenter defaultCenter] addObserver:self
+                                             selector:@selector(keyboardWasShown:)
+                                                 name:UIKeyboardDidShowNotification object:nil];
+    [[NSNotificationCenter defaultCenter] addObserver:self
+                                             selector:@selector(keyboardWillBeHidden:)
+                                                 name:UIKeyboardWillHideNotification object:nil];
+}
+
+- (void)keyboardWasShown:(NSNotification*)aNotification
+{
+    [_editDoneButton setFrame:CGRectMake(254.0, 100, 46.0, 30.0)];
+    [_textView setFrame:CGRectMake(20,140, 280, 200)];
+}
+
+
+- (void)keyboardWillBeHidden:(NSNotification*)aNotification
+{
+    [_editDoneButton setFrame:CGRectMake(254.0, 144.0, 46.0, 30.0)];
+    [_textView setFrame:CGRectMake(20,182, 280, 267)];
+}
 
 @end
