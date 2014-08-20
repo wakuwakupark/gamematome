@@ -1,0 +1,12 @@
+/* 
+ Localizable.strings
+ 8chk
+ 
+ Created by 8crops Inc. on 11/08/17.
+ Copyright 2011 8crops Inc. All rights reserved.
+ */
+
+// optional messages
+"Redirect App End Of Ad Message" = "This ad has already been closed";
+"Redirect App End Of App Installed Message" = "Has already been installed";
+"Redirect App Get Ad List Error" = "Please try again sorry to trouble you, but failed to retrieve the information";

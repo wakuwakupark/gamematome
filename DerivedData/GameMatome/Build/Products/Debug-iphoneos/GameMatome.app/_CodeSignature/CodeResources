@@ -4,6 +4,10 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>8chk.plist</key>
+		<data>
+		FX+o6VRlnP5u8i/DH9CtzuN6VYg=
+		</data>
 		<key>AppIcon29x29@2x.png</key>
 		<data>
 		e4LLdGYripNFbKNHdTXBrM42v6A=
@@ -34,39 +38,39 @@
 		</data>
 		<key>Main_iPhone.storyboardc/TF3-V2-SrQ-view-fYK-AE-ioL.nib</key>
 		<data>
-		oNt+N6bkgiPn/nRcdUXoeryqDic=
+		eg2yMvdVu5io9xW0KdzuZc463Zs=
 		</data>
 		<key>Main_iPhone.storyboardc/UIViewController-BqZ-kg-eja.nib</key>
 		<data>
-		UTKlB3OjmbbG4fHU/8j4ytvilzo=
+		YonemkPKyngZg5eVA2XWbzNS9NE=
 		</data>
 		<key>Main_iPhone.storyboardc/UIViewController-hI5-v5-j73.nib</key>
 		<data>
-		WltfeJH3fskqp8D0ajKD+PVKfUE=
+		zdEAA7z+CHzNdZ3z1XR0FMdThBM=
 		</data>
 		<key>Main_iPhone.storyboardc/UIViewController-mMG-XY-TKi.nib</key>
 		<data>
-		XRXyOWq382n8gJ1dPCodYkPcUI8=
+		y6YtsGQNfJHfAs9dMAixV/kPGB8=
 		</data>
 		<key>Main_iPhone.storyboardc/fLv-PV-uWk-view-w5N-hD-zhy.nib</key>
 		<data>
-		SszyF30vflOVnjqeqmHQvdW7gfc=
+		bO5RGaA/PtGFDQAR0dFCu+vlHWg=
 		</data>
 		<key>Main_iPhone.storyboardc/fVO-YC-TIP-view-3zL-ll-Lt3.nib</key>
 		<data>
-		EEIhvWnH/D5kA2bfCyzkPY0EISo=
+		93XIhWxvTA7X5pKxWrIywk9N/EQ=
 		</data>
 		<key>Main_iPhone.storyboardc/hI5-v5-j73-view-dL8-56-eZL.nib</key>
 		<data>
-		i0Rq9d1IHHwiWuw0FctU/LpAqkk=
+		D/sqDIMlqzptLVdh2rwNa4rsD6A=
 		</data>
 		<key>Main_iPhone.storyboardc/mMG-XY-TKi-view-sBd-rc-xWB.nib</key>
 		<data>
-		7ZICwo6AjZk7Ua3CyVDXZOHagbc=
+		148GimqyzQNiaZYCxIT9ldgDDfA=
 		</data>
 		<key>Main_iPhone.storyboardc/sNy-Id-mJ2-view-utQ-sb-yBe.nib</key>
 		<data>
-		fxdexmvSt7X+jKwo6NdHv/az8vM=
+		mbOxcc6iosnASwRGZjFrH3mVKwY=
 		</data>
 		<key>PkgInfo</key>
 		<data>
@@ -840,9 +844,25 @@
 		<data>
 		6iYbxf0O88V3oOw5exV8qgoYank=
 		</data>
+		<key>chk8sdk_close.png</key>
+		<data>
+		0Zn7nGTRKfOBvQ/TR2SITCPXcjI=
+		</data>
+		<key>chk8sdk_frame_l.png</key>
+		<data>
+		ZFjzsbYACxnv5AUFY6NVKQDi3Zg=
+		</data>
+		<key>chk8sdk_frame_p.png</key>
+		<data>
+		oIjG6DaXRARfd4GGnnLsf43ydK8=
+		</data>
 		<key>embedded.mobileprovision</key>
 		<data>
 		P5FpE3nc7OP8ImBOVDiTOm0oS10=
+		</data>
+		<key>en.lproj/8chk.strings</key>
+		<data>
+		MhfxOb54Nj/uyJ/MCdNOOSskZhg=
 		</data>
 		<key>en.lproj/InfoPlist.strings</key>
 		<data>
@@ -856,6 +876,10 @@
 		<data>
 		tE5XpL1N5ERTPrkJ6eLoZMI7H1M=
 		</data>
+		<key>ja.lproj/8chk.strings</key>
+		<data>
+		CZgvTDj0p385qjqznQt7r1Z/CLc=
+		</data>
 		<key>list.png</key>
 		<data>
 		6KMoa4of/6P20S+rJTvzrqpLXgc=
@@ -863,6 +887,10 @@
 		<key>memo.png</key>
 		<data>
 		Ssp5VAhTCtzmK/atbsZCFfaL2OQ=
+		</data>
+		<key>memo_blue.png</key>
+		<data>
+		bGQ4q1eCfH4pPtTXiuAnFuMfy5A=
 		</data>
 		<key>noimage.jpg</key>
 		<data>
@@ -875,6 +903,10 @@
 	</dict>
 	<key>files2</key>
 	<dict>
+		<key>8chk.plist</key>
+		<data>
+		FX+o6VRlnP5u8i/DH9CtzuN6VYg=
+		</data>
 		<key>AppIcon29x29@2x.png</key>
 		<data>
 		e4LLdGYripNFbKNHdTXBrM42v6A=
@@ -905,39 +937,39 @@
 		</data>
 		<key>Main_iPhone.storyboardc/TF3-V2-SrQ-view-fYK-AE-ioL.nib</key>
 		<data>
-		oNt+N6bkgiPn/nRcdUXoeryqDic=
+		eg2yMvdVu5io9xW0KdzuZc463Zs=
 		</data>
 		<key>Main_iPhone.storyboardc/UIViewController-BqZ-kg-eja.nib</key>
 		<data>
-		UTKlB3OjmbbG4fHU/8j4ytvilzo=
+		YonemkPKyngZg5eVA2XWbzNS9NE=
 		</data>
 		<key>Main_iPhone.storyboardc/UIViewController-hI5-v5-j73.nib</key>
 		<data>
-		WltfeJH3fskqp8D0ajKD+PVKfUE=
+		zdEAA7z+CHzNdZ3z1XR0FMdThBM=
 		</data>
 		<key>Main_iPhone.storyboardc/UIViewController-mMG-XY-TKi.nib</key>
 		<data>
-		XRXyOWq382n8gJ1dPCodYkPcUI8=
+		y6YtsGQNfJHfAs9dMAixV/kPGB8=
 		</data>
 		<key>Main_iPhone.storyboardc/fLv-PV-uWk-view-w5N-hD-zhy.nib</key>
 		<data>
-		SszyF30vflOVnjqeqmHQvdW7gfc=
+		bO5RGaA/PtGFDQAR0dFCu+vlHWg=
 		</data>
 		<key>Main_iPhone.storyboardc/fVO-YC-TIP-view-3zL-ll-Lt3.nib</key>
 		<data>
-		EEIhvWnH/D5kA2bfCyzkPY0EISo=
+		93XIhWxvTA7X5pKxWrIywk9N/EQ=
 		</data>
 		<key>Main_iPhone.storyboardc/hI5-v5-j73-view-dL8-56-eZL.nib</key>
 		<data>
-		i0Rq9d1IHHwiWuw0FctU/LpAqkk=
+		D/sqDIMlqzptLVdh2rwNa4rsD6A=
 		</data>
 		<key>Main_iPhone.storyboardc/mMG-XY-TKi-view-sBd-rc-xWB.nib</key>
 		<data>
-		7ZICwo6AjZk7Ua3CyVDXZOHagbc=
+		148GimqyzQNiaZYCxIT9ldgDDfA=
 		</data>
 		<key>Main_iPhone.storyboardc/sNy-Id-mJ2-view-utQ-sb-yBe.nib</key>
 		<data>
-		fxdexmvSt7X+jKwo6NdHv/az8vM=
+		mbOxcc6iosnASwRGZjFrH3mVKwY=
 		</data>
 		<key>PkgInfo</key>
 		<data>
@@ -1711,9 +1743,25 @@
 		<data>
 		6iYbxf0O88V3oOw5exV8qgoYank=
 		</data>
+		<key>chk8sdk_close.png</key>
+		<data>
+		0Zn7nGTRKfOBvQ/TR2SITCPXcjI=
+		</data>
+		<key>chk8sdk_frame_l.png</key>
+		<data>
+		ZFjzsbYACxnv5AUFY6NVKQDi3Zg=
+		</data>
+		<key>chk8sdk_frame_p.png</key>
+		<data>
+		oIjG6DaXRARfd4GGnnLsf43ydK8=
+		</data>
 		<key>embedded.mobileprovision</key>
 		<data>
 		P5FpE3nc7OP8ImBOVDiTOm0oS10=
+		</data>
+		<key>en.lproj/8chk.strings</key>
+		<data>
+		MhfxOb54Nj/uyJ/MCdNOOSskZhg=
 		</data>
 		<key>en.lproj/InfoPlist.strings</key>
 		<data>
@@ -1727,6 +1775,10 @@
 		<data>
 		tE5XpL1N5ERTPrkJ6eLoZMI7H1M=
 		</data>
+		<key>ja.lproj/8chk.strings</key>
+		<data>
+		CZgvTDj0p385qjqznQt7r1Z/CLc=
+		</data>
 		<key>list.png</key>
 		<data>
 		6KMoa4of/6P20S+rJTvzrqpLXgc=
@@ -1734,6 +1786,10 @@
 		<key>memo.png</key>
 		<data>
 		Ssp5VAhTCtzmK/atbsZCFfaL2OQ=
+		</data>
+		<key>memo_blue.png</key>
+		<data>
+		bGQ4q1eCfH4pPtTXiuAnFuMfy5A=
 		</data>
 		<key>noimage.jpg</key>
 		<data>

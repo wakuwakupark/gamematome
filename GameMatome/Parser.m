@@ -210,7 +210,7 @@ foundCharacters:(NSString *)string
                     }else if([_elementName isEqualToString:@"content:encoded"]|| [_elementName isEqualToString:@"description"]){
                         
                         
-                        
+                        return;
                         
                         //a href=" ~ " までを取り出す
                         NSArray *names = [string componentsSeparatedByString:@"a href=\""];

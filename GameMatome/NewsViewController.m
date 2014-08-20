@@ -18,11 +18,11 @@
 #import "GetSiteList.h"
 #import "GetUpdate.h"
 #import "Parser.h"
-
-
+#import "ChkController.h"
 
 #define MODE 0 // 0:local 1:web
 #define MAX_NEWS_SIXE 300
+
 
 @interface NewsViewController ()
 
@@ -51,22 +51,13 @@
     [super viewDidLoad];
     
     
-    //広告の設定
-    bannerView = [[GADBannerView alloc]initWithAdSize:kGADAdSizeBanner];
-    bannerView.adUnitID = @"ca-app-pub-9624460734614700/2538576676";
-    bannerView.rootViewController = self;
-    [self.view addSubview:bannerView];
-    [bannerView loadRequest:[GADRequest request]];
-    [bannerView setFrame:CGRectMake(0, 20, 320, 50)];
-    
-    
     _tableView.dataSource = self;
     _tableView.delegate = self;
     
     _backgroundView.hidden = YES;
     _textView.hidden = YES;
     _editDoneButton.hidden = YES;
-    
+    _activityIndicator.hidden = YES;
     
     //ゲームデータを収集
     switch (MODE) {
@@ -78,6 +69,9 @@
             break;
     }
     
+    //
+    chkController = [[ChkController alloc]initWithDelegate:self];
+    [chkController requestDataList];
     
     //RSSから読み取り
     [self rssDataRead];
@@ -89,11 +83,13 @@
     [_tableView addSubview:_refreshControl];
     
     [self registerForKeyboardNotifications];
+
     
 }
 
 - (void)viewWillDisappear:(BOOL)animated
 {
+    
     [[ForUseCoreData getManagedObjectContext] save:NULL];
 }
 
@@ -101,6 +97,7 @@
 {
     favoriteArray = [ForUseCoreData getFavoriteNewsOrderByDate];
     [_tableView reloadData];
+    
 }
 
 
@@ -192,6 +189,11 @@
     favoriteArray = [ForUseCoreData getFavoriteNewsOrderByDate];
     
     [_tableView reloadData];
+    
+    [_activityIndicator stopAnimating];
+    
+    _backgroundView.hidden = YES;
+    _activityIndicator.hidden = YES;
     
 }
 
@@ -423,8 +425,16 @@
 
 - (IBAction)refreshButtonPressed:(id)sender
 {
-    [self refresh];
+    _backgroundView.hidden = NO;
+    _activityIndicator.hidden = NO;
+    
+    [_activityIndicator startAnimating];
+    
+    [self performSelector:@selector(refresh) withObject:nil afterDelay:0.1];
+//    [self refresh];
+    
     [self.tableView setContentOffset:CGPointZero animated:YES];
+    
 }
 
 - (IBAction)editDoneButtonPressed:(id)sender {
@@ -438,9 +448,7 @@
         editingMemo.updateDate =  [NSDate date];
     }
     
-    
     [[ForUseCoreData getManagedObjectContext] save:NULL];
-
 
     [self fadeOutMemoView];
 }
@@ -481,16 +489,10 @@
 }
 
 
-- (News *) getSelectedNewsWithMode:(NSInteger)index
+- (id) getSelectedNewsWithMode:(NSInteger)index
 {
-    switch ([self.tabBarController selectedIndex]) {
-        case 0:
-            return [newsArray objectAtIndex:index];
-        case 1:
-            return [favoriteArray objectAtIndex:index];
-        default:
-            return [newsArray objectAtIndex:index];
-    }
+
+    return [newsArray objectAtIndex:index];
 }
 
 - (void) setGameListWithDataBase
@@ -596,6 +598,27 @@
 {
     [_editDoneButton setFrame:CGRectMake(254.0, 144.0, 46.0, 30.0)];
     [_textView setFrame:CGRectMake(20,182, 280, 267)];
+}
+
+
+
+#pragma mark ChkControllerDelegate
+
+- (void) chkControllerDataListWithSuccess:(NSDictionary*)data
+{
+    
+    addArray = [chkController dataList];
+    [_tableView reloadData];
+}
+
+- (void) chkControllerDataListWithError:(NSError *)error
+{
+    
+}
+
+- (void)chkControllerDataListWithNotFound:(NSDictionary *)data
+{
+    
 }
 
 @end

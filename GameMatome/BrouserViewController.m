@@ -14,6 +14,7 @@
 #import "ForUseCoreData.h"
 #import "GADBannerView.h"
 
+
 @interface BrouserViewController ()
 
 @end
@@ -59,6 +60,7 @@
     _proceedButton.enabled = NO;
     
     [self registerForKeyboardNotifications];
+    
 }
 
 
@@ -153,8 +155,8 @@
         }
     }
     
-    [sheet addButtonWithTitle:@"facebookに投稿"];
-    [sheet addButtonWithTitle:@"twitterに投稿"];
+    [sheet addButtonWithTitle:@"Lineで共有"];
+    [sheet addButtonWithTitle:@"twitterで共有"];
     [sheet addButtonWithTitle:@"Safariで開く"];
     [sheet addButtonWithTitle:@"キャンセル"];
 
@@ -189,7 +191,7 @@
             
         case 1:
             //facebook
-            [self sendFacebook];
+            [self sendLine];
             break;
         case 2:
             //twitter
@@ -240,6 +242,23 @@
     
 }
 
+- (void) sendLine
+{
+    NSString *plainString = [NSString stringWithFormat:@"%@\n%@\n%@",[_naviItem title],[self urlForSend],[[NSUserDefaults standardUserDefaults] objectForKey:@"myituneURL"]];
+    
+    NSString *contentKey = (__bridge NSString *)
+    CFURLCreateStringByAddingPercentEscapes(NULL,
+                                            (CFStringRef)plainString,
+                                            NULL,
+                                            (CFStringRef)@"!*'();:@&=+$,/?%#[]",
+                                            kCFStringEncodingUTF8 );
+    NSString *contentType = @"text";
+    NSString *urlString = [NSString
+                           stringWithFormat: @"http://line.naver.jp/R/msg/%@/?%@",
+                           contentType, contentKey];
+    NSURL *url = [NSURL URLWithString:urlString];
+    [[UIApplication sharedApplication] openURL:url];
+}
 
 - (void) sendFacebook
 {
@@ -254,7 +273,11 @@
 - (void) sendTwitter
 {
     NSString* postContent = [_naviItem title];
-    NSURL* appURL = [NSURL URLWithString:[self urlForSend]];
+    
+    NSURL* appURL = [NSURL URLWithString:[[NSUserDefaults standardUserDefaults] objectForKey:@"myituneURL"]];
+    
+    
+    
     // =========== iOSバージョンで、処理を分岐 ============
     // iOS Version
     NSString *iosVersion = [[[UIDevice currentDevice] systemVersion] stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceCharacterSet]];
@@ -348,5 +371,7 @@
     [_doneButton setFrame:CGRectMake(254.0, 144.0, 46.0, 30.0)];
     [_textView setFrame:CGRectMake(20,182, 280, 267)];
 }
+
+
 
 @end

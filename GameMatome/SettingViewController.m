@@ -37,7 +37,7 @@
     bannerView.rootViewController = self;
     [self.view addSubview:bannerView];
     [bannerView loadRequest:[GADRequest request]];
-    [bannerView setFrame:CGRectMake(0, 20, 320, 50)];
+    [bannerView setFrame:CGRectMake(0, 470, 320, 50)];
 
     
     gamesArray = [ForUseCoreData getEntityDataEntityNameWithEntityName:@"Game"];

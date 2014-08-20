@@ -1,0 +1,12 @@
+/* 
+ Localizable.strings
+ 8chk
+ 
+ Created by 8crops Inc. on 11/08/17.
+ Copyright 2011 8crops Inc. All rights reserved.
+ */
+
+// optional messages
+"Redirect App End Of Ad Message" = "この案件は既に終了しています";
+"Redirect App End Of App Installed Message" = "既にインストールされています";
+"Redirect App Get Ad List Error" = "情報の取得に失敗しました\nお手数ですがもう一度お試しください";

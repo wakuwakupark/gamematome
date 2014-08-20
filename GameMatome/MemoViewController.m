@@ -48,7 +48,7 @@
     bannerView.rootViewController = self;
     [self.view addSubview:bannerView];
     [bannerView loadRequest:[GADRequest request]];
-    [bannerView setFrame:CGRectMake(0, 20, 320, 50)];
+    [bannerView setFrame:CGRectMake(0, 470, 320, 50)];
     
     
     _tableView.dataSource = self;
@@ -58,9 +58,9 @@
     _textView.hidden = YES;
     _editDoneButton.hidden = YES;
     
-    _refreshControl = [[UIRefreshControl alloc] init];
-    [_refreshControl addTarget:self action:@selector(refresh) forControlEvents:UIControlEventValueChanged];
-    [_tableView addSubview:_refreshControl];
+//    _refreshControl = [[UIRefreshControl alloc] init];
+//    [_refreshControl addTarget:self action:@selector(refresh) forControlEvents:UIControlEventValueChanged];
+//    [_tableView addSubview:_refreshControl];
     
     
     [self registerForKeyboardNotifications];

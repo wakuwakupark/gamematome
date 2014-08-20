@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "ChkControllerDelegate.h"
 
 
 //@class Item;
@@ -14,8 +15,9 @@
 @class News;
 @class Memo;
 @class GADBannerView;
+@class ChkController;
 
-@interface NewsViewController : UIViewController<UITableViewDataSource,UITableViewDelegate,NSXMLParserDelegate>
+@interface NewsViewController : UIViewController <UITableViewDataSource,UITableViewDelegate,NSXMLParserDelegate,ChkControllerDelegate>
 {
     NSArray* gamesArray;        //ゲームエンティティが格納される配列
 
@@ -31,7 +33,8 @@
     
     
     GADBannerView* bannerView;
-    
+    ChkController* chkController;
+    NSMutableArray* addArray;
     
     NSString* initialTextOfEditingMemo;
 }
@@ -43,10 +46,10 @@
 @property (weak, nonatomic) IBOutlet UITextView *textView;
 @property (weak, nonatomic) IBOutlet UIButton *editDoneButton;
 
+@property (weak, nonatomic) IBOutlet UIActivityIndicatorView *activityIndicator;
 
 - (IBAction)refreshButtonPressed:(id)sender;
 - (IBAction)editDoneButtonPressed:(id)sender;
-
 
 
 @end
