@@ -17,24 +17,25 @@
 @class GADBannerView;
 @class ChkController;
 
-@interface NewsViewController : UIViewController <UITableViewDataSource,UITableViewDelegate,NSXMLParserDelegate,ChkControllerDelegate>
+@interface NewsViewController : UIViewController <UITableViewDataSource,UITableViewDelegate,NSXMLParserDelegate,ChkControllerDelegate,UIAlertViewDelegate>
 {
     NSArray* gamesArray;        //ゲームエンティティが格納される配列
 
-    NSArray* newsArray;      //表示用ニュース配列
-    NSArray* favoriteArray; //お気に入りニュース用
+    NSArray* newsArray;      //ニュース配列
+    NSMutableArray* showingArray; //表示中の記事配列
     
     //引っ張って更新
     UIRefreshControl *_refreshControl;
     
     Memo* editingMemo;
     
-    int mode; //0 all  1 favorite
-    
+    int mode; //0 test  1 
     
     GADBannerView* bannerView;
     ChkController* chkController;
     NSMutableArray* addArray;
+    
+    NSArray* affArray;
     
     NSString* initialTextOfEditingMemo;
 }
@@ -50,6 +51,7 @@
 
 - (IBAction)refreshButtonPressed:(id)sender;
 - (IBAction)editDoneButtonPressed:(id)sender;
+- (IBAction)reviewButtonPressed:(id)sender;
 
 
 @end

@@ -30,6 +30,6 @@
 + (NSArray*) getFavoriteNewsOrderByDate;
 + (NSArray*) getAllMemoOrderByDate;
 + (void) deleteAllObjects;
-
++ (void) deleteObjectsFromTable:(NSString*) entity;
 
 @end

@@ -62,6 +62,8 @@
 		FF9D3A29199733980097A6C9 /* News.m in Sources */ = {isa = PBXBuildFile; fileRef = FF9D3A28199733980097A6C9 /* News.m */; };
 		FF9D3A2B1997540D0097A6C9 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF9D3A2A1997540D0097A6C9 /* Social.framework */; };
 		FF9D3A2D19975EE90097A6C9 /* Twitter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF9D3A2C19975EE90097A6C9 /* Twitter.framework */; };
+		FFBA1AA219A8472300749A07 /* GetAffURL.m in Sources */ = {isa = PBXBuildFile; fileRef = FFBA1AA119A8472300749A07 /* GetAffURL.m */; };
+		FFBA1AAB19A853D900749A07 /* Affs.m in Sources */ = {isa = PBXBuildFile; fileRef = FFBA1AAA19A853D900749A07 /* Affs.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -171,6 +173,10 @@
 		FF9D3A28199733980097A6C9 /* News.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = News.m; sourceTree = "<group>"; };
 		FF9D3A2A1997540D0097A6C9 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
 		FF9D3A2C19975EE90097A6C9 /* Twitter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Twitter.framework; path = System/Library/Frameworks/Twitter.framework; sourceTree = SDKROOT; };
+		FFBA1AA019A8472300749A07 /* GetAffURL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GetAffURL.h; sourceTree = "<group>"; };
+		FFBA1AA119A8472300749A07 /* GetAffURL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GetAffURL.m; sourceTree = "<group>"; };
+		FFBA1AA919A853D900749A07 /* Affs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Affs.h; sourceTree = "<group>"; };
+		FFBA1AAA19A853D900749A07 /* Affs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Affs.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -250,6 +256,8 @@
 				FF2CD936199CE2AB001491BD /* GetSiteList.m */,
 				FF2CD938199CE95B001491BD /* GetUpdate.h */,
 				FF2CD939199CE95B001491BD /* GetUpdate.m */,
+				FFBA1AA019A8472300749A07 /* GetAffURL.h */,
+				FFBA1AA119A8472300749A07 /* GetAffURL.m */,
 			);
 			name = DBConnection;
 			sourceTree = "<group>";
@@ -424,6 +432,8 @@
 			isa = PBXGroup;
 			children = (
 				FF9D3A0C1996FA7B0097A6C9 /* GameMatome.xcdatamodeld */,
+				FFBA1AA919A853D900749A07 /* Affs.h */,
+				FFBA1AAA19A853D900749A07 /* Affs.m */,
 				FF9D3A1A1996FCE50097A6C9 /* Memo.h */,
 				FF9D3A1B1996FCE50097A6C9 /* Memo.m */,
 				FF9D3A141996FCE50097A6C9 /* Site.h */,
@@ -616,9 +626,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				FF9D3A071996FA570097A6C9 /* ForUseCoreData.m in Sources */,
+				FFBA1AA219A8472300749A07 /* GetAffURL.m in Sources */,
 				FF9D39D91996F9DC0097A6C9 /* AppDelegate.m in Sources */,
 				FF2CD93A199CE95B001491BD /* GetUpdate.m in Sources */,
 				FF9D3A29199733980097A6C9 /* News.m in Sources */,
+				FFBA1AAB19A853D900749A07 /* Affs.m in Sources */,
 				FF9D3A0E1996FA7B0097A6C9 /* GameMatome.xcdatamodeld in Sources */,
 				FF9D3A131996FCE50097A6C9 /* Game.m in Sources */,
 				FF9D3A091996FA570097A6C9 /* NewsViewController.m in Sources */,

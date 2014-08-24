@@ -145,24 +145,35 @@
     
     //タイトルとボタンの文言設定
     
+    [sheet addButtonWithTitle:@"Lineで共有"];
+    [sheet addButtonWithTitle:@"twitterで共有"];
+    [sheet addButtonWithTitle:@"Safariで開く"];
+    
     if(_showingNews != NULL){
         [sheet addButtonWithTitle:@"お気に入りに追加"];
-    }else{
+        
+        [sheet addButtonWithTitle:@"キャンセル"];
+        
+        //キャンセルボタンをボタン3に設定
+        sheet.cancelButtonIndex = 4;
+        
+    }else if (_showingSite != NULL){
         if([[_showingSite unuse] integerValue] == 0){
             [sheet addButtonWithTitle:@"購読しない"];
         }else{
             [sheet addButtonWithTitle:@"購読する"];
         }
+        
+        [sheet addButtonWithTitle:@"キャンセル"];
+    
+        //キャンセルボタンをボタン3に設定
+        sheet.cancelButtonIndex = 4;
+    }else{
+        [sheet addButtonWithTitle:@"キャンセル"];
+        
+        //キャンセルボタンをボタン3に設定
+        sheet.cancelButtonIndex = 3;
     }
-    
-    [sheet addButtonWithTitle:@"Lineで共有"];
-    [sheet addButtonWithTitle:@"twitterで共有"];
-    [sheet addButtonWithTitle:@"Safariで開く"];
-    [sheet addButtonWithTitle:@"キャンセル"];
-
-    
-    //キャンセルボタンをボタン3に設定
-    sheet.cancelButtonIndex = 4;
     
     //アクションシートのスタイルを
     sheet.actionSheetStyle = UIActionSheetStyleDefault;
@@ -175,11 +186,11 @@
 -(void)actionSheet:(UIActionSheet*)actionSheet clickedButtonAtIndex:(NSInteger)buttonIndex {
     
     switch (buttonIndex) {
-        case 0:
+        case 3:
             //お気に入り追加/購読
             if(_showingNews != NULL){
                 [[self showingNews] setFavorite:@(1)];
-            }else{
+            }else if(_showingSite != NULL){
                 if([[_showingSite unuse] integerValue] == 0){
                     [[self showingSite] changeUnuseState:1];
                 }else{
@@ -189,15 +200,15 @@
             }
             break;
             
-        case 1:
+        case 0:
             //facebook
             [self sendLine];
             break;
-        case 2:
+        case 1:
             //twitter
             [self sendTwitter];
             break;
-        case 3:
+        case 2:
         {
             //safari
             NSURL *url = [NSURL URLWithString:[_webView stringByEvaluatingJavaScriptFromString:@"document.URL"]];

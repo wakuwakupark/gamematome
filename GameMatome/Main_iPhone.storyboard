@@ -42,6 +42,11 @@
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                 <items>
                                     <navigationItem title="最新のニュース" id="h6X-Ft-lcu">
+                                        <barButtonItem key="leftBarButtonItem" title="レビュー" id="xL9-fG-jBZ">
+                                            <connections>
+                                                <action selector="reviewButtonPressed:" destination="fVO-YC-TIP" id="SQY-ZB-grl"/>
+                                            </connections>
+                                        </barButtonItem>
                                         <barButtonItem key="rightBarButtonItem" systemItem="refresh" id="Pud-eB-avY">
                                             <connections>
                                                 <action selector="refreshButtonPressed:" destination="fVO-YC-TIP" id="MFP-Ax-mZN"/>

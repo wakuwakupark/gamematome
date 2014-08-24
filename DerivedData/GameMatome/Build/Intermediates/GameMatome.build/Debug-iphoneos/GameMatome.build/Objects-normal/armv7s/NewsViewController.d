@@ -8,6 +8,7 @@ dependencies: \
   /Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/GameMatome/Site.h \
   /Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/GameMatome/News.h \
   /Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/GameMatome/Memo.h \
+  /Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/GameMatome/Affs.h \
   /Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/GADBannerView.h \
   /Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/GADAdSize.h \
   /Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/GADModules.h \
@@ -21,4 +22,5 @@ dependencies: \
   /Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/GameMatome/Parser.h \
   /Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/8chk/ChkController.h \
   /Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/8chk/ChkConfig.h \
-  /Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/8chk/ChkRecordData.h
+  /Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/8chk/ChkRecordData.h \
+  /Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/GameMatome/GetAffURL.h

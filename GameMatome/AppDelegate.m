@@ -20,11 +20,18 @@
     [ud setObject:@"" forKey:@"myituneURL"];
     
     //PHPファイルのURLを設定
-    NSString *url = @"http://wakuwakupark.main.jp/gamematome/getURL.php";//ここにはそれぞれのPHPファイルのURLを指定して下さい
+    NSString *url = @"http://wakuwakupark.main.jp/gamematome/getURL.php";
     
     //URLを指定してXMLパーサーを作成
     NSURL *myURL = [NSURL URLWithString:url];
-    NSString *str = [[NSString alloc] initWithContentsOfURL:myURL ];
+    NSString *str = [[NSString alloc] initWithContentsOfURL:myURL encoding:NSUTF8StringEncoding error:NULL];
+    
+    if([str isEqualToString:@"test"]){
+        [ud setObject:@"1" forKey:@"on"];
+        [ud setObject:@"1" forKey:@"test"];
+    }else{
+        [ud setObject:@"0" forKey:@"test"];
+    }
     
     [ud setObject:str forKey:@"myituneURL"];
     

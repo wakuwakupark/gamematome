@@ -13,16 +13,21 @@
 #import "Site.h"
 #import "News.h"
 #import "Memo.h"
+#import "Affs.h"
 #import "GADBannerView.h"
 #import "GetGameList.h"
 #import "GetSiteList.h"
 #import "GetUpdate.h"
 #import "Parser.h"
 #import "ChkController.h"
+#import "GetAffURL.h"
 
-#define MODE 0 // 0:local 1:web
+#define MODE 1 // 0:local 1:web
 #define MAX_NEWS_SIXE 300
-
+#define FIRST_8CROPS 5
+#define DIST_8CROPS 10
+#define FIRST_FING 3
+#define DIST_FING 6
 
 @interface NewsViewController ()
 
@@ -75,8 +80,8 @@
     
     //RSSから読み取り
     [self rssDataRead];
-    newsArray = [ForUseCoreData getAllNewsOrderByDate];
     
+    newsArray = [ForUseCoreData getAllNewsOrderByDate];
     
     _refreshControl = [[UIRefreshControl alloc] init];
     [_refreshControl addTarget:self action:@selector(refresh) forControlEvents:UIControlEventValueChanged];
@@ -84,7 +89,23 @@
     
     [self registerForKeyboardNotifications];
 
-    
+    NSUserDefaults* ud = [NSUserDefaults standardUserDefaults];
+    if([ud objectForKey:@"on"] == NULL){
+        
+        [ud setObject:@"1" forKey:@"on"];
+        
+        UIAlertView *alert =
+        [[UIAlertView alloc]
+         initWithTitle:@"お願い"
+         message:@"AppStore に\nレビューを書きませんか？"
+         delegate:self
+         cancelButtonTitle:@"キャンセル"
+         otherButtonTitles:@"レビュー", nil
+         ];
+        
+        
+        [alert show];
+    }
 }
 
 - (void)viewWillDisappear:(BOOL)animated
@@ -95,9 +116,8 @@
 
 - (void)viewDidAppear:(BOOL)animated
 {
-    favoriteArray = [ForUseCoreData getFavoriteNewsOrderByDate];
+    [self setshowingArrayWithAdds];
     [_tableView reloadData];
-    
 }
 
 
@@ -185,8 +205,10 @@
     }
     
     [self rssDataRead];
+    
     newsArray = [ForUseCoreData getAllNewsOrderByDate];
-    favoriteArray = [ForUseCoreData getFavoriteNewsOrderByDate];
+    [self setshowingArrayWithAdds];
+    
     
     [_tableView reloadData];
     
@@ -253,52 +275,67 @@
 
 -(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
 {
-    News* selected = [self getSelectedNewsWithMode:[[_tableView indexPathForSelectedRow] row]];
+    //対象インデックスのオブジェクトがnewsかbannarで分類
+    NSObject* selected = [showingArray objectAtIndex:[[_tableView indexPathForSelectedRow]row]];
     
- 
-    BrouserViewController* bvc = [segue destinationViewController];
-    bvc.firstURL = selected.contentURL;
-    bvc.showingNews = selected;
-    bvc.showingSite = NULL;
-    selected.didRead = @(1);
+    if([selected isKindOfClass:[News class]]){
+        
+        BrouserViewController* bvc = [segue destinationViewController];
+        bvc.firstURL = ((News *)selected).contentURL;
+        bvc.showingNews = (News *)selected;
+        bvc.showingSite = NULL;
+        ((News *)selected).didRead = @(1);
+        
+    }else if ([selected isKindOfClass:[ChkRecordData class]]){
+        
+        BrouserViewController* bvc = [segue destinationViewController];
+        bvc.firstURL = ((ChkRecordData *)selected).linkUrl;
+        bvc.showingNews = NULL;
+        bvc.showingSite = NULL;
+
+    }else{
+        BrouserViewController* bvc = [segue destinationViewController];
+        bvc.firstURL = ((Affs *)selected).url;
+        bvc.showingNews = NULL;
+        bvc.showingSite = NULL;
+    }
+    
 }
 
 #pragma mark UITableView DataSource
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-    
-    switch ([self.tabBarController selectedIndex]) {
-        case 0:
-            return [newsArray count];
-        case 1:
-            return [favoriteArray count];
-    }
-    
-    return [newsArray count];
+
+    return [showingArray count];
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     UITableViewCell* cell = [tableView dequeueReusableCellWithIdentifier:@"Cell"];
     
-    News* item = [self getSelectedNewsWithMode:indexPath.row];
     
+    //News* item = [self getSelectedNewsWithMode:indexPath.row];
+    NSObject* selected = [showingArray objectAtIndex:indexPath.row];
     
-    if([item.didRead intValue] == 1){
-        cell.backgroundColor = [UIColor lightGrayColor];
-    }else{
-        cell.backgroundColor = [UIColor whiteColor];
-    }
-    
-    //各ボタンにイベントを設定
-    for(UIView* view in cell.contentView.subviews){
+    if([selected isKindOfClass:[News class]]){
+        News* item = (News* )selected;
+        
+        if([item.didRead intValue] == 1){
+            cell.backgroundColor = [UIColor lightGrayColor];
+        }else{
+            cell.backgroundColor = [UIColor whiteColor];
+        }
+        
+        //各ボタンにイベントを設定
+        for(UIView* view in cell.contentView.subviews){
             
             switch (view.tag) {
                 case 1:
                 {
                     UIButton* button = (UIButton *)view;
                     [button addTarget:self action:@selector(onClickFavoriteButton:event:) forControlEvents:UIControlEventTouchUpInside];
+                    button.hidden = NO;
                     
                     if([item.favorite intValue] == 1){
                         button.selected = true;
@@ -310,19 +347,13 @@
                 case 2:
                 {
                     UIButton* button = (UIButton *)view;
+                    button.hidden = NO;
                     //メモボタン
                     [button addTarget:self action:@selector(onClickMemoButton:event:) forControlEvents:UIControlEventTouchUpInside];
                 }
                     break;
                 case 3:
                 {
-                    if(item.image != NULL && item.image.length >= 500){
-                        UIImageView *imageView = (UIImageView*) view;
-                        imageView.image = [UIImage imageWithData:item.image];
-                    }else{
-                        UIImageView *imageView = (UIImageView*) view;
-                        imageView.image = [UIImage imageNamed:@"noimage.jpg"];
-                    }
                 }
                     break;
                 case 4:
@@ -344,17 +375,119 @@
                     NSDate *date = [item date];
                     NSDateFormatter *formatter = [[NSDateFormatter alloc] init];
                     [formatter setDateFormat:@"yyyy/MM/dd HH:mm"];
-                     textView.text = [formatter stringFromDate:date];
+                    textView.text = [formatter stringFromDate:date];
                 }
                     break;
                 default:
                     break;
             }
+            
+        }
 
+        
+    }else if ([selected isKindOfClass:[ChkRecordData class]]){
+        
+        ChkRecordData* item = (ChkRecordData*)selected;
+        
+        cell.backgroundColor = [UIColor whiteColor];
+
+        //各ボタンにイベントを設定
+        for(UIView* view in cell.contentView.subviews){
+            
+            switch (view.tag) {
+                case 1:
+                {
+                    UIButton* button = (UIButton *)view;
+                    button.hidden = YES;
+                }
+                    break;
+                case 2:
+                {
+                    UIButton* button = (UIButton *)view;
+                    //メモボタン
+                    button.hidden = YES;
+                }
+                    break;
+                case 3:
+                {
+                }
+                    break;
+                case 4:
+                {
+                    UILabel* textView = (UILabel*) view;
+                    textView.text = [NSString stringWithFormat:@"【PR】 %@", item.description];
+                }
+                    break;
+                case 5:
+                {
+                    UILabel* textView = (UILabel*) view;
+                    textView.text = item.title;
+                }
+                    break;
+                case 6:
+                {
+                    UILabel* textView = (UILabel*) view;
+                    textView.text = @"";
+                }
+                    break;
+                default:
+                    break;
+            }
+            
+        }
+        
+    }else if([selected isKindOfClass:[Affs class]]){
+        
+        Affs* item = (Affs*)selected;
+        
+        cell.backgroundColor = [UIColor whiteColor];
+        
+        //各ボタンにイベントを設定
+        for(UIView* view in cell.contentView.subviews){
+            
+            switch (view.tag) {
+                case 1:
+                {
+                    UIButton* button = (UIButton *)view;
+                    button.hidden = NO;
+                }
+                    break;
+                case 2:
+                {
+                    UIButton* button = (UIButton *)view;
+                    //メモボタン
+                    button.hidden = NO;
+                }
+                    break;
+                case 3:
+                {
+                }
+                    break;
+                case 4:
+                {
+                    UILabel* textView = (UILabel*) view;
+                    textView.text = item.title;
+                }
+                    break;
+                case 5:
+                {
+                    UILabel* textView = (UILabel*) view;
+                    textView.text = item.siteName;
+                }
+                    break;
+                case 6:
+                {
+                    UILabel* textView = (UILabel*) view;
+                    textView.text = @"";
+                }
+                    break;
+                default:
+                    break;
+            }
+            
+        }
+        
     }
-    
-    
-    
     
     return cell;
     
@@ -368,7 +501,7 @@
     UITableViewCell *cell = (UITableViewCell *)[self.tableView cellForRowAtIndexPath:indexPath];
     
     //お気に入り追加
-    News *selected = [self getSelectedNewsWithMode:indexPath.row];
+    News *selected = [showingArray objectAtIndex :indexPath.row];
     
     //各ボタンにイベントを設定
     for(UIView* view in cell.contentView.subviews){
@@ -397,7 +530,7 @@
     // タップされたボタンから、対応するセルを取得する
     NSIndexPath *indexPath = [self indexPathForControlEvent:event];
 
-    News *selected = [self getSelectedNewsWithMode:indexPath.row];
+    News *selected = [showingArray objectAtIndex :indexPath.row];
     
     
     editingMemo = [selected memo];
@@ -430,11 +563,11 @@
     
     [_activityIndicator startAnimating];
     
+
+    NSIndexPath* indexPath = [NSIndexPath indexPathForRow:0 inSection:0];
+    [_tableView scrollToRowAtIndexPath:indexPath atScrollPosition:UITableViewScrollPositionTop animated:NO];
+  
     [self performSelector:@selector(refresh) withObject:nil afterDelay:0.1];
-//    [self refresh];
-    
-    [self.tableView setContentOffset:CGPointZero animated:YES];
-    
 }
 
 - (IBAction)editDoneButtonPressed:(id)sender {
@@ -451,6 +584,13 @@
     [[ForUseCoreData getManagedObjectContext] save:NULL];
 
     [self fadeOutMemoView];
+}
+
+- (IBAction)reviewButtonPressed:(id)sender {
+    
+    NSUserDefaults* ud = [NSUserDefaults standardUserDefaults];
+    NSString* url = [ud objectForKey:@"myituneURL"];
+    [[UIApplication sharedApplication] openURL:[NSURL URLWithString:url]];
 }
 
 - (void) fadeinMemoView
@@ -489,12 +629,6 @@
 }
 
 
-- (id) getSelectedNewsWithMode:(NSInteger)index
-{
-
-    return [newsArray objectAtIndex:index];
-}
-
 - (void) setGameListWithDataBase
 {
     NSUserDefaults* ud = [NSUserDefaults standardUserDefaults];
@@ -506,7 +640,6 @@
             return;
         }
     }
-    
     
     [ud setObject:[gu returnUpdate] forKey:@"lastUpdate"];
     
@@ -571,6 +704,13 @@
     [[ForUseCoreData getManagedObjectContext]save:NULL];
     
     gamesArray = [ForUseCoreData getEntityDataEntityNameWithEntityName:@"Game"];
+    
+    affArray = [NSArray array];
+    if([[ud objectForKey:@"test"] isEqualToString:@"0"]){
+        GetAffURL* ga = [[GetAffURL alloc]init];
+        affArray = [ga getAffs];
+    }
+    
     return;
 }
 
@@ -600,6 +740,49 @@
     [_textView setFrame:CGRectMake(20,182, 280, 267)];
 }
 
+- (void) setshowingArrayWithAdds
+{
+    showingArray = [newsArray mutableCopy];
+    
+    NSUserDefaults* ud = [NSUserDefaults standardUserDefaults];
+    if([[ud objectForKey:@"test"] isEqualToString:@"1"]){
+        return;
+    }
+
+    [self setShowingArrayWithAddArray:affArray First:FIRST_FING Distance:DIST_FING];
+    [self setShowingArrayWithAddArray:addArray First:FIRST_8CROPS Distance:DIST_8CROPS];
+}
+
+- (void) setShowingArrayWithAddArray:(NSArray*)adds First:(int)first Distance:(int)distance
+{
+    int i=0;
+    
+    NSMutableArray* buffer = [NSMutableArray array];
+    
+    for(NSObject *news in showingArray){
+        
+        if([buffer count]<first){
+            [buffer addObject:news];
+            
+        }else{
+            
+            if([buffer count] == first + i*distance){
+                
+                if([adds count] > i){
+                    [buffer addObject:[adds objectAtIndex:i]];
+                    i++;
+                }
+                
+                [buffer addObject:news];
+                
+            }else{
+                [buffer addObject:news];
+            }
+        }
+    }
+    
+    showingArray = buffer;
+}
 
 
 #pragma mark ChkControllerDelegate
@@ -608,6 +791,7 @@
 {
     
     addArray = [chkController dataList];
+    [self setshowingArrayWithAdds];
     [_tableView reloadData];
 }
 
@@ -619,6 +803,17 @@
 - (void)chkControllerDataListWithNotFound:(NSDictionary *)data
 {
     
+}
+
+#pragma mark UIAlertView
+
+- (void)alertView:(UIAlertView *)alertView clickedButtonAtIndex:(NSInteger)buttonIndex
+{
+    if (buttonIndex == 1) {
+        
+        //レビューへ飛ばす
+        [self reviewButtonPressed:nil];
+    }
 }
 
 @end
