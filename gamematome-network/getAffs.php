@@ -30,7 +30,7 @@
     	echo '<affsId>'.$row['affsId'].'</affsId>';
     	echo '<title>'.$row['title'].'</title>';
     	echo '<url>'.$row['url'].'</url>';
-    	echo '<siteName>'.$row['id'].'</siteName>';
+    	echo '<siteName>'.$row['siteName'].'</siteName>';
 		echo '</item>';
 	}
 

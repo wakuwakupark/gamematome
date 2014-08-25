@@ -82,6 +82,7 @@
     [self rssDataRead];
     
     newsArray = [ForUseCoreData getAllNewsOrderByDate];
+    affArray = [[ForUseCoreData getEntityDataEntityNameWithEntityName:@"Affs"] mutableCopy];
     
     _refreshControl = [[UIRefreshControl alloc] init];
     [_refreshControl addTarget:self action:@selector(refresh) forControlEvents:UIControlEventValueChanged];
@@ -207,6 +208,7 @@
     [self rssDataRead];
     
     newsArray = [ForUseCoreData getAllNewsOrderByDate];
+    affArray = [[ForUseCoreData getEntityDataEntityNameWithEntityName:@"Affs"] mutableCopy];
     [self setshowingArrayWithAdds];
     
     
@@ -298,6 +300,7 @@
         bvc.firstURL = ((Affs *)selected).url;
         bvc.showingNews = NULL;
         bvc.showingSite = NULL;
+        bvc.naviItem.title = ((Affs*)selected).title;
     }
     
 }
@@ -810,7 +813,6 @@
 - (void)alertView:(UIAlertView *)alertView clickedButtonAtIndex:(NSInteger)buttonIndex
 {
     if (buttonIndex == 1) {
-        
         //レビューへ飛ばす
         [self reviewButtonPressed:nil];
     }

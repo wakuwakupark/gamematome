@@ -23,7 +23,7 @@
 {
     affsArray = [NSMutableArray array];
     
-    return affsArray;
+    //return affsArray;
     
     
     //ローカルDBから削除
@@ -39,6 +39,8 @@
     
     //xml解析開始
     [myParser parse];
+    
+    [[ForUseCoreData getManagedObjectContext]save:NULL];
     
     return affsArray;
 }
