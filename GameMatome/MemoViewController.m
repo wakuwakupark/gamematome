@@ -121,7 +121,7 @@
     
     
     if([item.didRead intValue] == 1){
-        cell.backgroundColor = [UIColor lightGrayColor];
+        cell.backgroundColor = [UIColor colorWithRed:0.9 green:0.9 blue:0.9 alpha:1];
     }else{
         cell.backgroundColor = [UIColor whiteColor];
     }
@@ -147,6 +147,11 @@
                 UIButton* button = (UIButton *)view;
                 //メモボタン
                 [button addTarget:self action:@selector(onClickMemoButton:event:) forControlEvents:UIControlEventTouchUpInside];
+                if(item.memo == NULL || item.memo.contents.length <= 0){
+                    button.imageView.image = [UIImage imageNamed:@"../memo.png"];
+                }else{
+                    button.imageView.image = [UIImage imageNamed:@"../memo_blue.png"];
+                }
             }
                 break;
             case 3:
@@ -165,12 +170,22 @@
                 UILabel* textView = (UILabel*) view;
                 textView.text = item.title;
                 
+                if([item.didRead intValue] == 1){
+                    textView.textColor = [UIColor grayColor];
+                }else{
+                    textView.textColor = [UIColor blackColor];
+                }
             }
                 break;
             case 5:
             {
                 UILabel* textView = (UILabel*) view;
                 textView.text = item.site.name;
+                if([item.didRead intValue] == 1){
+                    textView.textColor = [UIColor grayColor];
+                }else{
+                    textView.textColor = [UIColor blackColor];
+                }
             }
                 break;
             case 6:
@@ -180,6 +195,11 @@
                 NSDateFormatter *formatter = [[NSDateFormatter alloc] init];
                 [formatter setDateFormat:@"yyyy/MM/dd HH:mm"];
                 textView.text = [NSString stringWithFormat:@"メモ更新日時: %@",[formatter stringFromDate:date]];
+                if([item.didRead intValue] == 1){
+                    textView.textColor = [UIColor grayColor];
+                }else{
+                    textView.textColor = [UIColor blackColor];
+                }
             }
                 break;
             default:
@@ -337,7 +357,9 @@
     newsArray = [NSMutableArray array];
     
     for (Memo* memo in memoArray) {
-        [newsArray addObject:memo.news];
+        
+        if([memo.news.site.unuse  isEqual: @(0)])
+            [newsArray addObject:memo.news];
     }
     
 }

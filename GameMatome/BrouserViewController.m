@@ -43,11 +43,16 @@
     [bannerView loadRequest:[GADRequest request]];
     [bannerView setFrame:CGRectMake(0, 474, 320, 50)];
     
-    
+    _editButton.enabled = YES;
     if(_showingNews != NULL){
         _naviItem.title = _showingNews.title;
     }else{
-        _naviItem.title = _showingSite.name;
+        if (_showingSite !=NULL) {
+            _naviItem.title = _showingSite.name;
+        }else{
+            _editButton.enabled = NO;
+            _naviItem.title = _buffer;
+        }
     }
     
     _doneButton.hidden = YES;

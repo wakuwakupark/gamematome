@@ -27,11 +27,12 @@
 @property (weak, nonatomic) IBOutlet UIButton *doneButton;
 @property (weak, nonatomic) IBOutlet UITextView *textView;
 @property (weak, nonatomic) IBOutlet UIView *backgroundView;
-
+@property (nonatomic, retain) NSString * buffer;
 
 @property (weak, nonatomic) IBOutlet UIBarButtonItem *backButton;
 @property (weak, nonatomic) IBOutlet UIBarButtonItem *proceedButton;
 
+@property (weak, nonatomic) IBOutlet UIBarButtonItem *editButton;
 
 
 

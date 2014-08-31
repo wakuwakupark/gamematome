@@ -83,24 +83,32 @@
     //各ボタンにイベントを設定
     for(UIView* view in cell.contentView.subviews){
         
-        switch (view.tag) {
+        switch (view.tag){
             case 1:
             {
                 UIButton* button = (UIButton *)view;
                 [button addTarget:self action:@selector(onClickUnuseButton:event:) forControlEvents:UIControlEventTouchUpInside];
                 
                 if([[site unuse]integerValue] == 1){
-                    button.selected = false;
-                }else{
                     button.selected = true;
+                    button.titleLabel.textColor = [UIColor whiteColor];
+                    button.backgroundColor = [UIColor lightGrayColor];
+                }else{
+                    button.selected = false;
+                    button.titleLabel.textColor = [UIColor whiteColor];
+                    button.backgroundColor = [UIColor blueColor];
                 }
+            }
+                break;
+                
+            case 2:
+            {
+                UILabel* label = (UILabel*)view;
+                label.text = [site name];
             }
                 break;
         }
     }
-    
-    
-    cell.textLabel.text = site.name;
     
     return cell;
 }
@@ -131,18 +139,16 @@
                 if([[selected unuse]integerValue] == 1){
                     [selected changeUnuseState:0];
                     [_selectedGame setUnuse:@(0)];
-                    button.selected = true;
-                    
+                   
                 }else{
                     [selected changeUnuseState:1];
-                    button.selected = false;
                     
                 }
             }
                 break;
         }
     }
-    
+    [_tableView reloadData];
 }
 
 

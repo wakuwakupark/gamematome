@@ -17,4 +17,6 @@
 @property (nonatomic, retain) NSString * url;
 @property (nonatomic, retain) NSString * siteName;
 
+
+
 @end

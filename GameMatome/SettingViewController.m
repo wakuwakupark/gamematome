@@ -71,7 +71,7 @@
     
     Game* game = [gamesArray objectAtIndex:indexPath.row];
     
-    cell.textLabel.text = [game name];
+    //cell.textLabel.text = [game name];
     
     //各ボタンにイベントを設定
     for(UIView* view in cell.contentView.subviews){
@@ -83,14 +83,30 @@
                 [button addTarget:self action:@selector(onClickUnuseButton:event:) forControlEvents:UIControlEventTouchUpInside];
                 
                 if([[game unuse]integerValue] == 1){
-                    button.selected = false;
-                }else{
                     button.selected = true;
+                    button.titleLabel.textColor = [UIColor whiteColor];
+                    button.backgroundColor = [UIColor lightGrayColor];
+                }else{
+                    button.selected = false;
+                    button.titleLabel.textColor = [UIColor whiteColor];
+                    button.backgroundColor = [UIColor blueColor];
                 }
             }
                 break;
+                
+                
+            case 2:
+            {
+                UILabel* label = (UILabel*)view;
+                label.text =[game name];
+            }
+                break;
+                
         }
     }
+    
+    //cell.textLabel.frame = CGRectMake(0, 0, 250, 60);
+    
     
     return cell;
 }
@@ -114,17 +130,15 @@
             {
                 if([[selected unuse]integerValue] == 1){
                     [selected changeUnuseState:0];
-                    button.selected = true;
-                    
                 }else{
                     [selected changeUnuseState:1];
-                    button.selected = false;
-                    
                 }
             }
                 break;
         }
     }
+    
+    [_tableView reloadData];
 }
 
 
@@ -153,6 +167,13 @@
     Game* selected = [gamesArray objectAtIndex:[[_tableView indexPathForSelectedRow] row]];
     
     [dvc setSelectedGame:selected];
+}
+
+
+- (IBAction)reviewButton:(id)sender {
+    NSUserDefaults* ud = [NSUserDefaults standardUserDefaults];
+    NSString* url = [ud objectForKey:@"myituneURL"];
+    [[UIApplication sharedApplication] openURL:[NSURL URLWithString:url]];
 }
 
 

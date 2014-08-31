@@ -1,0 +1,26 @@
+dependencies: \
+  /Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/GameMatome/NewsViewController.m \
+  /Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/GameMatome/NewsViewController.h \
+  /Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/8chk/ChkControllerDelegate.h \
+  /Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/GameMatome/BrouserViewController.h \
+  /Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/GameMatome/ForUseCoreData.h \
+  /Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/GameMatome/Game.h \
+  /Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/GameMatome/Site.h \
+  /Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/GameMatome/News.h \
+  /Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/GameMatome/Memo.h \
+  /Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/GameMatome/Affs.h \
+  /Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/GADBannerView.h \
+  /Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/GADAdSize.h \
+  /Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/GADModules.h \
+  /Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/GADBannerViewDelegate.h \
+  /Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/GADInAppPurchaseDelegate.h \
+  /Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/GADRequest.h \
+  /Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/GADRequestError.h \
+  /Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/GameMatome/GetGameList.h \
+  /Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/GameMatome/GetSiteList.h \
+  /Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/GameMatome/GetUpdate.h \
+  /Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/GameMatome/Parser.h \
+  /Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/8chk/ChkController.h \
+  /Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/8chk/ChkConfig.h \
+  /Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/8chk/ChkRecordData.h \
+  /Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/GameMatome/GetAffURL.h

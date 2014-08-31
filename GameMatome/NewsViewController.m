@@ -288,6 +288,7 @@
         bvc.showingSite = NULL;
         ((News *)selected).didRead = @(1);
         
+        
     }else if ([selected isKindOfClass:[ChkRecordData class]]){
         
         BrouserViewController* bvc = [segue destinationViewController];
@@ -300,7 +301,7 @@
         bvc.firstURL = ((Affs *)selected).url;
         bvc.showingNews = NULL;
         bvc.showingSite = NULL;
-        bvc.naviItem.title = ((Affs*)selected).title;
+        bvc.buffer = ((Affs*)selected).title;
     }
     
 }
@@ -325,7 +326,7 @@
         News* item = (News* )selected;
         
         if([item.didRead intValue] == 1){
-            cell.backgroundColor = [UIColor lightGrayColor];
+            cell.backgroundColor = [UIColor colorWithRed:0.9 green:0.9 blue:0.9 alpha:1];
         }else{
             cell.backgroundColor = [UIColor whiteColor];
         }
@@ -351,6 +352,14 @@
                 {
                     UIButton* button = (UIButton *)view;
                     button.hidden = NO;
+                    
+                    if(item.memo == NULL || item.memo.contents.length <= 0){
+                        button.imageView.image = [UIImage imageNamed:@"../memo.png"];
+                    }else{
+                        button.imageView.image = [UIImage imageNamed:@"../memo_blue.png"];
+                    }
+                    
+                    
                     //メモボタン
                     [button addTarget:self action:@selector(onClickMemoButton:event:) forControlEvents:UIControlEventTouchUpInside];
                 }
@@ -363,13 +372,22 @@
                 {
                     UILabel* textView = (UILabel*) view;
                     textView.text = item.title;
-                    
+                    if([item.didRead intValue] == 1){
+                        textView.textColor = [UIColor grayColor];
+                    }else{
+                        textView.textColor = [UIColor blackColor];
+                    }
                 }
                     break;
                 case 5:
                 {
                     UILabel* textView = (UILabel*) view;
                     textView.text = item.site.name;
+                    if([item.didRead intValue] == 1){
+                        textView.textColor = [UIColor grayColor];
+                    }else{
+                        textView.textColor = [UIColor blackColor];
+                    }
                 }
                     break;
                 case 6:
@@ -379,6 +397,11 @@
                     NSDateFormatter *formatter = [[NSDateFormatter alloc] init];
                     [formatter setDateFormat:@"yyyy/MM/dd HH:mm"];
                     textView.text = [formatter stringFromDate:date];
+                    if([item.didRead intValue] == 1){
+                        textView.textColor = [UIColor grayColor];
+                    }else{
+                        textView.textColor = [UIColor blackColor];
+                    }
                 }
                     break;
                 default:
@@ -547,7 +570,7 @@
     initialTextOfEditingMemo = editingMemo.contents;
     
     [self fadeinMemoView];
-    
+   
 }
 
 // UIControlEventからタッチ位置のindexPathを取得する
@@ -587,6 +610,7 @@
     [[ForUseCoreData getManagedObjectContext] save:NULL];
 
     [self fadeOutMemoView];
+     [_tableView reloadData];
 }
 
 - (IBAction)reviewButtonPressed:(id)sender {
