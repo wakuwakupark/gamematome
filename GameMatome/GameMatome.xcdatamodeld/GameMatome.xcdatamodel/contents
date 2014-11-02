@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="5064" systemVersion="13E28" minimumToolsVersion="Xcode 4.3" macOSVersion="Automatic" iOSVersion="Automatic">
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="6252" systemVersion="14A389" minimumToolsVersion="Xcode 4.3" macOSVersion="Automatic" iOSVersion="Automatic">
     <entity name="Affs" representedClassName="Affs" syncable="YES">
         <attribute name="affsId" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="siteName" optional="YES" attributeType="String" syncable="YES"/>
@@ -7,6 +7,7 @@
         <attribute name="url" optional="YES" attributeType="String" syncable="YES"/>
     </entity>
     <entity name="Game" representedClassName="Game" syncable="YES">
+        <attribute name="color" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="gameId" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
         <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="unuse" optional="YES" attributeType="Boolean" defaultValueString="NO" syncable="YES"/>
@@ -24,6 +25,7 @@
         <attribute name="didRead" optional="YES" attributeType="Boolean" defaultValueString="NO" syncable="YES"/>
         <attribute name="favorite" optional="YES" attributeType="Boolean" defaultValueString="NO" syncable="YES"/>
         <attribute name="image" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="newsId" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
         <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="unuse" optional="YES" attributeType="Boolean" defaultValueString="NO" syncable="YES"/>
         <relationship name="memo" optional="YES" maxCount="1" deletionRule="Cascade" destinationEntity="Memo" inverseName="news" inverseEntity="Memo" syncable="YES"/>
@@ -42,10 +44,10 @@
         <relationship name="news" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="News" inverseName="site" inverseEntity="News" syncable="YES"/>
     </entity>
     <elements>
-        <element name="Game" positionX="-450" positionY="-571" width="128" height="105"/>
-        <element name="Memo" positionX="-216" positionY="-216" width="128" height="103"/>
-        <element name="News" positionX="-74" positionY="-504" width="128" height="180"/>
-        <element name="Site" positionX="-270" positionY="-477" width="128" height="193"/>
         <element name="Affs" positionX="-261" positionY="-423" width="128" height="105"/>
+        <element name="Game" positionX="-450" positionY="-571" width="128" height="120"/>
+        <element name="Memo" positionX="-216" positionY="-216" width="128" height="103"/>
+        <element name="News" positionX="-74" positionY="-504" width="128" height="195"/>
+        <element name="Site" positionX="-270" positionY="-477" width="128" height="193"/>
     </elements>
 </model>

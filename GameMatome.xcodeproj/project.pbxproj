@@ -19,6 +19,7 @@
 		FF3390B1199D272D006C407F /* favorite.png in Resources */ = {isa = PBXBuildFile; fileRef = FF3390B0199D272D006C407F /* favorite.png */; };
 		FF3390B7199D86BC006C407F /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = FF3390B6199D86BC006C407F /* libsqlite3.0.dylib */; };
 		FF3390BD199D8BE1006C407F /* Parser.m in Sources */ = {isa = PBXBuildFile; fileRef = FF3390BC199D8BE1006C407F /* Parser.m */; };
+		FF3D0C201A05E71200AF309A /* GetNewsList.m in Sources */ = {isa = PBXBuildFile; fileRef = FF3D0C1F1A05E71200AF309A /* GetNewsList.m */; };
 		FF8F7BBF19A0A79E00C17F3D /* memo_blue.png in Resources */ = {isa = PBXBuildFile; fileRef = FF8F7BBE19A0A79E00C17F3D /* memo_blue.png */; };
 		FF8F7BCF19A4D0C100C17F3D /* lib8chk.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FF8F7BCE19A4D0C100C17F3D /* lib8chk.a */; };
 		FF8F7BDA19A4D0CB00C17F3D /* 8chk.plist in Resources */ = {isa = PBXBuildFile; fileRef = FF8F7BD219A4D0CB00C17F3D /* 8chk.plist */; };
@@ -95,6 +96,8 @@
 		FF3390B6199D86BC006C407F /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
 		FF3390BB199D8BE1006C407F /* Parser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Parser.h; sourceTree = "<group>"; };
 		FF3390BC199D8BE1006C407F /* Parser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Parser.m; sourceTree = "<group>"; };
+		FF3D0C1E1A05E71200AF309A /* GetNewsList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GetNewsList.h; sourceTree = "<group>"; };
+		FF3D0C1F1A05E71200AF309A /* GetNewsList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GetNewsList.m; sourceTree = "<group>"; };
 		FF8F7BBE19A0A79E00C17F3D /* memo_blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = memo_blue.png; sourceTree = "<group>"; };
 		FF8F7BC519A4D0C100C17F3D /* ChkApplicationOptional.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChkApplicationOptional.h; sourceTree = "<group>"; };
 		FF8F7BC619A4D0C100C17F3D /* ChkConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChkConfig.h; sourceTree = "<group>"; };
@@ -258,6 +261,8 @@
 				FF2CD939199CE95B001491BD /* GetUpdate.m */,
 				FFBA1AA019A8472300749A07 /* GetAffURL.h */,
 				FFBA1AA119A8472300749A07 /* GetAffURL.m */,
+				FF3D0C1E1A05E71200AF309A /* GetNewsList.h */,
+				FF3D0C1F1A05E71200AF309A /* GetNewsList.m */,
 			);
 			name = DBConnection;
 			sourceTree = "<group>";
@@ -561,6 +566,9 @@
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "Hiroyuki Yahagi";
 				TargetAttributes = {
+					FF9D39C41996F9DB0097A6C9 = {
+						DevelopmentTeam = A4SNNFG58F;
+					};
 					FF9D39E51996F9DC0097A6C9 = {
 						TestTargetID = FF9D39C41996F9DB0097A6C9;
 					};
@@ -631,6 +639,7 @@
 				FF2CD93A199CE95B001491BD /* GetUpdate.m in Sources */,
 				FF9D3A29199733980097A6C9 /* News.m in Sources */,
 				FFBA1AAB19A853D900749A07 /* Affs.m in Sources */,
+				FF3D0C201A05E71200AF309A /* GetNewsList.m in Sources */,
 				FF9D3A0E1996FA7B0097A6C9 /* GameMatome.xcdatamodeld in Sources */,
 				FF9D3A131996FCE50097A6C9 /* Game.m in Sources */,
 				FF9D3A091996FA570097A6C9 /* NewsViewController.m in Sources */,
@@ -711,7 +720,8 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Hiroyuki Yahagi (53K8Z43UKW)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Hiroyuki Yahagi (53K8Z43UKW)";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -730,6 +740,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_LDFLAGS = ObjC;
+				PROVISIONING_PROFILE = "B3650EEC-24C7-4E2B-A499-A357E7A63330";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -750,7 +761,8 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Hiroyuki Yahagi (A4SNNFG58F)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Hiroyuki Yahagi (A4SNNFG58F)";
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -762,6 +774,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				OTHER_LDFLAGS = ObjC;
+				PROVISIONING_PROFILE = "551c6193-d901-4b13-abe0-c59b5ada7dba";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -772,6 +785,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/SMPCM-ARC.embeddedframework",
@@ -786,6 +801,7 @@
 				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -795,6 +811,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/SMPCM-ARC.embeddedframework",
@@ -809,6 +827,7 @@
 				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -883,7 +902,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				OTHER_LDFLAGS = ObjC;
-				PROVISIONING_PROFILE = "6901AF00-C9CD-4C5D-B616-9A9A97F2D872";
+				PROVISIONING_PROFILE = "B3650EEC-24C7-4E2B-A499-A357E7A63330";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -894,6 +913,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/SMPCM-ARC.embeddedframework",
@@ -908,6 +929,7 @@
 				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Adhoc;
@@ -941,7 +963,7 @@
 				FF9D3A2E19979DAD0097A6C9 /* Adhoc */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Adhoc;
+			defaultConfigurationName = Release;
 		};
 		FF9D39F71996F9DC0097A6C9 /* Build configuration list for PBXNativeTarget "GameMatome" */ = {
 			isa = XCConfigurationList;
@@ -951,7 +973,7 @@
 				FF9D3A2F19979DAD0097A6C9 /* Adhoc */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Adhoc;
+			defaultConfigurationName = Release;
 		};
 		FF9D39FA1996F9DC0097A6C9 /* Build configuration list for PBXNativeTarget "GameMatomeTests" */ = {
 			isa = XCConfigurationList;
@@ -961,7 +983,7 @@
 				FF9D3A3019979DAD0097A6C9 /* Adhoc */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Adhoc;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

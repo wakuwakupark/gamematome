@@ -30,7 +30,8 @@
     [ForUseCoreData deleteObjectsFromTable:@"Affs"];
     
     //PHPファイルのURLを設定
-    NSString *url = @"http://wakuwakupark.main.jp/gamematome/getAffs.php";
+    NSString *url = @"http://localhost/getAffs.php";
+    //NSString *url = @"http://wakuwakupark.main.jp/gamematome/getAffs.php";
     
     //URLを指定してXMLパーサーを作成
     NSURL *myURL = [NSURL URLWithString:url];

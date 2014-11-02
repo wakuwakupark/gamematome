@@ -15,6 +15,7 @@
 @dynamic unuse;
 @dynamic sites;
 @dynamic gameId;
+@dynamic color;
 
 - (void)changeUnuseState:(int)value
 {

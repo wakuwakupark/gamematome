@@ -22,6 +22,7 @@
 @property (nonatomic, retain) NSNumber * unuse;
 @property (nonatomic, retain) Site *site;
 @property (nonatomic, retain) Memo *memo;
+@property (nonatomic, retain) NSNumber *newsId;
 
 - (void) changeUnuseState:(int)value;
 

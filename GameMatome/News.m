@@ -22,6 +22,7 @@
 @dynamic unuse;
 @dynamic site;
 @dynamic memo;
+@dynamic newsId;
 
 - (void) changeUnuseState:(int)value
 {

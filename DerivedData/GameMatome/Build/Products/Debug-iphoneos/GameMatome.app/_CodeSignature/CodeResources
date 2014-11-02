@@ -10,15 +10,15 @@
 		</data>
 		<key>AppIcon29x29@2x.png</key>
 		<data>
-		e4LLdGYripNFbKNHdTXBrM42v6A=
+		uOZYbFChsmSkOni1hNiJgSXAlfE=
 		</data>
 		<key>AppIcon40x40@2x.png</key>
 		<data>
-		EbLa5KwrLghCUnOD6GsTMImyGwg=
+		eKNZL/qjQ82HWnSHvFHqG+XXOU4=
 		</data>
 		<key>AppIcon60x60@2x.png</key>
 		<data>
-		10PUN8ldadWLnzX0mDAEHzVAkc0=
+		Dfr7ibTJMLXK2KWfuZxyZo4x0bk=
 		</data>
 		<key>Assets.car</key>
 		<data>
@@ -26,51 +26,59 @@
 		</data>
 		<key>GameMatome.momd/GameMatome.mom</key>
 		<data>
-		Pn4aJMuRpWk0uvMiDPrCfL9TVEo=
+		3Wbk9E57g8jeEckuDmzDrd11Aa4=
+		</data>
+		<key>GameMatome.momd/VersionInfo.plist</key>
+		<data>
+		2VTw2uBKQELqm78ILYQvXj4uTFM=
 		</data>
 		<key>LaunchImage-700-568h@2x.png</key>
 		<data>
-		nLiJtOo1x4tJRixE9HAYpmFF5/Y=
+		ADTcbSfYP8QSvGbnvPAIevHIbEc=
 		</data>
 		<key>LaunchImage-700@2x.png</key>
 		<data>
-		gvuTXtSDNaYP3RUmV3lvGmT+iv4=
+		7h0rLjRZVUY4aN2RQEJ4PbmLSvw=
+		</data>
+		<key>Main_iPhone.storyboardc/Info.plist</key>
+		<data>
+		sHyh7E15eCuD6pZZm8g986ddVEI=
 		</data>
 		<key>Main_iPhone.storyboardc/TF3-V2-SrQ-view-fYK-AE-ioL.nib</key>
 		<data>
-		UsxyVSufuqw9kNFFp7jXhQRFflU=
+		g2dA7erLxHuyh77IC5zPpcxQVs4=
 		</data>
 		<key>Main_iPhone.storyboardc/UIViewController-BqZ-kg-eja.nib</key>
 		<data>
-		VLYeILHMsfR6ZhwV0BvRnRnT4J8=
+		LCbQ8COnBi0MPXij8MJMJZh2jsg=
 		</data>
 		<key>Main_iPhone.storyboardc/UIViewController-hI5-v5-j73.nib</key>
 		<data>
-		AFuU2I5jDd3SeGMBBspuxNb27Pc=
+		0Sz8MNEEamurY4p8hoI7tEx2eeg=
 		</data>
 		<key>Main_iPhone.storyboardc/UIViewController-mMG-XY-TKi.nib</key>
 		<data>
-		PtGGPJDxKFwoucijgPhRksP3rY8=
+		4mECZWJV6bUyZ49M3E89xWnJc/8=
 		</data>
 		<key>Main_iPhone.storyboardc/fLv-PV-uWk-view-w5N-hD-zhy.nib</key>
 		<data>
-		QKk8CSvIHuVkR4SLc2+sn2iUsV4=
+		zmxGHG5VlkuiePZJZZWNWGqPnqM=
 		</data>
 		<key>Main_iPhone.storyboardc/fVO-YC-TIP-view-3zL-ll-Lt3.nib</key>
 		<data>
-		oTwIC8NX3VoNiGot0QVuGXn7WJU=
+		TfBjibgd4fa97NyyhuurV4CSn5U=
 		</data>
 		<key>Main_iPhone.storyboardc/hI5-v5-j73-view-dL8-56-eZL.nib</key>
 		<data>
-		QDJwU73Ygjnl5etO9M5PpFET3E4=
+		fwjzQ1Ji8vHtIDfWiZtnkOuDx2w=
 		</data>
 		<key>Main_iPhone.storyboardc/mMG-XY-TKi-view-sBd-rc-xWB.nib</key>
 		<data>
-		yhcvdo0eCOS5PVDdEx/wKDzoRpA=
+		ldoc7zVIhEULgoXC+GHmrbh9prY=
 		</data>
 		<key>Main_iPhone.storyboardc/sNy-Id-mJ2-view-utQ-sb-yBe.nib</key>
 		<data>
-		Hnydn24ePZeZZ72YLWD7U/CHyLM=
+		mUznXF7GspSW7XnZpw2nKZWYmQk=
 		</data>
 		<key>PkgInfo</key>
 		<data>
@@ -268,6 +276,10 @@
 		<data>
 		YVyGj/EasGYu0MCrS+U6Jvg7BSs=
 		</data>
+		<key>SMPCM-ARC.embeddedframework/SMPCM.framework/Resources/Info.plist</key>
+		<data>
+		IpuM31kq97VD8FtjCBstM0Ul/h0=
+		</data>
 		<key>SMPCM-ARC.embeddedframework/SMPCM.framework/Resources/SMPCMMoviePopupView.bundle/facebook_logo.png</key>
 		<data>
 		E6ugwG925SxoNLWQncdnOQuUgxI=
@@ -460,6 +472,10 @@
 		<data>
 		YVyGj/EasGYu0MCrS+U6Jvg7BSs=
 		</data>
+		<key>SMPCM-ARC.embeddedframework/SMPCM.framework/Versions/A/Resources/Info.plist</key>
+		<data>
+		IpuM31kq97VD8FtjCBstM0Ul/h0=
+		</data>
 		<key>SMPCM-ARC.embeddedframework/SMPCM.framework/Versions/A/Resources/SMPCMMoviePopupView.bundle/facebook_logo.png</key>
 		<data>
 		E6ugwG925SxoNLWQncdnOQuUgxI=
@@ -651,6 +667,10 @@
 		<key>SMPCM-ARC.embeddedframework/SMPCM.framework/Versions/Current/Headers/SMPCMCore.h</key>
 		<data>
 		YVyGj/EasGYu0MCrS+U6Jvg7BSs=
+		</data>
+		<key>SMPCM-ARC.embeddedframework/SMPCM.framework/Versions/Current/Resources/Info.plist</key>
+		<data>
+		IpuM31kq97VD8FtjCBstM0Ul/h0=
 		</data>
 		<key>SMPCM-ARC.embeddedframework/SMPCM.framework/Versions/Current/Resources/SMPCMMoviePopupView.bundle/facebook_logo.png</key>
 		<data>
@@ -858,7 +878,7 @@
 		</data>
 		<key>embedded.mobileprovision</key>
 		<data>
-		P5FpE3nc7OP8ImBOVDiTOm0oS10=
+		UEkrfO4nuwnH/ao/wk6QO8T65Ls=
 		</data>
 		<key>en.lproj/8chk.strings</key>
 		<data>
@@ -909,15 +929,15 @@
 		</data>
 		<key>AppIcon29x29@2x.png</key>
 		<data>
-		e4LLdGYripNFbKNHdTXBrM42v6A=
+		uOZYbFChsmSkOni1hNiJgSXAlfE=
 		</data>
 		<key>AppIcon40x40@2x.png</key>
 		<data>
-		EbLa5KwrLghCUnOD6GsTMImyGwg=
+		eKNZL/qjQ82HWnSHvFHqG+XXOU4=
 		</data>
 		<key>AppIcon60x60@2x.png</key>
 		<data>
-		10PUN8ldadWLnzX0mDAEHzVAkc0=
+		Dfr7ibTJMLXK2KWfuZxyZo4x0bk=
 		</data>
 		<key>Assets.car</key>
 		<data>
@@ -925,51 +945,59 @@
 		</data>
 		<key>GameMatome.momd/GameMatome.mom</key>
 		<data>
-		Pn4aJMuRpWk0uvMiDPrCfL9TVEo=
+		3Wbk9E57g8jeEckuDmzDrd11Aa4=
+		</data>
+		<key>GameMatome.momd/VersionInfo.plist</key>
+		<data>
+		2VTw2uBKQELqm78ILYQvXj4uTFM=
 		</data>
 		<key>LaunchImage-700-568h@2x.png</key>
 		<data>
-		nLiJtOo1x4tJRixE9HAYpmFF5/Y=
+		ADTcbSfYP8QSvGbnvPAIevHIbEc=
 		</data>
 		<key>LaunchImage-700@2x.png</key>
 		<data>
-		gvuTXtSDNaYP3RUmV3lvGmT+iv4=
+		7h0rLjRZVUY4aN2RQEJ4PbmLSvw=
+		</data>
+		<key>Main_iPhone.storyboardc/Info.plist</key>
+		<data>
+		sHyh7E15eCuD6pZZm8g986ddVEI=
 		</data>
 		<key>Main_iPhone.storyboardc/TF3-V2-SrQ-view-fYK-AE-ioL.nib</key>
 		<data>
-		UsxyVSufuqw9kNFFp7jXhQRFflU=
+		g2dA7erLxHuyh77IC5zPpcxQVs4=
 		</data>
 		<key>Main_iPhone.storyboardc/UIViewController-BqZ-kg-eja.nib</key>
 		<data>
-		VLYeILHMsfR6ZhwV0BvRnRnT4J8=
+		LCbQ8COnBi0MPXij8MJMJZh2jsg=
 		</data>
 		<key>Main_iPhone.storyboardc/UIViewController-hI5-v5-j73.nib</key>
 		<data>
-		AFuU2I5jDd3SeGMBBspuxNb27Pc=
+		0Sz8MNEEamurY4p8hoI7tEx2eeg=
 		</data>
 		<key>Main_iPhone.storyboardc/UIViewController-mMG-XY-TKi.nib</key>
 		<data>
-		PtGGPJDxKFwoucijgPhRksP3rY8=
+		4mECZWJV6bUyZ49M3E89xWnJc/8=
 		</data>
 		<key>Main_iPhone.storyboardc/fLv-PV-uWk-view-w5N-hD-zhy.nib</key>
 		<data>
-		QKk8CSvIHuVkR4SLc2+sn2iUsV4=
+		zmxGHG5VlkuiePZJZZWNWGqPnqM=
 		</data>
 		<key>Main_iPhone.storyboardc/fVO-YC-TIP-view-3zL-ll-Lt3.nib</key>
 		<data>
-		oTwIC8NX3VoNiGot0QVuGXn7WJU=
+		TfBjibgd4fa97NyyhuurV4CSn5U=
 		</data>
 		<key>Main_iPhone.storyboardc/hI5-v5-j73-view-dL8-56-eZL.nib</key>
 		<data>
-		QDJwU73Ygjnl5etO9M5PpFET3E4=
+		fwjzQ1Ji8vHtIDfWiZtnkOuDx2w=
 		</data>
 		<key>Main_iPhone.storyboardc/mMG-XY-TKi-view-sBd-rc-xWB.nib</key>
 		<data>
-		yhcvdo0eCOS5PVDdEx/wKDzoRpA=
+		ldoc7zVIhEULgoXC+GHmrbh9prY=
 		</data>
 		<key>Main_iPhone.storyboardc/sNy-Id-mJ2-view-utQ-sb-yBe.nib</key>
 		<data>
-		Hnydn24ePZeZZ72YLWD7U/CHyLM=
+		mUznXF7GspSW7XnZpw2nKZWYmQk=
 		</data>
 		<key>PkgInfo</key>
 		<data>
@@ -1167,6 +1195,10 @@
 		<data>
 		YVyGj/EasGYu0MCrS+U6Jvg7BSs=
 		</data>
+		<key>SMPCM-ARC.embeddedframework/SMPCM.framework/Resources/Info.plist</key>
+		<data>
+		IpuM31kq97VD8FtjCBstM0Ul/h0=
+		</data>
 		<key>SMPCM-ARC.embeddedframework/SMPCM.framework/Resources/SMPCMMoviePopupView.bundle/facebook_logo.png</key>
 		<data>
 		E6ugwG925SxoNLWQncdnOQuUgxI=
@@ -1359,6 +1391,10 @@
 		<data>
 		YVyGj/EasGYu0MCrS+U6Jvg7BSs=
 		</data>
+		<key>SMPCM-ARC.embeddedframework/SMPCM.framework/Versions/A/Resources/Info.plist</key>
+		<data>
+		IpuM31kq97VD8FtjCBstM0Ul/h0=
+		</data>
 		<key>SMPCM-ARC.embeddedframework/SMPCM.framework/Versions/A/Resources/SMPCMMoviePopupView.bundle/facebook_logo.png</key>
 		<data>
 		E6ugwG925SxoNLWQncdnOQuUgxI=
@@ -1550,6 +1586,10 @@
 		<key>SMPCM-ARC.embeddedframework/SMPCM.framework/Versions/Current/Headers/SMPCMCore.h</key>
 		<data>
 		YVyGj/EasGYu0MCrS+U6Jvg7BSs=
+		</data>
+		<key>SMPCM-ARC.embeddedframework/SMPCM.framework/Versions/Current/Resources/Info.plist</key>
+		<data>
+		IpuM31kq97VD8FtjCBstM0Ul/h0=
 		</data>
 		<key>SMPCM-ARC.embeddedframework/SMPCM.framework/Versions/Current/Resources/SMPCMMoviePopupView.bundle/facebook_logo.png</key>
 		<data>
@@ -1757,7 +1797,7 @@
 		</data>
 		<key>embedded.mobileprovision</key>
 		<data>
-		P5FpE3nc7OP8ImBOVDiTOm0oS10=
+		UEkrfO4nuwnH/ao/wk6QO8T65Ls=
 		</data>
 		<key>en.lproj/8chk.strings</key>
 		<data>
@@ -1804,14 +1844,14 @@
 	<dict>
 		<key>.*</key>
 		<true/>
-		<key>Info.plist</key>
+		<key>^Info.plist$</key>
 		<dict>
 			<key>omit</key>
 			<true/>
 			<key>weight</key>
 			<real>10</real>
 		</dict>
-		<key>ResourceRules.plist</key>
+		<key>^ResourceRules.plist$</key>
 		<dict>
 			<key>omit</key>
 			<true/>
@@ -1823,33 +1863,26 @@
 	<dict>
 		<key>.*</key>
 		<true/>
-		<key>Info.plist</key>
-		<dict>
-			<key>omit</key>
-			<true/>
-			<key>weight</key>
-			<real>10</real>
-		</dict>
-		<key>ResourceRules.plist</key>
-		<dict>
-			<key>omit</key>
-			<true/>
-			<key>weight</key>
-			<real>100</real>
-		</dict>
-		<key>^(Frameworks|SharedFrameworks|Plugins|Plug-ins|XPCServices|Helpers|MacOS)/</key>
+		<key>^(Frameworks|SharedFrameworks|PlugIns|Plug-ins|XPCServices|Helpers|MacOS|Library/(Automator|Spotlight|LoginItems))/</key>
 		<dict>
 			<key>nested</key>
 			<true/>
 			<key>weight</key>
 			<real>0.0</real>
 		</dict>
-		<key>^[^/]+$</key>
+		<key>^Info.plist$</key>
 		<dict>
-			<key>top</key>
+			<key>omit</key>
 			<true/>
 			<key>weight</key>
-			<real>0.0</real>
+			<real>10</real>
+		</dict>
+		<key>^ResourceRules.plist$</key>
+		<dict>
+			<key>omit</key>
+			<true/>
+			<key>weight</key>
+			<real>100</real>
 		</dict>
 	</dict>
 </dict>

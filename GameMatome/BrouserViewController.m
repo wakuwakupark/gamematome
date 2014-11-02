@@ -66,6 +66,7 @@
     
     [self registerForKeyboardNotifications];
     
+
 }
 
 
@@ -233,7 +234,7 @@
     // アニメーション
     [UIView beginAnimations:nil context:NULL];
     // 秒数設定
-    [UIView setAnimationDuration:0.2];
+    [UIView setAnimationDuration:0.1];
     [_backgroundView setAlpha:1];
     
     _doneButton.hidden = NO;
@@ -354,13 +355,13 @@
 
     [UIApplication sharedApplication].networkActivityIndicatorVisible = NO;
     
-    if ([error code] != NSURLErrorCancelled) {
-
-        NSString* errString = [NSString stringWithFormat:
-                               @"<html><center><font size=+7 color='red'>通信エラー:<br>%@</font></center></html>",
-                               error.localizedDescription];
-        [webView loadHTMLString:errString baseURL:nil];
-    }
+//    if ([error code] != NSURLErrorCancelled) {
+//
+//        NSString* errString = [NSString stringWithFormat:
+//                               @"<html><center><font size=+7 color='red'>通信エラー:<br>%@</font></center></html>",
+//                               error.localizedDescription];
+//        [webView loadHTMLString:errString baseURL:nil];
+//    }
 }
 
 #pragma mark keyboardAction

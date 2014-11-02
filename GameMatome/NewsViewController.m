@@ -21,6 +21,7 @@
 #import "Parser.h"
 #import "ChkController.h"
 #import "GetAffURL.h"
+#import "GetNewsList.h"
 
 #define MODE 1 // 0:local 1:web
 #define MAX_NEWS_SIXE 300
@@ -55,6 +56,25 @@
 {
     [super viewDidLoad];
     
+    NSUserDefaults* ud = [NSUserDefaults standardUserDefaults];
+    [ud setObject:@"" forKey:@"myituneURL"];
+    
+    //PHPファイルのURLを設定
+    NSString *url = @"http://wakuwakupark.main.jp/gamematome/getURL.php";
+    
+    //URLを指定してXMLパーサーを作成
+    NSURL *myURL = [NSURL URLWithString:url];
+    NSString *str = [[NSString alloc] initWithContentsOfURL:myURL encoding:NSUTF8StringEncoding error:NULL];
+    
+    if([str isEqualToString:@"test"]){
+        [ud setObject:@"1" forKey:@"on"];
+        [ud setObject:@"1" forKey:@"test"];
+    }else{
+        [ud setObject:@"0" forKey:@"test"];
+    }
+    
+    [ud setObject:str forKey:@"myituneURL"];
+    
     
     _tableView.dataSource = self;
     _tableView.delegate = self;
@@ -79,7 +99,7 @@
     [chkController requestDataList];
     
     //RSSから読み取り
-    [self rssDataRead];
+    [self rssDataReadPersedOnServer];
     
     newsArray = [ForUseCoreData getAllNewsOrderByDate];
     affArray = [[ForUseCoreData getEntityDataEntityNameWithEntityName:@"Affs"] mutableCopy];
@@ -90,7 +110,7 @@
     
     [self registerForKeyboardNotifications];
 
-    NSUserDefaults* ud = [NSUserDefaults standardUserDefaults];
+    //NSUserDefaults* ud = [NSUserDefaults standardUserDefaults];
     if([ud objectForKey:@"on"] == NULL){
         
         [ud setObject:@"1" forKey:@"on"];
@@ -111,7 +131,6 @@
 
 - (void)viewWillDisappear:(BOOL)animated
 {
-    
     [[ForUseCoreData getManagedObjectContext] save:NULL];
 }
 
@@ -121,13 +140,10 @@
     [_tableView reloadData];
 }
 
-
-
 - (void)getSitesData
 {
     //データを取得
     gamesArray = [ForUseCoreData getEntityDataEntityNameWithEntityName:@"Game"];
-    
     
     //サイズ0ならplistから設定
     if(gamesArray.count != 0){
@@ -135,16 +151,11 @@
         return;
     }
     
-    
-    
     //データベースをリフレッシュ
     [ForUseCoreData deleteAllObjects];
     
     NSString* path = [[NSBundle mainBundle] pathForResource:@"SitesData" ofType:@"plist"];
-    
     NSDictionary *allDictionary = [NSDictionary dictionaryWithContentsOfFile:path];
-    
-
     
     for (int i=0; i<[allDictionary count]; i++) {
         NSString* key = [[allDictionary allKeys] objectAtIndex:i];
@@ -205,7 +216,7 @@
             break;
     }
     
-    [self rssDataRead];
+    [self rssDataReadPersedOnServer];
     
     newsArray = [ForUseCoreData getAllNewsOrderByDate];
     affArray = [[ForUseCoreData getEntityDataEntityNameWithEntityName:@"Affs"] mutableCopy];
@@ -647,7 +658,7 @@
     // アニメーション
     [UIView beginAnimations:nil context:NULL];
     // 秒数設定
-    [UIView setAnimationDuration:0.2];
+    [UIView setAnimationDuration:0.1];
     [_backgroundView setAlpha:0];
     
     // アニメーション終了
@@ -660,15 +671,18 @@
 {
     NSUserDefaults* ud = [NSUserDefaults standardUserDefaults];
     GetUpdate* gu = [[GetUpdate alloc]init];
+    NSString* updatecount = [gu returnUpdate];
+    
+    
     if([ud objectForKey:@"lastUpdate"] != NULL){
-        NSDate* date = [ud objectForKey:@"lastUpdate"];
-        if([date compare:[gu returnUpdate]] != NSOrderedAscending){
+        NSString* nowCount = [ud objectForKey:@"lastUpdate"];
+        if([nowCount intValue] == [updatecount intValue]){
             gamesArray = [ForUseCoreData getEntityDataEntityNameWithEntityName:@"Game"];
             return;
         }
     }
     
-    [ud setObject:[gu returnUpdate] forKey:@"lastUpdate"];
+    [ud setObject:updatecount forKey:@"lastUpdate"];
     
     GetGameList* gg = [[GetGameList alloc]init];
     GetSiteList* gs = [[GetSiteList alloc]init];
@@ -716,11 +730,12 @@
             [site setName:[dic objectForKey:@"name"]];
             [site setPageURL:[dic objectForKey:@"contentsURL"]];
             [site setRssURL:[dic objectForKey:@"rssURL"]];
-            [site setSiteId:[NSNumber numberWithInt:[siteId intValue]]];
+            [site setSiteId:[NSNumber numberWithInt: [siteId intValue]]];
             
             for (Game* g in gamesBuffer) {
                 if ([g.gameId intValue] == [gameId intValue]) {
                     [site setGame:g];
+                    [g.sites addObject:site];
                     break;
                 }
             }
@@ -731,6 +746,7 @@
     [[ForUseCoreData getManagedObjectContext]save:NULL];
     
     gamesArray = [ForUseCoreData getEntityDataEntityNameWithEntityName:@"Game"];
+    //gamesArray = (NSArray *) gamesBuffer;
     
     affArray = [NSArray array];
     if([[ud objectForKey:@"test"] isEqualToString:@"0"]){
@@ -842,4 +858,45 @@
     }
 }
 
+
+
+#pragma mark parsed_on_server
+
+- (void) rssDataReadPersedOnServer
+{
+    //POSTでなげる
+    GetNewsList* gnl = [[GetNewsList alloc]init];
+    NSArray* arr =[ForUseCoreData getEntityDataEntityNameWithEntityName:@"Site" condition:@"unuse=0"];
+    [gnl returnNewsList:arr];
+    
+    //最終更新日時を更新
+    for (Site* site in arr) {
+        site.lastUpdated = [NSDate date];
+    }
+    [[ForUseCoreData getManagedObjectContext]save:NULL];
+
+}
+
+
 @end
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

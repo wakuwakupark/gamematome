@@ -19,6 +19,6 @@
 }
 
 - (id)init;
-- (NSDate*) returnUpdate;
+- (NSString*) returnUpdate;
 
 @end

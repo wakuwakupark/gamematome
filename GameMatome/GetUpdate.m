@@ -17,53 +17,21 @@
     return self;
 }
 
-- (NSDate*) returnUpdate
+- (NSString*) returnUpdate
 {
     
     //PHPファイルのURLを設定
-    NSString *url = @"http://wakuwakupark.main.jp/gamematome/update.php";//ここにはそれぞれのPHPファイルのURLを指定して下さい
+    NSString *url = @"http://localhost/update.php";
+    //NSString *url = @"http://wakuwakupark.main.jp/gamematome/update.php";
     
     //URLを指定してXMLパーサーを作成
     NSURL *myURL = [NSURL URLWithString:url];
-    NSXMLParser *myParser = [[NSXMLParser alloc] initWithContentsOfURL:myURL];
-    myParser.delegate = self;
+    NSString *str = [[NSString alloc] initWithContentsOfURL:myURL encoding:NSUTF8StringEncoding error:NULL];
     
-    //xml解析開始
-    [myParser parse];
-    
-    
-    NSDateFormatter* formatter = [[NSDateFormatter alloc]init];
-    formatter.dateFormat  = @"yyyy-MM-dd";
-    
-    return [formatter dateFromString:dateString];
+    return str;
 }
 
 
-
-// ②XMLの解析
-- (void)parserDidStartDocument:(NSXMLParser *)parser {
-    //解析中タグの初期化
-    nowTagStr = @"";
-    dateString=@"";
-}
-
-- (void)parser:(NSXMLParser *)parser didStartElement:(NSString *)elementName namespaceURI:(NSString *)namespaceURI qualifiedName:(NSString *)qName attributes:(NSDictionary *)attributeDict {
-    
-    //解析中タグに設定
-    nowTagStr = [NSString stringWithString:elementName];
-    
-}
-
-- (void)parser:(NSXMLParser *)parser foundCharacters:(NSString *)string {
-    
-    if([nowTagStr isEqualToString:@"lastupdate"])
-        dateString = string;
-}
-
-- (void)parser:(NSXMLParser *) parser didEndElement:(NSString *)elementName namespaceURI:(NSString *)namespaceURI qualifiedName:(NSString *)qName {
-    
-    
-}
 
 
 @end

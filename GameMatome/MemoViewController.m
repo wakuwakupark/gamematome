@@ -165,7 +165,7 @@
                 }
             }
                 break;
-            case 4:
+            case 6:
             {
                 UILabel* textView = (UILabel*) view;
                 textView.text = item.title;
@@ -177,10 +177,14 @@
                 }
             }
                 break;
-            case 5:
+            case 4:
             {
                 UILabel* textView = (UILabel*) view;
-                textView.text = item.site.name;
+                //textView.text = item.site.name;
+                textView.text = [NSString stringWithFormat:@"%@", item.memo.contents];
+                
+                
+                
                 if([item.didRead intValue] == 1){
                     textView.textColor = [UIColor grayColor];
                 }else{
@@ -188,7 +192,7 @@
                 }
             }
                 break;
-            case 6:
+            case 5:
             {
                 UILabel* textView = (UILabel*) view;
                 NSDate *date = [[item memo] updateDate];
