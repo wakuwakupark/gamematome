@@ -393,7 +393,7 @@
                 case 5:
                 {
                     UILabel* textView = (UILabel*) view;
-                    textView.text = item.site.name;
+                    textView.text = [NSString stringWithFormat:@"【%@】 %@",item.site.game.name, item.site.name];
                     if([item.didRead intValue] == 1){
                         textView.textColor = [UIColor grayColor];
                     }else{
@@ -871,7 +871,7 @@
     
     //最終更新日時を更新
     for (Site* site in arr) {
-        site.lastUpdated = [NSDate date];
+        site.lastUpdated = [NSDate dateWithTimeIntervalSinceNow:[[NSTimeZone systemTimeZone] secondsFromGMT]];;
     }
     [[ForUseCoreData getManagedObjectContext]save:NULL];
 

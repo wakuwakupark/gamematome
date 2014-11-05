@@ -27,8 +27,8 @@
     //newsDic = [NSMutableDictionary dictionary];
     
     //URLを指定してXMLパーサーを作成
-    NSURL *url = [[NSURL alloc]initWithString:@"http://localhost/newsList.php"];
-    //NSURL *url = [[NSURL alloc]initWithString:@"http://wakuwakupark.main.jp/gamematome/getNewsList.php"];
+    //NSURL *url = [[NSURL alloc]initWithString:@"http://localhost/newsList.php"];
+    NSURL *url = [[NSURL alloc]initWithString:@"http://wakuwakupark.main.jp/gamematome_2/newsList.php"];
     
     NSMutableURLRequest *request = [[NSMutableURLRequest alloc]initWithURL:url];
     
@@ -46,7 +46,8 @@
         }
         
         NSDateFormatter *formatter = [[NSDateFormatter alloc] init];
-        [formatter setDateFormat:@"yyyy'-'MM'-'dd'T'HH':'mm':'ssZZZZ"];
+        [formatter setDateFormat:@"yyyy'-'MM'-'dd' 'HH':'mm':'ss"];
+        
         NSString *dateStr = [formatter stringFromDate:[site lastUpdated]];
         
         if([body length] >= 10){
@@ -57,7 +58,7 @@
         //if(false){
             [body appendFormat:@"(siteId = %d)",[site.siteId intValue]];
         }else{
-            [body appendFormat:@"(siteId = %d AND date >= \"%@\" )",[site.siteId intValue],dateStr];
+            [body appendFormat:@"(siteId = %d AND date > \"%@\" )",[site.siteId intValue],dateStr];
         }
     }
     
@@ -113,7 +114,7 @@
     }else if([nowTagStr isEqualToString:@"date"]){
         //ストリングをdate形に変換
         NSDateFormatter *dateFormatter = [[NSDateFormatter alloc]init];
-        [dateFormatter setDateFormat:@"yyyy'-'MM'-'dd'T'HH':'mm':'ssZZZZ"];
+        [dateFormatter setDateFormat:@"yyyy'-'MM'-'dd' 'HH':'mm':'ss"];
         [nowNews setDate:[dateFormatter dateFromString:string]];
         
     }else if ([nowTagStr isEqualToString:@"siteId"]){

@@ -24,8 +24,8 @@
     
     
     //PHPファイルのURLを設定
-    //NSString *url = @"http://wakuwakupark.main.jp/gamematome/siteList.php";
-    NSString *url = @"http://localhost/siteList.php";
+    NSString *url = @"http://wakuwakupark.main.jp/gamematome_2/siteList.php";
+    //NSString *url = @"http://localhost/siteList.php";
     
     //URLを指定してXMLパーサーを作成
     NSURL *myURL = [NSURL URLWithString:url];

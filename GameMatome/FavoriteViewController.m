@@ -615,7 +615,7 @@ foundCharacters:(NSString *)string
             case 5:
             {
                 UILabel* textView = (UILabel*) view;
-                textView.text = item.site.name;
+                textView.text = [NSString stringWithFormat:@"【%@】 %@",item.site.game.name, item.site.name];
                 if([item.didRead intValue] == 1){
                     textView.textColor = [UIColor grayColor];
                 }else{
