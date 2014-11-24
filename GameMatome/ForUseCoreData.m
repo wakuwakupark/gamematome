@@ -15,6 +15,7 @@ static NSManagedObjectContext* managedObjectContext;
 
 #define MODEL_NAME @"GameMatome"
 #define DB_NAME @"GameMatome.splite"
+#define MAX_NEWS_SIXE 1000
 
 + (NSURL*)createStoreURL {
     NSArray *directories = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
@@ -194,6 +195,48 @@ static NSManagedObjectContext* managedObjectContext;
     return [[self getManagedObjectContext] executeFetchRequest:request error:&error];
 }
 
++ (void) deleteOldNews
+{
+    NSFetchRequest* request = [[NSFetchRequest alloc] init];
+    [request setEntity:[NSEntityDescription entityForName:@"News" inManagedObjectContext:[self getManagedObjectContext]]];
+    [request setIncludesSubentities:NO];
+    
+    NSUInteger count = [[self getManagedObjectContext]countForFetchRequest:request error: nil];
+    
+    if (count == NSNotFound) {
+        count = 0;
+    }
+
+    if(count <= MAX_NEWS_SIXE)
+        return;
+    
+    
+    NSEntityDescription *entity = [NSEntityDescription entityForName:@"News" inManagedObjectContext:[self getManagedObjectContext]];
+    
+    request = [[NSFetchRequest alloc]init];
+    [request setFetchLimit:count - MAX_NEWS_SIXE];
+    
+    NSPredicate *predicate =[NSPredicate predicateWithFormat:@"favorite==0&&memo==nil"];
+    [request setPredicate:predicate];
+    
+    //取ってくるエンティティの設定を行う
+    [request setEntity:entity];
+    
+    //dateでソート
+    NSSortDescriptor *sortDesc =[NSSortDescriptor sortDescriptorWithKey:@"date" ascending:YES];
+    [request setSortDescriptors:[NSArray arrayWithObject:sortDesc]];
+    
+    NSError *error = nil;
+    
+    //データのフェッチを行う Data Fetching.
+    NSArray* results = [[self getManagedObjectContext] executeFetchRequest:request error:&error];
+    
+    //フェッチしたデータを削除処理
+    for (NSManagedObject *data in results) {
+        [managedObjectContext deleteObject:data];
+    }
+    
+}
 
 
 @end

@@ -53,13 +53,18 @@
         if([body length] >= 10){
             [body appendString:@" OR "];
         }
-        
+        //NSDate* limit = [NSDate dateWithTimeIntervalSinceNow:-10*24*60*60];
+        //if(dateStr == NULL || [[site lastUpdated] compare:limit] == NSOrderedAscending){
         if(dateStr == NULL){
-        //if(false){
+
+            //if(false){
             [body appendFormat:@"(siteId = %d)",[site.siteId intValue]];
+            //[body appendFormat:@"(siteId = %d AND date > \"%@\" )",[site.siteId intValue],[formatter stringFromDate:limit]];
         }else{
             [body appendFormat:@"(siteId = %d AND date > \"%@\" )",[site.siteId intValue],dateStr];
         }
+        
+        
     }
     
     
@@ -116,6 +121,9 @@
         NSDateFormatter *dateFormatter = [[NSDateFormatter alloc]init];
         [dateFormatter setDateFormat:@"yyyy'-'MM'-'dd' 'HH':'mm':'ss"];
         [nowNews setDate:[dateFormatter dateFromString:string]];
+        
+        //NSLog(string);
+        
         
     }else if ([nowTagStr isEqualToString:@"siteId"]){
         

@@ -24,7 +24,6 @@
 #import "GetNewsList.h"
 
 #define MODE 1 // 0:local 1:web
-#define MAX_NEWS_SIXE 300
 #define FIRST_8CROPS 5
 #define DIST_8CROPS 10
 #define FIRST_FING 3
@@ -60,7 +59,7 @@
     [ud setObject:@"" forKey:@"myituneURL"];
     
     //PHPファイルのURLを設定
-    NSString *url = @"http://wakuwakupark.main.jp/gamematome/getURL.php";
+    NSString *url = @"http://wakuwakupark.main.jp/gamematome_2/getURL.php";
     
     //URLを指定してXMLパーサーを作成
     NSURL *myURL = [NSURL URLWithString:url];
@@ -272,11 +271,7 @@
     }
     
     //最大サイズを超えていたら削除
-    if([newsArray count]> MAX_NEWS_SIXE){
-        for (int i=MAX_NEWS_SIXE; i<[newsArray count]; i++) {
-            [[ForUseCoreData getManagedObjectContext]deleteObject:[newsArray objectAtIndex:i]];
-        }
-    }
+
     
     [[ForUseCoreData getManagedObjectContext] save:NULL];
 
@@ -447,6 +442,7 @@
                     break;
                 case 3:
                 {
+                    
                 }
                     break;
                 case 4:
@@ -486,14 +482,14 @@
                 case 1:
                 {
                     UIButton* button = (UIButton *)view;
-                    button.hidden = NO;
+                    button.hidden = YES;
                 }
                     break;
                 case 2:
                 {
                     UIButton* button = (UIButton *)view;
                     //メモボタン
-                    button.hidden = NO;
+                    button.hidden = YES;
                 }
                     break;
                 case 3:
@@ -871,8 +867,14 @@
     
     //最終更新日時を更新
     for (Site* site in arr) {
-        site.lastUpdated = [NSDate dateWithTimeIntervalSinceNow:[[NSTimeZone systemTimeZone] secondsFromGMT]];;
+        //site.lastUpdated = [NSDate dateWithTimeIntervalSinceNow:[[NSTimeZone systemTimeZone] secondsFromGMT]];
+        site.lastUpdated = [NSDate date];
+
     }
+    
+    //規定数を超えていたら削除
+    [ForUseCoreData deleteOldNews];
+    
     [[ForUseCoreData getManagedObjectContext]save:NULL];
 
 }
