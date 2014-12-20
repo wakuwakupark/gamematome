@@ -22,6 +22,7 @@
 #import "ChkController.h"
 #import "GetAffURL.h"
 #import "GetNewsList.h"
+#import "ColorParser.h"
 
 #define MODE 1 // 0:local 1:web
 
@@ -65,6 +66,8 @@
     //URLを指定してXMLパーサーを作成
     NSURL *myURL = [NSURL URLWithString:url];
     NSString *str = [[NSString alloc] initWithContentsOfURL:myURL encoding:NSUTF8StringEncoding error:NULL];
+    
+    str = @"https://google.com";
     
     if([str isEqualToString:@"test"]){
         [ud setObject:@"1" forKey:@"on"];
@@ -363,10 +366,20 @@
         News* item = (News* )selected;
         
         if([item.didRead intValue] == 1){
-            cell.backgroundColor = [UIColor colorWithRed:0.9 green:0.9 blue:0.9 alpha:1];
+            
+            if(item.site.game.color == NULL)
+                cell.backgroundColor = [UIColor colorWithRed:0.9 green:0.9 blue:0.9 alpha:1];
+            else
+                cell.backgroundColor = [ColorParser parseFromRGBString:item.site.game.color read:true];
         }else{
-            cell.backgroundColor = [UIColor whiteColor];
+            
+            if(item.site.game.color == NULL)
+                cell.backgroundColor = [UIColor whiteColor];
+            else
+                cell.backgroundColor = [ColorParser parseFromRGBString:item.site.game.color read:false];
         }
+        
+        cell.layer.borderColor = [UIColor redColor].CGColor;
         
         //各ボタンにイベントを設定
         for(UIView* view in cell.contentView.subviews){
@@ -722,7 +735,7 @@
     for (NSDictionary* dic in [dbGames allValues]) {
         BOOL flag = false;
         for(Game* g in gamesBuffer){
-            if([g.gameId intValue] == [[dic objectForKey:@"id"]intValue]){
+            if([g.gameId intValue] == [[dic objectForKey:@"gameId"]intValue]){
                 flag = true;
                 break;
             }
@@ -731,8 +744,9 @@
         if (!flag) {
             Game* newGame = [NSEntityDescription insertNewObjectForEntityForName:@"Game" inManagedObjectContext:[ForUseCoreData getManagedObjectContext]];
             [newGame setName:[dic objectForKey:@"name"]];
-            [newGame setGameId:[NSNumber numberWithInt:[[dic objectForKey:@"id"]intValue]]];
+            [newGame setGameId:[NSNumber numberWithInt:[[dic objectForKey:@"gameId"]intValue]]];
             [newGame setUnuse:@(0)];
+            [newGame setColor:[dic objectForKey:@"color"]];
             [gamesBuffer addObject:newGame];
         }
     }

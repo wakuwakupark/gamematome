@@ -51,7 +51,7 @@
     //解析中タグに設定
     nowTagStr = [NSString stringWithString:elementName];
 
-    if ([elementName isEqualToString:@"id"]) {
+    if ([elementName isEqualToString:@"gameId"]) {
         
         //テキストバッファの初期化
         nowDic = [NSMutableDictionary dictionary];
@@ -62,7 +62,7 @@
     
     [nowDic setObject:string forKey:nowTagStr];
     
-    if ([nowTagStr isEqualToString:@"id"]) {
+    if ([nowTagStr isEqualToString:@"gameId"]) {
         
         //テキストバッファの初期化
         [userArr setObject:nowDic forKey:string];

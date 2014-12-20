@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FF167BE51A457E3C00529ABB /* ColorParser.m in Sources */ = {isa = PBXBuildFile; fileRef = FF167BE41A457E3C00529ABB /* ColorParser.m */; };
 		FF29E6C4199C4AE600AF0AD6 /* list.png in Resources */ = {isa = PBXBuildFile; fileRef = FF29E6C3199C4AE600AF0AD6 /* list.png */; };
 		FF29E6C6199C4AEB00AF0AD6 /* memo.png in Resources */ = {isa = PBXBuildFile; fileRef = FF29E6C5199C4AEB00AF0AD6 /* memo.png */; };
 		FF29E6C8199C4AEE00AF0AD6 /* settings.png in Resources */ = {isa = PBXBuildFile; fileRef = FF29E6C7199C4AEE00AF0AD6 /* settings.png */; };
@@ -78,6 +79,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FF167BE31A457E3C00529ABB /* ColorParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorParser.h; sourceTree = "<group>"; };
+		FF167BE41A457E3C00529ABB /* ColorParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorParser.m; sourceTree = "<group>"; };
 		FF29E6C3199C4AE600AF0AD6 /* list.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = list.png; sourceTree = "<group>"; };
 		FF29E6C5199C4AEB00AF0AD6 /* memo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = memo.png; sourceTree = "<group>"; };
 		FF29E6C7199C4AEE00AF0AD6 /* settings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = settings.png; sourceTree = "<group>"; };
@@ -219,6 +222,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FF167BE21A457E0000529ABB /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				FF167BE31A457E3C00529ABB /* ColorParser.h */,
+				FF167BE41A457E3C00529ABB /* ColorParser.m */,
+			);
+			name = Utility;
+			sourceTree = "<group>";
+		};
 		FF29E6BE199C458D00AF0AD6 /* img */ = {
 			isa = PBXGroup;
 			children = (
@@ -391,6 +403,7 @@
 		FF9D39CE1996F9DC0097A6C9 /* GameMatome */ = {
 			isa = PBXGroup;
 			children = (
+				FF167BE21A457E0000529ABB /* Utility */,
 				FF9D3A1F1996FD780097A6C9 /* ViewController */,
 				FF9D3A1E1996FD6A0097A6C9 /* ForUseCoreData */,
 				FF9D3A1D1996FD5E0097A6C9 /* SitesData */,
@@ -635,6 +648,7 @@
 			files = (
 				FF9D3A071996FA570097A6C9 /* ForUseCoreData.m in Sources */,
 				FFBA1AA219A8472300749A07 /* GetAffURL.m in Sources */,
+				FF167BE51A457E3C00529ABB /* ColorParser.m in Sources */,
 				FF9D39D91996F9DC0097A6C9 /* AppDelegate.m in Sources */,
 				FF2CD93A199CE95B001491BD /* GetUpdate.m in Sources */,
 				FF9D3A29199733980097A6C9 /* News.m in Sources */,

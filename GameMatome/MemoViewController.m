@@ -14,6 +14,7 @@
 #import "News.h"
 #import "Memo.h"
 #import "GADBannerView.h"
+#import "ColorParser.h"
 
 @interface MemoViewController ()
 
@@ -121,9 +122,16 @@
     
     
     if([item.didRead intValue] == 1){
-        cell.backgroundColor = [UIColor colorWithRed:0.9 green:0.9 blue:0.9 alpha:1];
+        if(item.site.game.color == NULL)
+            cell.backgroundColor = [UIColor colorWithRed:0.9 green:0.9 blue:0.9 alpha:1];
+        else
+            cell.backgroundColor = [ColorParser parseFromRGBString:item.site.game.color read:true];
     }else{
-        cell.backgroundColor = [UIColor whiteColor];
+        
+        if(item.site.game.color == NULL)
+            cell.backgroundColor = [UIColor whiteColor];
+        else
+            cell.backgroundColor = [ColorParser parseFromRGBString:item.site.game.color read:false];
     }
     
     //各ボタンにイベントを設定

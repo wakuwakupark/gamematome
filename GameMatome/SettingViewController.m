@@ -11,6 +11,7 @@
 #import "Game.h"
 #import "DetailSettingViewController.h"
 #import "GADBannerView.h"
+#import "ColorParser.h"
 
 @interface SettingViewController ()
 
@@ -72,6 +73,11 @@
     Game* game = [gamesArray objectAtIndex:indexPath.row];
     
     //cell.textLabel.text = [game name];
+    
+    if(game.color == NULL)
+        cell.backgroundColor = [UIColor whiteColor];
+    else
+        cell.backgroundColor = [ColorParser parseFromRGBString:game.color read:false];
     
     //各ボタンにイベントを設定
     for(UIView* view in cell.contentView.subviews){
