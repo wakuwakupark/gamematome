@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		FF167BE51A457E3C00529ABB /* ColorParser.m in Sources */ = {isa = PBXBuildFile; fileRef = FF167BE41A457E3C00529ABB /* ColorParser.m */; };
+		FF167BE91A4599E800529ABB /* new.png in Resources */ = {isa = PBXBuildFile; fileRef = FF167BE81A4599E800529ABB /* new.png */; };
 		FF29E6C4199C4AE600AF0AD6 /* list.png in Resources */ = {isa = PBXBuildFile; fileRef = FF29E6C3199C4AE600AF0AD6 /* list.png */; };
 		FF29E6C6199C4AEB00AF0AD6 /* memo.png in Resources */ = {isa = PBXBuildFile; fileRef = FF29E6C5199C4AEB00AF0AD6 /* memo.png */; };
 		FF29E6C8199C4AEE00AF0AD6 /* settings.png in Resources */ = {isa = PBXBuildFile; fileRef = FF29E6C7199C4AEE00AF0AD6 /* settings.png */; };
@@ -81,6 +82,7 @@
 /* Begin PBXFileReference section */
 		FF167BE31A457E3C00529ABB /* ColorParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorParser.h; sourceTree = "<group>"; };
 		FF167BE41A457E3C00529ABB /* ColorParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorParser.m; sourceTree = "<group>"; };
+		FF167BE81A4599E800529ABB /* new.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = new.png; sourceTree = "<group>"; };
 		FF29E6C3199C4AE600AF0AD6 /* list.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = list.png; sourceTree = "<group>"; };
 		FF29E6C5199C4AEB00AF0AD6 /* memo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = memo.png; sourceTree = "<group>"; };
 		FF29E6C7199C4AEE00AF0AD6 /* settings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = settings.png; sourceTree = "<group>"; };
@@ -234,6 +236,7 @@
 		FF29E6BE199C458D00AF0AD6 /* img */ = {
 			isa = PBXGroup;
 			children = (
+				FF167BE81A4599E800529ABB /* new.png */,
 				FF8F7BBE19A0A79E00C17F3D /* memo_blue.png */,
 				FF29E6C9199C503400AF0AD6 /* noimage.jpg */,
 				FF29E6C5199C4AEB00AF0AD6 /* memo.png */,
@@ -620,6 +623,7 @@
 				FF9D39E11996F9DC0097A6C9 /* Images.xcassets in Resources */,
 				FF8F7BDB19A4D0CB00C17F3D /* 8chk.strings in Resources */,
 				FF8F7BDD19A4D0CB00C17F3D /* chk8sdk_frame_l.png in Resources */,
+				FF167BE91A4599E800529ABB /* new.png in Resources */,
 				FF9D39D31996F9DC0097A6C9 /* InfoPlist.strings in Resources */,
 				FF9D39FE1996FA250097A6C9 /* Main_iPhone.storyboard in Resources */,
 				FF29E6C8199C4AEE00AF0AD6 /* settings.png in Resources */,

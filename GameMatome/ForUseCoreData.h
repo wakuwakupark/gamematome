@@ -33,4 +33,5 @@
 + (void) deleteObjectsFromTable:(NSString*) entity;
 + (void) deleteOldNews;
 
+
 @end

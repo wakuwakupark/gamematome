@@ -25,6 +25,7 @@
         <attribute name="didRead" optional="YES" attributeType="Boolean" defaultValueString="NO" syncable="YES"/>
         <attribute name="favorite" optional="YES" attributeType="Boolean" defaultValueString="NO" syncable="YES"/>
         <attribute name="image" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="isNew" optional="YES" attributeType="Boolean" defaultValueString="YES" syncable="YES"/>
         <attribute name="newsId" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
         <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="unuse" optional="YES" attributeType="Boolean" defaultValueString="NO" syncable="YES"/>
@@ -47,7 +48,7 @@
         <element name="Affs" positionX="-261" positionY="-423" width="128" height="105"/>
         <element name="Game" positionX="-450" positionY="-571" width="128" height="120"/>
         <element name="Memo" positionX="-216" positionY="-216" width="128" height="103"/>
-        <element name="News" positionX="-74" positionY="-504" width="128" height="195"/>
+        <element name="News" positionX="-74" positionY="-504" width="128" height="208"/>
         <element name="Site" positionX="-270" positionY="-477" width="128" height="193"/>
     </elements>
 </model>

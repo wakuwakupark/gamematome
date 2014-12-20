@@ -74,6 +74,9 @@
                                                         <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                                     </state>
                                                 </button>
+                                                <imageView hidden="YES" userInteractionEnabled="NO" tag="10" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="new.png" translatesAutoresizingMaskIntoConstraints="NO" id="fFn-gP-iwS">
+                                                    <rect key="frame" x="5" y="47" width="28" height="28"/>
+                                                </imageView>
                                                 <button opaque="NO" tag="1" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HT5-9N-FJp">
                                                     <rect key="frame" x="287" y="0.0" width="33" height="40"/>
                                                     <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="22"/>
@@ -647,6 +650,7 @@
         <image name="favorite.png" width="32" height="32"/>
         <image name="list.png" width="32" height="32"/>
         <image name="memo.png" width="32" height="32"/>
+        <image name="new.png" width="225" height="225"/>
         <image name="settings.png" width="32" height="32"/>
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">

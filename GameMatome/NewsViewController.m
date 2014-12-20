@@ -219,6 +219,13 @@
             break;
     }
     
+    //全てのnewsを読み込み済みに変更
+    if(newsArray != NULL){
+        for (News* n in  newsArray) {
+            [n setIsNew:0];
+        }
+    }
+    
     [self rssDataReadPersedOnServer];
     
     newsArray = [ForUseCoreData getAllNewsOrderByDate];
@@ -451,6 +458,15 @@
                         textView.textColor = [UIColor grayColor];
                     }else{
                         textView.textColor = [UIColor blackColor];
+                    }
+                }
+                    break;
+                case 10:
+                {
+                    if([item.isNew integerValue] == 0){
+                        view.hidden = true;
+                    }else{
+                        view.hidden = false;
                     }
                 }
                     break;

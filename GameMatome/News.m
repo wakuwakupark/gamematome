@@ -23,6 +23,7 @@
 @dynamic site;
 @dynamic memo;
 @dynamic newsId;
+@dynamic isNew;
 
 - (void) changeUnuseState:(int)value
 {
