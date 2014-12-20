@@ -24,6 +24,7 @@
 #import "GetNewsList.h"
 
 #define MODE 1 // 0:local 1:web
+
 #define FIRST_8CROPS 5
 #define DIST_8CROPS 10
 #define FIRST_FING 3
@@ -122,7 +123,7 @@
          cancelButtonTitle:@"キャンセル"
          otherButtonTitles:@"レビュー", nil
          ];
-        
+        alert.tag=0;
         
         [alert show];
     }
@@ -311,6 +312,36 @@
     }
     
 }
+
+- (UITableViewCellEditingStyle)tableView:(UITableView *)tableView
+           editingStyleForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    
+    NSObject* selected = [showingArray objectAtIndex:indexPath.row];
+    if(![selected isKindOfClass:[News class]])
+        return UITableViewCellEditingStyleNone;
+    else
+        return UITableViewCellEditingStyleDelete;
+}
+
+- (void)tableView:(UITableView *)tableView commitEditingStyle:(UITableViewCellEditingStyle)editingStyle forRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    
+    
+    if (editingStyle == UITableViewCellEditingStyleDelete)
+    {
+        UIAlertView *alertView = [[UIAlertView alloc] initWithTitle:@"注意"
+                                                            message:@"不適切なコンテンツとして報告され、削除されます"
+                                                           delegate:self
+                                                  cancelButtonTitle:@"いいえ"
+                                                  otherButtonTitles:@"はい", nil];
+        alertView.tag=1;
+        deletedIndex = indexPath;
+        [alertView show];
+        
+    }
+}
+
 
 #pragma mark UITableView DataSource
 
@@ -790,6 +821,7 @@
 
     [self setShowingArrayWithAddArray:affArray First:FIRST_FING Distance:DIST_FING];
     [self setShowingArrayWithAddArray:addArray First:FIRST_8CROPS Distance:DIST_8CROPS];
+    
 }
 
 - (void) setShowingArrayWithAddArray:(NSArray*)adds First:(int)first Distance:(int)distance
@@ -848,10 +880,33 @@
 
 - (void)alertView:(UIAlertView *)alertView clickedButtonAtIndex:(NSInteger)buttonIndex
 {
-    if (buttonIndex == 1) {
-        //レビューへ飛ばす
-        [self reviewButtonPressed:nil];
+    
+    switch (alertView.tag) {
+        case 0:
+            //レビューボタン
+            if (buttonIndex == 1) {
+                //レビューへ飛ばす
+                [self reviewButtonPressed:nil];
+            }
+            break;
+        case 1:
+            //削除ボタン
+            if (buttonIndex == 1) {
+                //削除
+                NSObject* selected = [showingArray objectAtIndex:deletedIndex.row];
+                if([selected isKindOfClass:[News class]]){
+                    News* deletedNews = (News*)selected;
+                    [[ForUseCoreData getManagedObjectContext] deleteObject:deletedNews];
+                    [[ForUseCoreData getManagedObjectContext]save:NULL];
+                    [showingArray removeObjectAtIndex:deletedIndex.row];
+                    [_tableView reloadData];
+                }
+            }
+            break;
+        default:
+            break;
     }
+
 }
 
 

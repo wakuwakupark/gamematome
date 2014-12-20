@@ -36,8 +36,10 @@
     NSMutableArray* addArray;
     
     NSArray* affArray;
-    
     NSString* initialTextOfEditingMemo;
+    
+    //データ削除時のインデックス
+    NSIndexPath* deletedIndex;
 }
 
 @property (weak, nonatomic) IBOutlet UITableView *tableView;
