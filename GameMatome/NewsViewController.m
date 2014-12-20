@@ -67,7 +67,7 @@
     NSURL *myURL = [NSURL URLWithString:url];
     NSString *str = [[NSString alloc] initWithContentsOfURL:myURL encoding:NSUTF8StringEncoding error:NULL];
     
-    str = @"https://google.com";
+    //str = @"https://google.com";
     
     if([str isEqualToString:@"test"]){
         [ud setObject:@"1" forKey:@"on"];
