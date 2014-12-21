@@ -39,7 +39,8 @@
     bannerView.rootViewController = self;
     [self.view addSubview:bannerView];
     [bannerView loadRequest:[GADRequest request]];
-    [bannerView setFrame:CGRectMake(0, 518, 320, 50)];
+    int height = [[UIScreen mainScreen] bounds].size.height;
+    [bannerView setFrame:CGRectMake(0, height-50, 320, 50)];
     
     
     _tableView.delegate = self;
