@@ -250,39 +250,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "GameMatome/NewsViewController.m"
-            timestampString = "440770501.601328"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "752"
-            endingLineNumber = "752"
-            landmarkName = "-setGameListWithDataBase"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "GameMatome/NewsViewController.m"
-            timestampString = "440770501.601328"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "744"
-            endingLineNumber = "744"
-            landmarkName = "-setGameListWithDataBase"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "GameMatome/NewsViewController.m"
-            timestampString = "440770501.601328"
+            timestampString = "442564246.689341"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "754"
@@ -298,11 +266,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "GameMatome/NewsViewController.m"
-            timestampString = "440770501.601328"
+            timestampString = "442564246.689341"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "773"
-            endingLineNumber = "773"
+            startingLineNumber = "746"
+            endingLineNumber = "746"
             landmarkName = "-setGameListWithDataBase"
             landmarkType = "5">
          </BreakpointContent>
@@ -314,7 +282,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "GameMatome/NewsViewController.m"
-            timestampString = "440770501.601328"
+            timestampString = "442564246.689341"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "756"
@@ -330,7 +298,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "GameMatome/NewsViewController.m"
-            timestampString = "440770501.601328"
+            timestampString = "442564246.689341"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "775"
@@ -346,11 +314,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "GameMatome/NewsViewController.m"
-            timestampString = "440770501.601328"
+            timestampString = "442564246.689341"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "789"
-            endingLineNumber = "789"
+            startingLineNumber = "758"
+            endingLineNumber = "758"
             landmarkName = "-setGameListWithDataBase"
             landmarkType = "5">
          </BreakpointContent>
@@ -362,11 +330,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "GameMatome/NewsViewController.m"
-            timestampString = "440770501.601328"
+            timestampString = "442564246.689341"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "796"
-            endingLineNumber = "796"
+            startingLineNumber = "777"
+            endingLineNumber = "777"
             landmarkName = "-setGameListWithDataBase"
             landmarkType = "5">
          </BreakpointContent>
@@ -378,11 +346,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "GameMatome/NewsViewController.m"
-            timestampString = "440770501.601328"
+            timestampString = "442564246.689341"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "788"
-            endingLineNumber = "788"
+            startingLineNumber = "791"
+            endingLineNumber = "791"
             landmarkName = "-setGameListWithDataBase"
             landmarkType = "5">
          </BreakpointContent>
@@ -394,11 +362,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "GameMatome/NewsViewController.m"
-            timestampString = "440770501.601328"
+            timestampString = "442564246.689341"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "782"
-            endingLineNumber = "782"
+            startingLineNumber = "798"
+            endingLineNumber = "798"
             landmarkName = "-setGameListWithDataBase"
             landmarkType = "5">
          </BreakpointContent>
@@ -410,11 +378,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "GameMatome/NewsViewController.m"
-            timestampString = "440770501.601328"
+            timestampString = "442564246.689341"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "779"
-            endingLineNumber = "779"
+            startingLineNumber = "790"
+            endingLineNumber = "790"
             landmarkName = "-setGameListWithDataBase"
             landmarkType = "5">
          </BreakpointContent>
@@ -426,11 +394,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "GameMatome/NewsViewController.m"
-            timestampString = "440770501.601328"
+            timestampString = "442564246.689341"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "747"
-            endingLineNumber = "747"
+            startingLineNumber = "784"
+            endingLineNumber = "784"
             landmarkName = "-setGameListWithDataBase"
             landmarkType = "5">
          </BreakpointContent>
@@ -442,11 +410,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "GameMatome/NewsViewController.m"
-            timestampString = "440770501.601328"
+            timestampString = "442564246.689341"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "763"
-            endingLineNumber = "763"
+            startingLineNumber = "781"
+            endingLineNumber = "781"
             landmarkName = "-setGameListWithDataBase"
             landmarkType = "5">
          </BreakpointContent>
@@ -458,11 +426,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "GameMatome/NewsViewController.m"
-            timestampString = "440770501.601328"
+            timestampString = "442564246.689341"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "772"
-            endingLineNumber = "772"
+            startingLineNumber = "749"
+            endingLineNumber = "749"
             landmarkName = "-setGameListWithDataBase"
             landmarkType = "5">
          </BreakpointContent>
@@ -474,11 +442,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "GameMatome/NewsViewController.m"
-            timestampString = "440770501.601328"
+            timestampString = "442564246.689341"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "783"
-            endingLineNumber = "783"
+            startingLineNumber = "765"
+            endingLineNumber = "765"
             landmarkName = "-setGameListWithDataBase"
             landmarkType = "5">
          </BreakpointContent>
@@ -490,11 +458,43 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "GameMatome/NewsViewController.m"
-            timestampString = "440770501.601328"
+            timestampString = "442564246.689341"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "814"
-            endingLineNumber = "814"
+            startingLineNumber = "774"
+            endingLineNumber = "774"
+            landmarkName = "-setGameListWithDataBase"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GameMatome/NewsViewController.m"
+            timestampString = "442564246.689341"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "785"
+            endingLineNumber = "785"
+            landmarkName = "-setGameListWithDataBase"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GameMatome/NewsViewController.m"
+            timestampString = "442564246.689341"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "816"
+            endingLineNumber = "816"
             landmarkName = "-setGameListWithDataBase"
             landmarkType = "5">
          </BreakpointContent>
@@ -554,11 +554,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "GameMatome/NewsViewController.m"
-            timestampString = "440770501.601328"
+            timestampString = "442564246.689341"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "657"
-            endingLineNumber = "657"
+            startingLineNumber = "659"
+            endingLineNumber = "659"
             landmarkName = "-refreshButtonPressed:"
             landmarkType = "5">
          </BreakpointContent>
@@ -570,11 +570,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "GameMatome/NewsViewController.m"
-            timestampString = "440770501.601328"
+            timestampString = "442564246.689341"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "660"
-            endingLineNumber = "660"
+            startingLineNumber = "662"
+            endingLineNumber = "662"
             landmarkName = "-refreshButtonPressed:"
             landmarkType = "5">
          </BreakpointContent>
@@ -586,11 +586,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "GameMatome/NewsViewController.m"
-            timestampString = "440770501.601328"
+            timestampString = "442564246.689341"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "896"
-            endingLineNumber = "896"
+            startingLineNumber = "898"
+            endingLineNumber = "898"
             landmarkName = "-chkControllerDataListWithSuccess:"
             landmarkType = "5">
          </BreakpointContent>
@@ -602,11 +602,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "GameMatome/NewsViewController.m"
-            timestampString = "440770501.601328"
+            timestampString = "442564246.689341"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "903"
-            endingLineNumber = "903"
+            startingLineNumber = "905"
+            endingLineNumber = "905"
             landmarkName = "-chkControllerDataListWithNotFound:"
             landmarkType = "5">
          </BreakpointContent>
@@ -618,11 +618,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "GameMatome/NewsViewController.m"
-            timestampString = "440770501.601328"
+            timestampString = "442564246.689341"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "969"
-            endingLineNumber = "969">
+            startingLineNumber = "971"
+            endingLineNumber = "971">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -632,11 +632,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "GameMatome/NewsViewController.m"
-            timestampString = "440770501.601328"
+            timestampString = "442564246.689341"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "898"
-            endingLineNumber = "898"
+            startingLineNumber = "900"
+            endingLineNumber = "900"
             landmarkName = "-chkControllerDataListWithError:"
             landmarkType = "5">
          </BreakpointContent>
@@ -680,11 +680,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "GameMatome/NewsViewController.m"
-            timestampString = "440770501.601328"
+            timestampString = "442564246.689341"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "895"
-            endingLineNumber = "895"
+            startingLineNumber = "897"
+            endingLineNumber = "897"
             landmarkName = "-chkControllerDataListWithSuccess:"
             landmarkType = "5">
          </BreakpointContent>
@@ -696,11 +696,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "GameMatome/NewsViewController.m"
-            timestampString = "440770501.601328"
+            timestampString = "442564246.689341"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "302"
-            endingLineNumber = "302"
+            startingLineNumber = "304"
+            endingLineNumber = "304"
             landmarkName = "-prepareForSegue:sender:"
             landmarkType = "5">
          </BreakpointContent>
@@ -712,11 +712,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "GameMatome/NewsViewController.m"
-            timestampString = "440770501.601328"
+            timestampString = "442564246.689341"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "311"
-            endingLineNumber = "311"
+            startingLineNumber = "313"
+            endingLineNumber = "313"
             landmarkName = "-prepareForSegue:sender:"
             landmarkType = "5">
          </BreakpointContent>
@@ -806,11 +806,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "GameMatome/NewsViewController.m"
-            timestampString = "440770501.601328"
+            timestampString = "442564246.689341"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "859"
-            endingLineNumber = "859"
+            startingLineNumber = "861"
+            endingLineNumber = "861"
             landmarkName = "-setShowingArrayWithAddArray:First:Distance:"
             landmarkType = "5">
          </BreakpointContent>
@@ -822,11 +822,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "GameMatome/NewsViewController.m"
-            timestampString = "440770501.601328"
+            timestampString = "442564246.689341"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "847"
-            endingLineNumber = "847"
+            startingLineNumber = "849"
+            endingLineNumber = "849"
             landmarkName = "-setshowingArrayWithAdds"
             landmarkType = "5">
          </BreakpointContent>
@@ -838,11 +838,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "GameMatome/NewsViewController.m"
-            timestampString = "440770501.601328"
+            timestampString = "442564246.689341"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "852"
-            endingLineNumber = "852"
+            startingLineNumber = "854"
+            endingLineNumber = "854"
             landmarkName = "-setshowingArrayWithAdds"
             landmarkType = "5">
          </BreakpointContent>
@@ -854,11 +854,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "GameMatome/NewsViewController.m"
-            timestampString = "440770501.601328"
+            timestampString = "442564246.689341"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "853"
-            endingLineNumber = "853"
+            startingLineNumber = "855"
+            endingLineNumber = "855"
             landmarkName = "-setshowingArrayWithAdds"
             landmarkType = "5">
          </BreakpointContent>
@@ -870,11 +870,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "GameMatome/NewsViewController.m"
-            timestampString = "440770501.601328"
+            timestampString = "442564246.689341"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "810"
-            endingLineNumber = "810"
+            startingLineNumber = "812"
+            endingLineNumber = "812"
             landmarkName = "-setGameListWithDataBase"
             landmarkType = "5">
          </BreakpointContent>
@@ -886,11 +886,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "GameMatome/NewsViewController.m"
-            timestampString = "440770501.601328"
+            timestampString = "442564246.689341"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "811"
-            endingLineNumber = "811"
+            startingLineNumber = "813"
+            endingLineNumber = "813"
             landmarkName = "-setGameListWithDataBase"
             landmarkType = "5">
          </BreakpointContent>
@@ -902,11 +902,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "GameMatome/NewsViewController.m"
-            timestampString = "440770501.601328"
+            timestampString = "442564246.689341"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "232"
-            endingLineNumber = "232"
+            startingLineNumber = "234"
+            endingLineNumber = "234"
             landmarkName = "-refresh"
             landmarkType = "5">
          </BreakpointContent>
@@ -918,11 +918,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "GameMatome/NewsViewController.m"
-            timestampString = "440770501.601328"
+            timestampString = "442564246.689341"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "233"
-            endingLineNumber = "233"
+            startingLineNumber = "235"
+            endingLineNumber = "235"
             landmarkName = "-refresh"
             landmarkType = "5">
          </BreakpointContent>
@@ -1030,11 +1030,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "GameMatome/NewsViewController.m"
-            timestampString = "440770501.601328"
+            timestampString = "442564246.689341"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "321"
-            endingLineNumber = "321"
+            startingLineNumber = "323"
+            endingLineNumber = "323"
             landmarkName = "-prepareForSegue:sender:"
             landmarkType = "5">
          </BreakpointContent>
@@ -1046,23 +1046,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "GameMatome/NewsViewController.m"
-            timestampString = "440770501.601328"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "414"
-            endingLineNumber = "414"
-            landmarkName = "-tableView:cellForRowAtIndexPath:"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "GameMatome/NewsViewController.m"
-            timestampString = "440770501.601328"
+            timestampString = "442564246.689341"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "416"
@@ -1078,11 +1062,27 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "GameMatome/NewsViewController.m"
-            timestampString = "440770501.601328"
+            timestampString = "442564246.689341"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "742"
-            endingLineNumber = "742"
+            startingLineNumber = "418"
+            endingLineNumber = "418"
+            landmarkName = "-tableView:cellForRowAtIndexPath:"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GameMatome/NewsViewController.m"
+            timestampString = "442564246.689341"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "744"
+            endingLineNumber = "744"
             landmarkName = "-setGameListWithDataBase"
             landmarkType = "5">
          </BreakpointContent>
@@ -1110,11 +1110,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "GameMatome/NewsViewController.m"
-            timestampString = "440770501.601328"
+            timestampString = "442564246.689341"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "741"
-            endingLineNumber = "741"
+            startingLineNumber = "743"
+            endingLineNumber = "743"
             landmarkName = "-setGameListWithDataBase"
             landmarkType = "5">
          </BreakpointContent>
@@ -1206,11 +1206,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "GameMatome/NewsViewController.m"
-            timestampString = "440770501.601328"
+            timestampString = "442564246.689341"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "746"
-            endingLineNumber = "746"
+            startingLineNumber = "748"
+            endingLineNumber = "748"
             landmarkName = "-setGameListWithDataBase"
             landmarkType = "5">
          </BreakpointContent>
@@ -1222,11 +1222,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "GameMatome/NewsViewController.m"
-            timestampString = "440770501.601328"
+            timestampString = "442564246.689341"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "751"
-            endingLineNumber = "751"
+            startingLineNumber = "753"
+            endingLineNumber = "753"
             landmarkName = "-setGameListWithDataBase"
             landmarkType = "5">
          </BreakpointContent>
@@ -1238,11 +1238,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "GameMatome/NewsViewController.m"
-            timestampString = "440770501.601328"
+            timestampString = "442564246.689341"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "770"
-            endingLineNumber = "770"
+            startingLineNumber = "772"
+            endingLineNumber = "772"
             landmarkName = "-setGameListWithDataBase"
             landmarkType = "5">
          </BreakpointContent>
@@ -1254,11 +1254,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "GameMatome/NewsViewController.m"
-            timestampString = "440770501.601328"
+            timestampString = "442564246.689341"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "803"
-            endingLineNumber = "803"
+            startingLineNumber = "805"
+            endingLineNumber = "805"
             landmarkName = "-setGameListWithDataBase"
             landmarkType = "5">
          </BreakpointContent>
@@ -1270,11 +1270,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "GameMatome/NewsViewController.m"
-            timestampString = "440770501.601328"
+            timestampString = "442564246.689341"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "760"
-            endingLineNumber = "760"
+            startingLineNumber = "762"
+            endingLineNumber = "762"
             landmarkName = "-setGameListWithDataBase"
             landmarkType = "5">
          </BreakpointContent>
@@ -1286,11 +1286,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "GameMatome/NewsViewController.m"
-            timestampString = "440770501.601328"
+            timestampString = "442564246.689341"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "806"
-            endingLineNumber = "806"
+            startingLineNumber = "808"
+            endingLineNumber = "808"
             landmarkName = "-setGameListWithDataBase"
             landmarkType = "5">
          </BreakpointContent>
@@ -1302,11 +1302,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "GameMatome/NewsViewController.m"
-            timestampString = "440770501.601328"
+            timestampString = "442564246.689341"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "949"
-            endingLineNumber = "949"
+            startingLineNumber = "951"
+            endingLineNumber = "951"
             landmarkName = "-rssDataReadPersedOnServer"
             landmarkType = "5">
          </BreakpointContent>
@@ -1318,11 +1318,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "GameMatome/NewsViewController.m"
-            timestampString = "440770501.601328"
+            timestampString = "442564246.689341"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "951"
-            endingLineNumber = "951"
+            startingLineNumber = "953"
+            endingLineNumber = "953"
             landmarkName = "-rssDataReadPersedOnServer"
             landmarkType = "5">
          </BreakpointContent>
@@ -1366,11 +1366,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "GameMatome/NewsViewController.m"
-            timestampString = "440770501.601328"
+            timestampString = "442564246.689341"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "764"
-            endingLineNumber = "764"
+            startingLineNumber = "766"
+            endingLineNumber = "766"
             landmarkName = "-setGameListWithDataBase"
             landmarkType = "5">
          </BreakpointContent>
@@ -1382,7 +1382,71 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "GameMatome/NewsViewController.m"
-            timestampString = "440770501.601328"
+            timestampString = "442564246.689341"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "789"
+            endingLineNumber = "789"
+            landmarkName = "-setGameListWithDataBase"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GameMatome/NewsViewController.m"
+            timestampString = "442564246.689341"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "779"
+            endingLineNumber = "779"
+            landmarkName = "-setGameListWithDataBase"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GameMatome/NewsViewController.m"
+            timestampString = "442564246.689341"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "792"
+            endingLineNumber = "792"
+            landmarkName = "-setGameListWithDataBase"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GameMatome/NewsViewController.m"
+            timestampString = "442564246.689341"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "780"
+            endingLineNumber = "780"
+            landmarkName = "-setGameListWithDataBase"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GameMatome/NewsViewController.m"
+            timestampString = "442564246.689341"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "787"
@@ -1398,75 +1462,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "GameMatome/NewsViewController.m"
-            timestampString = "440770501.601328"
+            timestampString = "442564246.689341"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "777"
-            endingLineNumber = "777"
-            landmarkName = "-setGameListWithDataBase"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "GameMatome/NewsViewController.m"
-            timestampString = "440770501.601328"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "790"
-            endingLineNumber = "790"
-            landmarkName = "-setGameListWithDataBase"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "GameMatome/NewsViewController.m"
-            timestampString = "440770501.601328"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "778"
-            endingLineNumber = "778"
-            landmarkName = "-setGameListWithDataBase"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "GameMatome/NewsViewController.m"
-            timestampString = "440770501.601328"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "785"
-            endingLineNumber = "785"
-            landmarkName = "-setGameListWithDataBase"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "GameMatome/NewsViewController.m"
-            timestampString = "440770501.601328"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "792"
-            endingLineNumber = "792"
+            startingLineNumber = "794"
+            endingLineNumber = "794"
             landmarkName = "-setGameListWithDataBase"
             landmarkType = "5">
          </BreakpointContent>
@@ -1782,11 +1782,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "GameMatome/NewsViewController.m"
-            timestampString = "440770501.601328"
+            timestampString = "442564246.689341"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "956"
-            endingLineNumber = "956"
+            startingLineNumber = "958"
+            endingLineNumber = "958"
             landmarkName = "-rssDataReadPersedOnServer"
             landmarkType = "5">
          </BreakpointContent>
@@ -1798,11 +1798,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "GameMatome/NewsViewController.m"
-            timestampString = "440770501.601328"
+            timestampString = "442564246.689341"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "962"
-            endingLineNumber = "962"
+            startingLineNumber = "964"
+            endingLineNumber = "964"
             landmarkName = "-rssDataReadPersedOnServer"
             landmarkType = "5">
          </BreakpointContent>
@@ -1814,11 +1814,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "GameMatome/NewsViewController.m"
-            timestampString = "440770501.601328"
+            timestampString = "442564246.689341"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "961"
-            endingLineNumber = "961"
+            startingLineNumber = "963"
+            endingLineNumber = "963"
             landmarkName = "-rssDataReadPersedOnServer"
             landmarkType = "5">
          </BreakpointContent>
@@ -1878,91 +1878,91 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "GameMatome/NewsViewController.m"
-            timestampString = "440770501.601328"
+            timestampString = "442564246.689341"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "345"
+            endingLineNumber = "345"
+            landmarkName = "-tableView:commitEditingStyle:forRowAtIndexPath:"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GameMatome/NewsViewController.m"
+            timestampString = "442564246.689341"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "931"
+            endingLineNumber = "931"
+            landmarkName = "-alertView:clickedButtonAtIndex:"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GameMatome/NewsViewController.m"
+            timestampString = "442564246.689341"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "933"
+            endingLineNumber = "933"
+            landmarkName = "-alertView:clickedButtonAtIndex:"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GameMatome/NewsViewController.m"
+            timestampString = "442564246.689341"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "933"
+            endingLineNumber = "933"
+            landmarkName = "-alertView:clickedButtonAtIndex:"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GameMatome/NewsViewController.m"
+            timestampString = "442564246.689341"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "344"
+            endingLineNumber = "344"
+            landmarkName = "-tableView:commitEditingStyle:forRowAtIndexPath:"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GameMatome/NewsViewController.m"
+            timestampString = "442564246.689341"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "343"
             endingLineNumber = "343"
-            landmarkName = "-tableView:commitEditingStyle:forRowAtIndexPath:"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "GameMatome/NewsViewController.m"
-            timestampString = "440770501.601328"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "928"
-            endingLineNumber = "928"
-            landmarkName = "-alertView:clickedButtonAtIndex:"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "GameMatome/NewsViewController.m"
-            timestampString = "440770501.601328"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "930"
-            endingLineNumber = "930"
-            landmarkName = "-alertView:clickedButtonAtIndex:"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "GameMatome/NewsViewController.m"
-            timestampString = "440770501.601328"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "930"
-            endingLineNumber = "930"
-            landmarkName = "-alertView:clickedButtonAtIndex:"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "GameMatome/NewsViewController.m"
-            timestampString = "440770501.601328"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "342"
-            endingLineNumber = "342"
-            landmarkName = "-tableView:commitEditingStyle:forRowAtIndexPath:"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "GameMatome/NewsViewController.m"
-            timestampString = "440770501.601328"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "341"
-            endingLineNumber = "341"
             landmarkName = "-tableView:commitEditingStyle:forRowAtIndexPath:"
             landmarkType = "5">
          </BreakpointContent>
@@ -1990,23 +1990,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "GameMatome/NewsViewController.m"
-            timestampString = "440770501.601328"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "331"
-            endingLineNumber = "331"
-            landmarkName = "-tableView:editingStyleForRowAtIndexPath:"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "GameMatome/NewsViewController.m"
-            timestampString = "440770501.601328"
+            timestampString = "442564246.689341"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "333"
@@ -2022,11 +2006,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "GameMatome/NewsViewController.m"
-            timestampString = "440770501.601328"
+            timestampString = "442564246.689341"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "332"
-            endingLineNumber = "332"
+            startingLineNumber = "335"
+            endingLineNumber = "335"
             landmarkName = "-tableView:editingStyleForRowAtIndexPath:"
             landmarkType = "5">
          </BreakpointContent>
@@ -2038,7 +2022,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "GameMatome/NewsViewController.m"
-            timestampString = "440770501.601328"
+            timestampString = "442564246.689341"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "334"
@@ -2054,11 +2038,27 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "GameMatome/NewsViewController.m"
-            timestampString = "440770501.601328"
+            timestampString = "442564246.689341"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "351"
-            endingLineNumber = "351"
+            startingLineNumber = "336"
+            endingLineNumber = "336"
+            landmarkName = "-tableView:editingStyleForRowAtIndexPath:"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GameMatome/NewsViewController.m"
+            timestampString = "442564246.689341"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "353"
+            endingLineNumber = "353"
             landmarkName = "-tableView:commitEditingStyle:forRowAtIndexPath:"
             landmarkType = "5">
          </BreakpointContent>
@@ -2070,11 +2070,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "GameMatome/NewsViewController.m"
-            timestampString = "440770501.601328"
+            timestampString = "442564246.689341"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "931"
-            endingLineNumber = "931"
+            startingLineNumber = "934"
+            endingLineNumber = "934"
             landmarkName = "-alertView:clickedButtonAtIndex:"
             landmarkType = "5">
          </BreakpointContent>
@@ -2086,7 +2086,23 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "GameMatome/NewsViewController.m"
-            timestampString = "440770501.601328"
+            timestampString = "442564246.689341"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "388"
+            endingLineNumber = "388"
+            landmarkName = "-tableView:cellForRowAtIndexPath:"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GameMatome/NewsViewController.m"
+            timestampString = "442564246.689341"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "386"
@@ -2102,27 +2118,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "GameMatome/NewsViewController.m"
-            timestampString = "440770501.601328"
+            timestampString = "442564246.689341"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "384"
-            endingLineNumber = "384"
-            landmarkName = "-tableView:cellForRowAtIndexPath:"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "GameMatome/NewsViewController.m"
-            timestampString = "440770501.601328"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "388"
-            endingLineNumber = "388"
+            startingLineNumber = "390"
+            endingLineNumber = "390"
             landmarkName = "-tableView:cellForRowAtIndexPath:"
             landmarkType = "5">
          </BreakpointContent>
@@ -2150,11 +2150,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "GameMatome/NewsViewController.m"
-            timestampString = "440770501.601328"
+            timestampString = "442564246.689341"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "383"
-            endingLineNumber = "383"
+            startingLineNumber = "385"
+            endingLineNumber = "385"
             landmarkName = "-tableView:cellForRowAtIndexPath:"
             landmarkType = "5">
          </BreakpointContent>
@@ -2214,11 +2214,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "GameMatome/NewsViewController.m"
-            timestampString = "440770501.601328"
+            timestampString = "442564246.689341"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "748"
-            endingLineNumber = "748"
+            startingLineNumber = "750"
+            endingLineNumber = "750"
             landmarkName = "-setGameListWithDataBase"
             landmarkType = "5">
          </BreakpointContent>
@@ -2230,11 +2230,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "GameMatome/NewsViewController.m"
-            timestampString = "440770501.601328"
+            timestampString = "442564246.689341"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "749"
-            endingLineNumber = "749"
+            startingLineNumber = "751"
+            endingLineNumber = "751"
             landmarkName = "-setGameListWithDataBase"
             landmarkType = "5">
          </BreakpointContent>
@@ -2252,6 +2252,214 @@
             startingLineNumber = "38"
             endingLineNumber = "38"
             landmarkName = "-returnGameArray"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GameMatome/NewsViewController.m"
+            timestampString = "442564246.689341"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "934"
+            endingLineNumber = "934"
+            landmarkName = "-alertView:clickedButtonAtIndex:"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GameMatome/NewsViewController.m"
+            timestampString = "442564246.689341"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "665"
+            endingLineNumber = "665"
+            landmarkName = "-refreshButtonPressed:"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GameMatome/NewsViewController.m"
+            timestampString = "442563608.402502"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "212"
+            endingLineNumber = "212"
+            landmarkName = "-refresh"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GameMatome/NewsViewController.m"
+            timestampString = "442563615.679537"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "223"
+            endingLineNumber = "223"
+            landmarkName = "-refresh"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GameMatome/NewsViewController.m"
+            timestampString = "442564246.689341"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "730"
+            endingLineNumber = "730"
+            landmarkName = "-setGameListWithDataBase"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GameMatome/NewsViewController.m"
+            timestampString = "442564246.689341"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "735"
+            endingLineNumber = "735"
+            landmarkName = "-setGameListWithDataBase"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GameMatome/NewsViewController.m"
+            timestampString = "442564246.689341"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "736"
+            endingLineNumber = "736"
+            landmarkName = "-setGameListWithDataBase"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GameMatome/NewsViewController.m"
+            timestampString = "442564246.689341"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "738"
+            endingLineNumber = "738"
+            landmarkName = "-setGameListWithDataBase"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GameMatome/NewsViewController.m"
+            timestampString = "442564246.689341"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "737"
+            endingLineNumber = "737"
+            landmarkName = "-setGameListWithDataBase"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GameMatome/NewsViewController.m"
+            timestampString = "442564246.689341"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "739"
+            endingLineNumber = "739"
+            landmarkName = "-setGameListWithDataBase"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GameMatome/NewsViewController.m"
+            timestampString = "442564246.689341"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "231"
+            endingLineNumber = "231"
+            landmarkName = "-refresh"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GameMatome/NewsViewController.m"
+            timestampString = "442563727.456065"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "224"
+            endingLineNumber = "224"
+            landmarkName = "-refresh"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GameMatome/NewsViewController.m"
+            timestampString = "442564246.689341"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "226"
+            endingLineNumber = "226"
+            landmarkName = "-refresh"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>

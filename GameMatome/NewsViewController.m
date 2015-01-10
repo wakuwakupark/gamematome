@@ -220,9 +220,11 @@
     }
     
     //全てのnewsを読み込み済みに変更
-    if(newsArray != NULL){
-        for (News* n in  newsArray) {
-            [n setIsNew:0];
+    if(showingArray != NULL){
+        for (NSObject* object in showingArray) {
+            if([object isKindOfClass:[News class]]){
+                [(News*)object setIsNew:0];
+            }
         }
     }
     
@@ -926,9 +928,9 @@
                 NSObject* selected = [showingArray objectAtIndex:deletedIndex.row];
                 if([selected isKindOfClass:[News class]]){
                     News* deletedNews = (News*)selected;
-                    [[ForUseCoreData getManagedObjectContext] deleteObject:deletedNews];
-                    [[ForUseCoreData getManagedObjectContext]save:NULL];
                     [showingArray removeObjectAtIndex:deletedIndex.row];
+                    [[ForUseCoreData getManagedObjectContext] deleteObject:deletedNews];
+                    [[ForUseCoreData getManagedObjectContext] save:NULL];
                     [_tableView reloadData];
                 }
             }
