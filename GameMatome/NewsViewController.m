@@ -928,9 +928,15 @@
                 NSObject* selected = [showingArray objectAtIndex:deletedIndex.row];
                 if([selected isKindOfClass:[News class]]){
                     News* deletedNews = (News*)selected;
+                    NSString* urlStr = [NSString stringWithFormat:@"%@%@",@"http://wakuwakupark.main.jp/gamematome_2/reportDeleted.php?newsId=",deletedNews.newsId];
+                    NSURLRequest* request = [NSURLRequest requestWithURL:[NSURL URLWithString:urlStr]];
+                    NSURLResponse* response;
+                    [NSURLConnection sendSynchronousRequest:request returningResponse:&response error:NULL];
+                    
                     [showingArray removeObjectAtIndex:deletedIndex.row];
                     [[ForUseCoreData getManagedObjectContext] deleteObject:deletedNews];
                     [[ForUseCoreData getManagedObjectContext] save:NULL];
+                    
                     [_tableView reloadData];
                 }
             }
