@@ -529,12 +529,30 @@
                 {
                     UILabel* textView = (UILabel*) view;
                     textView.text = [NSString stringWithFormat:@"【PR】 %@", item.description];
+                    dispatch_queue_t q_global = dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0);
+                    dispatch_queue_t q_main = dispatch_get_main_queue();
+                    dispatch_async(q_global, ^{
+                        //URLなどから取得した画像をuiimageにセット
+                        for (int i=1; i<20; i+=1) {
+                            dispatch_async(q_main, ^{
+                                textView.font = [UIFont systemFontOfSize:i];
+                            });
+                            [NSThread sleepForTimeInterval:0.01f];
+                        }
+                        for (int i=20; i>15; i-=1) {
+                            dispatch_async(q_main, ^{
+                                textView.font = [UIFont systemFontOfSize:i];
+                            });
+                            [NSThread sleepForTimeInterval:0.01f];
+                        }
+                    });
                 }
                     break;
                 case 5:
                 {
                     UILabel* textView = (UILabel*) view;
                     textView.text = item.title;
+                    
                 }
                     break;
                 case 6:
@@ -580,6 +598,24 @@
                 {
                     UILabel* textView = (UILabel*) view;
                     textView.text = item.title;
+                    
+                    dispatch_queue_t q_global = dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0);
+                    dispatch_queue_t q_main = dispatch_get_main_queue();
+                    dispatch_async(q_global, ^{
+                        //URLなどから取得した画像をuiimageにセット
+                        for (int i=1; i<20; i+=1) {
+                            dispatch_async(q_main, ^{
+                                textView.font = [UIFont systemFontOfSize:i];
+                            });
+                            [NSThread sleepForTimeInterval:0.01f];
+                        }
+                        for (int i=20; i>15; i-=1) {
+                            dispatch_async(q_main, ^{
+                                textView.font = [UIFont systemFontOfSize:i];
+                            });
+                            [NSThread sleepForTimeInterval:0.01f];
+                        }
+                    });
                 }
                     break;
                 case 5:
