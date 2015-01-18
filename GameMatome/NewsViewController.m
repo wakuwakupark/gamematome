@@ -959,11 +959,11 @@
     [gnl returnNewsList:arr];
     
     //最終更新日時を更新
-    for (Site* site in arr) {
-        //site.lastUpdated = [NSDate dateWithTimeIntervalSinceNow:[[NSTimeZone systemTimeZone] secondsFromGMT]];
-        site.lastUpdated = [NSDate date];
-
-    }
+//    for (Site* site in arr) {
+//        //site.lastUpdated = [NSDate dateWithTimeIntervalSinceNow:[[NSTimeZone systemTimeZone] secondsFromGMT]];
+//        site.lastUpdated = [NSDate date];
+//
+//    }
     
     //規定数を超えていたら削除
     [ForUseCoreData deleteOldNews];
