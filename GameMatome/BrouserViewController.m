@@ -42,7 +42,7 @@
     [self.view addSubview:bannerView];
     [bannerView loadRequest:[GADRequest request]];
     int height = [[UIScreen mainScreen] bounds].size.height;
-    [bannerView setFrame:CGRectMake(0, height-100, 320, 50)];
+    [bannerView setFrame:CGRectMake(0, height-94, 320, 50)];
     
     _editButton.enabled = YES;
     if(_showingNews != NULL){
@@ -67,6 +67,14 @@
     
     [self registerForKeyboardNotifications];
     
+    /* 左スワイプ */
+    UISwipeGestureRecognizer* swipeRightGesture = [[UISwipeGestureRecognizer alloc]initWithTarget:self action:@selector(goBackListButtonPressed:)];
+    
+    // 左スワイプを認識するように設定
+    swipeRightGesture.direction = UISwipeGestureRecognizerDirectionRight;
+    
+    // ビューにジェスチャーを追加
+    [self.view addGestureRecognizer:swipeRightGesture];
 
 }
 

@@ -135,19 +135,19 @@
         }
         
         Site* parentSite = [arr objectAtIndex:0];
+        
+        if (parentSite.lastUpdated == NULL || [parentSite.lastUpdated compare:nowNews.date] == NSOrderedAscending){
+            //NSLog(@"%@ %@",parentSite.lastUpdated, nowNews.date);
+            [parentSite setLastUpdated:nowNews.date];
+        }
+
         [parentSite.news addObject:nowNews];
         [nowNews setSite:parentSite];
     }
 }
 
 - (void)parser:(NSXMLParser *) parser didEndElement:(NSString *)elementName namespaceURI:(NSString *)namespaceURI qualifiedName:(NSString *)qName {
-    
-    if ([nowTagStr isEqualToString:@"news"]) {
-        //バッファの初期化
-        if([nowNews.site.lastUpdated compare:nowNews.date] == NSOrderedAscending)
-            nowNews.site.lastUpdated = nowNews.date;
-        
-    }
+
     
 }
 

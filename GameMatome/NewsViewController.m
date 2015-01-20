@@ -67,7 +67,7 @@
     NSURL *myURL = [NSURL URLWithString:url];
     NSString *str = [[NSString alloc] initWithContentsOfURL:myURL encoding:NSUTF8StringEncoding error:NULL];
     
-    //str = @"https://google.com";
+    str = @"https://google.com";
     
     if([str isEqualToString:@"test"]){
         [ud setObject:@"1" forKey:@"on"];
@@ -105,7 +105,9 @@
     [self rssDataReadPersedOnServer];
     
     newsArray = [ForUseCoreData getAllNewsOrderByDate];
-    affArray = [[ForUseCoreData getEntityDataEntityNameWithEntityName:@"Affs"] mutableCopy];
+    //affArray = [[ForUseCoreData getEntityDataEntityNameWithEntityName:@"Affs"] mutableCopy];
+    GetAffURL* ga = [[GetAffURL alloc]init];
+    affArray = [ga getAffs];
     
     _refreshControl = [[UIRefreshControl alloc] init];
     [_refreshControl addTarget:self action:@selector(refresh) forControlEvents:UIControlEventValueChanged];
@@ -231,9 +233,12 @@
     [self rssDataReadPersedOnServer];
     
     newsArray = [ForUseCoreData getAllNewsOrderByDate];
-    affArray = [[ForUseCoreData getEntityDataEntityNameWithEntityName:@"Affs"] mutableCopy];
-    [self setshowingArrayWithAdds];
     
+    //affArray = [[ForUseCoreData getEntityDataEntityNameWithEntityName:@"Affs"] mutableCopy];
+    GetAffURL* ga = [[GetAffURL alloc]init];
+    affArray = [ga getAffs];
+    
+    [self setshowingArrayWithAdds];
     
     [_tableView reloadData];
     
@@ -807,11 +812,11 @@
     gamesArray = [ForUseCoreData getEntityDataEntityNameWithEntityName:@"Game"];
     //gamesArray = (NSArray *) gamesBuffer;
     
-    affArray = [NSArray array];
-    if([[ud objectForKey:@"test"] isEqualToString:@"0"]){
-        GetAffURL* ga = [[GetAffURL alloc]init];
-        affArray = [ga getAffs];
-    }
+//    affArray = [NSArray array];
+//    if([[ud objectForKey:@"test"] isEqualToString:@"0"]){
+//        GetAffURL* ga = [[GetAffURL alloc]init];
+//        affArray = [ga getAffs];
+//    }
     
     return;
 }
@@ -852,7 +857,7 @@
     }
 
     [self setShowingArrayWithAddArray:affArray First:FIRST_FING Distance:DIST_FING];
-    [self setShowingArrayWithAddArray:addArray First:FIRST_8CROPS Distance:DIST_8CROPS];
+    //[self setShowingArrayWithAddArray:addArray First:FIRST_8CROPS Distance:DIST_8CROPS];
     
 }
 
