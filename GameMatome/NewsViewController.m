@@ -29,7 +29,7 @@
 #define FIRST_8CROPS 5
 #define DIST_8CROPS 10
 #define FIRST_FING 3
-#define DIST_FING 6
+#define DIST_FING 5
 
 @interface NewsViewController ()
 
@@ -67,7 +67,7 @@
     NSURL *myURL = [NSURL URLWithString:url];
     NSString *str = [[NSString alloc] initWithContentsOfURL:myURL encoding:NSUTF8StringEncoding error:NULL];
     
-    str = @"https://google.com";
+    //str = @"https://google.com";
     
     if([str isEqualToString:@"test"]){
         [ud setObject:@"1" forKey:@"on"];
@@ -359,6 +359,10 @@
     }
 }
 
+- (NSString *)tableView:(UITableView *)tableView titleForDeleteConfirmationButtonForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    return @"削除・通報";
+}
 
 #pragma mark UITableView DataSource
 
@@ -549,14 +553,16 @@
                 case 1:
                 {
                     UIButton* button = (UIButton *)view;
-                    button.hidden = YES;
+                    button.hidden = NO;
+                    button.userInteractionEnabled = NO;
                 }
                     break;
                 case 2:
                 {
                     UIButton* button = (UIButton *)view;
                     //メモボタン
-                    button.hidden = YES;
+                    button.hidden = NO;
+                    button.userInteractionEnabled = NO;
                 }
                     break;
                 case 3:
@@ -566,19 +572,30 @@
                 case 4:
                 {
                     UILabel* textView = (UILabel*) view;
+                    textView.textColor = [UIColor blackColor];
                     textView.text = item.title;
                 }
                     break;
                 case 5:
                 {
                     UILabel* textView = (UILabel*) view;
+                    textView.textColor = [UIColor blackColor];
                     textView.text = item.siteName;
                 }
                     break;
                 case 6:
                 {
+//                    UILabel* textView = (UILabel*) view;
+//                    textView.text = @"";
+//                    
                     UILabel* textView = (UILabel*) view;
-                    textView.text = @"";
+                    NSDate *date = [NSDate date];
+                    NSDateFormatter *formatter = [[NSDateFormatter alloc] init];
+                    [formatter setDateFormat:@"yyyy/MM/dd HH:mm"];
+                    textView.text = [formatter stringFromDate:date];
+
+                    textView.textColor = [UIColor blackColor];
+                    
                 }
                     break;
                 default:

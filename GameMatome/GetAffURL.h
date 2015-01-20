@@ -17,6 +17,7 @@
     NSString *txtBuffer;
     
     Affs* nowAff;
+    NSMutableDictionary* testDic;
     NSMutableArray* affsArray;
 }
 

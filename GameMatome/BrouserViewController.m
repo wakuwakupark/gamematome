@@ -78,12 +78,10 @@
 
 }
 
-
-
 - (void)viewDidAppear:(BOOL)animated
 {
+    //_firstURL = [[_firstURL componentsSeparatedByString:@"\n"] objectAtIndex:0];
     [_webView loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString: _firstURL]]];
-    
 }
 
 - (void)viewWillDisappear:(BOOL)animated
