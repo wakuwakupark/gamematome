@@ -11,7 +11,6 @@
 #import "Site.h"
 #import "ForUseCoreData.h"
 #import "BrouserViewController.h"
-#import "GADBannerView.h"
 
 @interface DetailSettingViewController ()
 
@@ -53,6 +52,9 @@
         [sitesArray addObject:s];
     }
 
+    UINib *nib = [UINib nibWithNibName:@"SettingTableViewCell" bundle:nil];
+    [_tableView registerNib:nib forCellReuseIdentifier:@"Cell"];
+    
     // Do any additional setup after loading the view.
 }
 
@@ -108,12 +110,50 @@
                 label.text = [site name];
             }
                 break;
+            case 3:
+            {
+                //
+                UIImageView* imV = (UIImageView *)view;
+                imV.image = [UIImage imageNamed:@"noImage.jpg"];
+                NSString* imageURL=@"";
+                if (site.image != NULL){
+                    imageURL = site.image;
+                }else if (site.game.image != NULL){
+                    imageURL = site.game.image;
+                }
+                
+                if(site.imageData != NULL){
+                    imV.image = [UIImage imageWithData:site.imageData];
+                }else if(![imageURL isEqual: @""]){
+                    //
+                    
+                    dispatch_queue_t q_global = dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0);
+                    dispatch_queue_t q_main = dispatch_get_main_queue();
+                    dispatch_async(q_global, ^{
+                        
+                        NSData* data = [NSData dataWithContentsOfURL:[NSURL URLWithString:imageURL]];
+                        site.imageData = data;
+                        
+                        dispatch_async(q_main, ^{
+                            imV.image = [UIImage imageWithData:data];
+                            
+                        });
+                        
+                    });
+                    
+                }
+            }
+                break;
         }
     }
     
     return cell;
 }
 
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    [self performSegueWithIdentifier:@"goBrouser" sender:self];
+}
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {

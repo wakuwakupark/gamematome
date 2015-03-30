@@ -16,6 +16,8 @@
 @dynamic sites;
 @dynamic gameId;
 @dynamic color;
+@dynamic image;
+@dynamic imageData;
 
 - (void)changeUnuseState:(int)value
 {

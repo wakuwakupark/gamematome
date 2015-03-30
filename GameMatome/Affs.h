@@ -16,6 +16,8 @@
 @property (nonatomic, retain) NSString * title;
 @property (nonatomic, retain) NSString * url;
 @property (nonatomic, retain) NSString * siteName;
+@property (nonatomic, retain) NSString * image;
+@property (nonatomic, retain) NSData * imageData;
 
 
 

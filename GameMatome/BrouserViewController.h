@@ -9,6 +9,7 @@
 #import <UIKit/UIKit.h>
 #import <Social/Social.h>
 #import <Twitter/Twitter.h>
+@import GoogleMobileAds;
 
 @class News;
 @class Memo;
@@ -22,6 +23,7 @@
 }
 
 @property (nonatomic, retain) NSString* firstURL;
+@property (nonatomic, retain) NSString* firstHTML;
 
 @property (weak, nonatomic) IBOutlet UIWebView *webView;
 @property (weak, nonatomic) IBOutlet UIButton *doneButton;

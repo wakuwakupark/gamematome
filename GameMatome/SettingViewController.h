@@ -7,13 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+@import GoogleMobileAds;
 
 @class GADBannerView;
 
 @interface SettingViewController : UIViewController<UITableViewDelegate,UITableViewDataSource>
 {
     NSArray* gamesArray;
-    
     
     GADBannerView* bannerView;
 }

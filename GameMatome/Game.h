@@ -17,7 +17,8 @@
 @property (nonatomic, retain) NSMutableSet *sites;
 @property (nonatomic, retain) NSNumber *gameId;
 @property (nonatomic, retain) NSString* color;
-
+@property (nonatomic, retain) NSString * image;
+@property (nonatomic, retain) NSData * imageData;
 
 @end
 

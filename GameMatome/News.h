@@ -13,9 +13,10 @@
 
 @interface News : NSManagedObject
 
+@property (nonatomic, retain) NSString * contentHTML;
 @property (nonatomic, retain) NSString * contentURL;
 @property (nonatomic, retain) NSDate * date;
-@property (nonatomic, retain) NSData * image;
+@property (nonatomic, retain) NSString * image;
 @property (nonatomic, retain) NSNumber * favorite;
 @property (nonatomic, retain) NSNumber * didRead;
 @property (nonatomic, retain) NSString * title;
@@ -24,6 +25,7 @@
 @property (nonatomic, retain) Memo *memo;
 @property (nonatomic, retain) NSNumber *newsId;
 @property (nonatomic, retain) NSNumber *isNew;
+@property (nonatomic, retain) NSData * imageData;
 
 - (void) changeUnuseState:(int)value;
 

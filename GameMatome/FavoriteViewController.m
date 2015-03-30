@@ -13,7 +13,6 @@
 #import "Site.h"
 #import "News.h"
 #import "Memo.h"
-#import "GADBannerView.h"
 #import "ColorParser.h"
 
 @interface FavoriteViewController ()
@@ -67,6 +66,9 @@
 //    [_tableView addSubview:_refreshControl];
     
     [self registerForKeyboardNotifications];
+    
+    UINib *nib = [UINib nibWithNibName:@"NewsTableViewCell" bundle:nil];
+    [_tableView registerNib:nib forCellReuseIdentifier:@"Cell"];
     
 }
 
@@ -523,6 +525,11 @@ foundCharacters:(NSString *)string
 
 #pragma mark UITableView Delegate
 
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    [self performSegueWithIdentifier:@"goBrouser" sender:self];
+}
+
 -(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
 {
     News* selected = [self getSelectedNewsWithMode:[[_tableView indexPathForSelectedRow] row]];
@@ -533,6 +540,12 @@ foundCharacters:(NSString *)string
     bvc.showingNews = selected;
     bvc.showingSite = NULL;
     selected.didRead = @(1);
+    
+    if (((News *)selected).contentHTML != NULL) {
+        bvc.firstHTML =((News *)selected).contentHTML;
+    }else{
+        bvc.firstHTML = NULL;
+    }
 }
 
 #pragma mark UITableView DataSource
@@ -602,14 +615,40 @@ foundCharacters:(NSString *)string
                 break;
             case 3:
             {
-                if(item.image != NULL && item.image.length >= 500){
-                    UIImageView *imageView = (UIImageView*) view;
-                    imageView.image = [UIImage imageWithData:item.image];
-                }else{
-                    UIImageView *imageView = (UIImageView*) view;
-                    imageView.image = [UIImage imageNamed:@"noimage.jpg"];
+                //
+                UIImageView* imV = (UIImageView *)view;
+                imV.image = [UIImage imageNamed:@"noImage.jpg"];
+                NSString* imageURL=@"";
+                if(item.image != NULL){
+                    imageURL = item.image;
+                }else if (item.site.image != NULL){
+                    imageURL = item.site.image;
+                }else if (item.site.game.image != NULL){
+                    imageURL = item.site.game.image;
+                }
+                
+                if(item.imageData != NULL){
+                    imV.image = [UIImage imageWithData:item.imageData];
+                }else if(![imageURL isEqual: @""]){
+                    //
+                    
+                    dispatch_queue_t q_global = dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0);
+                    dispatch_queue_t q_main = dispatch_get_main_queue();
+                    dispatch_async(q_global, ^{
+                        
+                        NSData* data = [NSData dataWithContentsOfURL:[NSURL URLWithString:imageURL]];
+                        item.imageData = data;
+                        
+                        dispatch_async(q_main, ^{
+                            imV.image = [UIImage imageWithData:data];
+                            
+                        });
+                        
+                    });
+                    
                 }
             }
+
                 break;
             case 4:
             {

@@ -23,6 +23,9 @@
 @property (nonatomic, retain) Game *game;
 @property (nonatomic, retain) NSMutableSet *news;
 @property (nonatomic, retain) NSNumber * siteId;
+@property (nonatomic, retain) NSString * image;
+@property (nonatomic, retain) NSData * imageData;
+
 @end
 
 @interface Site (CoreDataGeneratedAccessors)

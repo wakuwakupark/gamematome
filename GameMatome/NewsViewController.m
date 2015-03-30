@@ -14,7 +14,6 @@
 #import "News.h"
 #import "Memo.h"
 #import "Affs.h"
-#import "GADBannerView.h"
 #import "GetGameList.h"
 #import "GetSiteList.h"
 #import "GetUpdate.h"
@@ -97,6 +96,17 @@
             break;
     }
     
+    
+    //広告の設定
+    bannerView = [[GADBannerView alloc]initWithAdSize:kGADAdSizeBanner];
+    //bannerView = [[GADBannerView alloc]init];
+    bannerView.adUnitID = @"ca-app-pub-9624460734614700/3273796273";
+    bannerView.rootViewController = self;
+    [self.view addSubview:bannerView];
+    [bannerView loadRequest:[GADRequest request]];
+    int height = [[UIScreen mainScreen] bounds].size.height;
+    [bannerView setFrame:CGRectMake(0, height-100, 320, 50)];
+    
     //
     chkController = [[ChkController alloc]initWithDelegate:self];
     [chkController requestDataList];
@@ -132,6 +142,9 @@
         
         [alert show];
     }
+    
+    UINib *nib = [UINib nibWithNibName:@"NewsTableViewCell" bundle:nil];
+    [_tableView registerNib:nib forCellReuseIdentifier:@"Cell"];
 }
 
 - (void)viewWillDisappear:(BOOL)animated
@@ -308,6 +321,11 @@
         
         BrouserViewController* bvc = [segue destinationViewController];
         bvc.firstURL = ((News *)selected).contentURL;
+        if (((News *)selected).contentHTML != NULL) {
+            bvc.firstHTML =((News *)selected).contentHTML;
+        }else{
+            bvc.firstHTML = NULL;
+        }
         bvc.showingNews = (News *)selected;
         bvc.showingSite = NULL;
         ((News *)selected).didRead = @(1);
@@ -362,6 +380,11 @@
 - (NSString *)tableView:(UITableView *)tableView titleForDeleteConfirmationButtonForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     return @"削除・通報";
+}
+
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    [self performSegueWithIdentifier:@"goBrouser" sender:self];
 }
 
 #pragma mark UITableView DataSource
@@ -434,6 +457,39 @@
                     break;
                 case 3:
                 {
+                    //
+                    UIImageView* imV = (UIImageView *)view;
+                    imV.image = [UIImage imageNamed:@"noImage.jpg"];
+                    NSString* imageURL=@"";
+                    if(item.image != NULL){
+                        imageURL = item.image;
+                    }else if (item.site.image != NULL){
+                        imageURL = item.site.image;
+                    }else if (item.site.game.image != NULL){
+                        imageURL = item.site.game.image;
+                    }
+                    
+                    if(item.imageData != NULL){
+                        imV.image = [UIImage imageWithData:item.imageData];
+                    }else if(![imageURL isEqual: @""]){
+                        //
+                        
+                        dispatch_queue_t q_global = dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0);
+                        dispatch_queue_t q_main = dispatch_get_main_queue();
+                        dispatch_async(q_global, ^{
+                            
+                            NSData* data = [NSData dataWithContentsOfURL:[NSURL URLWithString:imageURL]];
+                            item.imageData = data;
+                            
+                            dispatch_async(q_main, ^{
+                                 imV.image = [UIImage imageWithData:data];
+                                
+                            });
+                            
+                        });
+                        
+                    }
+                    
                 }
                     break;
                 case 4:
@@ -567,6 +623,35 @@
                     break;
                 case 3:
                 {
+                    //
+                    //
+                    UIImageView* imV = (UIImageView *)view;
+                    imV.image = [UIImage imageNamed:@"noImage.jpg"];
+                    NSString* imageURL=@"";
+                    if(item.image != NULL){
+                        imageURL = item.image;
+                    }
+                    
+                    if(item.imageData != NULL){
+                        imV.image = [UIImage imageWithData:item.imageData];
+                    }else if(![imageURL isEqual: @""]){
+                        //
+                        
+                        dispatch_queue_t q_global = dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0);
+                        dispatch_queue_t q_main = dispatch_get_main_queue();
+                        dispatch_async(q_global, ^{
+                            
+                            NSData* data = [NSData dataWithContentsOfURL:[NSURL URLWithString:imageURL]];
+                            item.imageData = data;
+                            
+                            dispatch_async(q_main, ^{
+                                imV.image = [UIImage imageWithData:data];
+                                
+                            });
+                            
+                        });
+                        
+                    }
                 }
                     break;
                 case 4:
@@ -609,6 +694,8 @@
     return cell;
     
 }
+
+
 
 // ボタンタップ時に実行される処理
 - (void)onClickFavoriteButton:(UIButton *)button event:(UIEvent *)event

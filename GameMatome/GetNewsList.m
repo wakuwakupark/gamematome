@@ -99,6 +99,7 @@
     if ([nowTagStr isEqualToString:@"news"]) {
         //バッファの初期化
         nowNews = [NSEntityDescription insertNewObjectForEntityForName:@"News" inManagedObjectContext:[ForUseCoreData getManagedObjectContext]];
+
     }
     
 }
@@ -109,7 +110,8 @@
         [nowNews setValue:[NSNumber numberWithInt:[string intValue]] forKey:nowTagStr];
         
     }else if([nowTagStr isEqualToString:@"title"]
-             || [nowTagStr isEqualToString:@"contentURL"]){
+             || [nowTagStr isEqualToString:@"contentURL"]
+             || [nowTagStr isEqualToString:@"image"]){
         NSString* buffer = [nowNews valueForKey:nowTagStr];
         if(buffer != Nil)
             [nowNews setValue: [buffer stringByAppendingString:string] forKey:nowTagStr];

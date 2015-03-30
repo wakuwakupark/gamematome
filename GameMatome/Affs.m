@@ -15,5 +15,7 @@
 @dynamic title;
 @dynamic url;
 @dynamic siteName;
+@dynamic image;
+@dynamic imageData;
 
 @end

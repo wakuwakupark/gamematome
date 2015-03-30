@@ -7,12 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FF04C7311AC98D28005D022A /* noImage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FF04C7301AC98D28005D022A /* noImage.jpg */; };
+		FF04C7341AC98E34005D022A /* NewsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF04C7331AC98E34005D022A /* NewsTableViewCell.xib */; };
+		FF04C7361AC99577005D022A /* GoogleMobileAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF04C7351AC99577005D022A /* GoogleMobileAds.framework */; };
+		FF04C7381AC99919005D022A /* EventKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF04C7371AC99918005D022A /* EventKit.framework */; };
+		FF04C73A1AC9991F005D022A /* EventKitUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF04C7391AC9991F005D022A /* EventKitUI.framework */; };
+		FF04C73C1AC99D0E005D022A /* SettingTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF04C73B1AC99D0E005D022A /* SettingTableViewCell.xib */; };
 		FF167BE51A457E3C00529ABB /* ColorParser.m in Sources */ = {isa = PBXBuildFile; fileRef = FF167BE41A457E3C00529ABB /* ColorParser.m */; };
 		FF167BE91A4599E800529ABB /* new.png in Resources */ = {isa = PBXBuildFile; fileRef = FF167BE81A4599E800529ABB /* new.png */; };
 		FF29E6C4199C4AE600AF0AD6 /* list.png in Resources */ = {isa = PBXBuildFile; fileRef = FF29E6C3199C4AE600AF0AD6 /* list.png */; };
 		FF29E6C6199C4AEB00AF0AD6 /* memo.png in Resources */ = {isa = PBXBuildFile; fileRef = FF29E6C5199C4AEB00AF0AD6 /* memo.png */; };
 		FF29E6C8199C4AEE00AF0AD6 /* settings.png in Resources */ = {isa = PBXBuildFile; fileRef = FF29E6C7199C4AEE00AF0AD6 /* settings.png */; };
-		FF29E6CA199C503400AF0AD6 /* noimage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FF29E6C9199C503400AF0AD6 /* noimage.jpg */; };
 		FF29E6CE199C5EA800AF0AD6 /* FavoriteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF29E6CD199C5EA800AF0AD6 /* FavoriteViewController.m */; };
 		FF29E6D2199C6E4600AF0AD6 /* MemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF29E6D1199C6E4600AF0AD6 /* MemoViewController.m */; };
 		FF2CD934199CE29E001491BD /* GetGameList.m in Sources */ = {isa = PBXBuildFile; fileRef = FF2CD933199CE29E001491BD /* GetGameList.m */; };
@@ -30,8 +35,6 @@
 		FF8F7BDD19A4D0CB00C17F3D /* chk8sdk_frame_l.png in Resources */ = {isa = PBXBuildFile; fileRef = FF8F7BD719A4D0CB00C17F3D /* chk8sdk_frame_l.png */; };
 		FF8F7BDE19A4D0CB00C17F3D /* chk8sdk_frame_p.png in Resources */ = {isa = PBXBuildFile; fileRef = FF8F7BD819A4D0CB00C17F3D /* chk8sdk_frame_p.png */; };
 		FF8F7BE019A4D11000C17F3D /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF8F7BDF19A4D11000C17F3D /* Security.framework */; };
-		FF9224871998D8D7005B62FB /* libGoogleAdMobAds.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FF9224851998D8D7005B62FB /* libGoogleAdMobAds.a */; };
-		FF9224881998D8D7005B62FB /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = FF9224861998D8D7005B62FB /* README.txt */; };
 		FF92248B1998D931005B62FB /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF92248A1998D931005B62FB /* AdSupport.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		FF92248D1998D93A005B62FB /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF92248C1998D93A005B62FB /* AudioToolbox.framework */; };
 		FF92248F1998D943005B62FB /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF92248E1998D943005B62FB /* AVFoundation.framework */; };
@@ -80,13 +83,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FF04C7301AC98D28005D022A /* noImage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = noImage.jpg; sourceTree = "<group>"; };
+		FF04C7331AC98E34005D022A /* NewsTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NewsTableViewCell.xib; sourceTree = "<group>"; };
+		FF04C7351AC99577005D022A /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMobileAds.framework; sourceTree = "<group>"; };
+		FF04C7371AC99918005D022A /* EventKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKit.framework; path = System/Library/Frameworks/EventKit.framework; sourceTree = SDKROOT; };
+		FF04C7391AC9991F005D022A /* EventKitUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKitUI.framework; path = System/Library/Frameworks/EventKitUI.framework; sourceTree = SDKROOT; };
+		FF04C73B1AC99D0E005D022A /* SettingTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SettingTableViewCell.xib; sourceTree = "<group>"; };
 		FF167BE31A457E3C00529ABB /* ColorParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorParser.h; sourceTree = "<group>"; };
 		FF167BE41A457E3C00529ABB /* ColorParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorParser.m; sourceTree = "<group>"; };
 		FF167BE81A4599E800529ABB /* new.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = new.png; sourceTree = "<group>"; };
 		FF29E6C3199C4AE600AF0AD6 /* list.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = list.png; sourceTree = "<group>"; };
 		FF29E6C5199C4AEB00AF0AD6 /* memo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = memo.png; sourceTree = "<group>"; };
 		FF29E6C7199C4AEE00AF0AD6 /* settings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = settings.png; sourceTree = "<group>"; };
-		FF29E6C9199C503400AF0AD6 /* noimage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = noimage.jpg; sourceTree = "<group>"; };
 		FF29E6CC199C5EA800AF0AD6 /* FavoriteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FavoriteViewController.h; sourceTree = "<group>"; };
 		FF29E6CD199C5EA800AF0AD6 /* FavoriteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FavoriteViewController.m; sourceTree = "<group>"; };
 		FF29E6D0199C6E4600AF0AD6 /* MemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MemoViewController.h; sourceTree = "<group>"; };
@@ -121,20 +129,6 @@
 		FF8F7BD819A4D0CB00C17F3D /* chk8sdk_frame_p.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chk8sdk_frame_p.png; sourceTree = "<group>"; };
 		FF8F7BD919A4D0CB00C17F3D /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/8chk.strings; sourceTree = "<group>"; };
 		FF8F7BDF19A4D11000C17F3D /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
-		FF9224791998D8D7005B62FB /* GADAdMobExtras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADAdMobExtras.h; sourceTree = "<group>"; };
-		FF92247A1998D8D7005B62FB /* GADAdNetworkExtras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADAdNetworkExtras.h; sourceTree = "<group>"; };
-		FF92247B1998D8D7005B62FB /* GADAdSize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADAdSize.h; sourceTree = "<group>"; };
-		FF92247C1998D8D7005B62FB /* GADBannerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADBannerView.h; sourceTree = "<group>"; };
-		FF92247D1998D8D7005B62FB /* GADBannerViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADBannerViewDelegate.h; sourceTree = "<group>"; };
-		FF92247E1998D8D7005B62FB /* GADInAppPurchase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADInAppPurchase.h; sourceTree = "<group>"; };
-		FF92247F1998D8D7005B62FB /* GADInAppPurchaseDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADInAppPurchaseDelegate.h; sourceTree = "<group>"; };
-		FF9224801998D8D7005B62FB /* GADInterstitial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADInterstitial.h; sourceTree = "<group>"; };
-		FF9224811998D8D7005B62FB /* GADInterstitialDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADInterstitialDelegate.h; sourceTree = "<group>"; };
-		FF9224821998D8D7005B62FB /* GADModules.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADModules.h; sourceTree = "<group>"; };
-		FF9224831998D8D7005B62FB /* GADRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADRequest.h; sourceTree = "<group>"; };
-		FF9224841998D8D7005B62FB /* GADRequestError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADRequestError.h; sourceTree = "<group>"; };
-		FF9224851998D8D7005B62FB /* libGoogleAdMobAds.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libGoogleAdMobAds.a; sourceTree = "<group>"; };
-		FF9224861998D8D7005B62FB /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
 		FF92248A1998D931005B62FB /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
 		FF92248C1998D93A005B62FB /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		FF92248E1998D943005B62FB /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
@@ -192,6 +186,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF04C73A1AC9991F005D022A /* EventKitUI.framework in Frameworks */,
+				FF04C7381AC99919005D022A /* EventKit.framework in Frameworks */,
 				FF8F7BE019A4D11000C17F3D /* Security.framework in Frameworks */,
 				FF3390B7199D86BC006C407F /* libsqlite3.0.dylib in Frameworks */,
 				FF9224971998DA8A005B62FB /* CoreTelephony.framework in Frameworks */,
@@ -206,7 +202,7 @@
 				FF9D39CB1996F9DC0097A6C9 /* CoreGraphics.framework in Frameworks */,
 				FF9D39CD1996F9DC0097A6C9 /* UIKit.framework in Frameworks */,
 				FF9D39C91996F9DB0097A6C9 /* Foundation.framework in Frameworks */,
-				FF9224871998D8D7005B62FB /* libGoogleAdMobAds.a in Frameworks */,
+				FF04C7361AC99577005D022A /* GoogleMobileAds.framework in Frameworks */,
 				FF8F7BCF19A4D0C100C17F3D /* lib8chk.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -236,9 +232,9 @@
 		FF29E6BE199C458D00AF0AD6 /* img */ = {
 			isa = PBXGroup;
 			children = (
+				FF04C7301AC98D28005D022A /* noImage.jpg */,
 				FF167BE81A4599E800529ABB /* new.png */,
 				FF8F7BBE19A0A79E00C17F3D /* memo_blue.png */,
-				FF29E6C9199C503400AF0AD6 /* noimage.jpg */,
 				FF29E6C5199C4AEB00AF0AD6 /* memo.png */,
 				FF3390B0199D272D006C407F /* favorite.png */,
 				FF29E6C7199C4AEE00AF0AD6 /* settings.png */,
@@ -337,34 +333,12 @@
 			path = interstitial;
 			sourceTree = "<group>";
 		};
-		FF9224891998D8E8005B62FB /* Admob */ = {
-			isa = PBXGroup;
-			children = (
-				FF9224791998D8D7005B62FB /* GADAdMobExtras.h */,
-				FF92247A1998D8D7005B62FB /* GADAdNetworkExtras.h */,
-				FF92247B1998D8D7005B62FB /* GADAdSize.h */,
-				FF92247C1998D8D7005B62FB /* GADBannerView.h */,
-				FF92247D1998D8D7005B62FB /* GADBannerViewDelegate.h */,
-				FF92247E1998D8D7005B62FB /* GADInAppPurchase.h */,
-				FF92247F1998D8D7005B62FB /* GADInAppPurchaseDelegate.h */,
-				FF9224801998D8D7005B62FB /* GADInterstitial.h */,
-				FF9224811998D8D7005B62FB /* GADInterstitialDelegate.h */,
-				FF9224821998D8D7005B62FB /* GADModules.h */,
-				FF9224831998D8D7005B62FB /* GADRequest.h */,
-				FF9224841998D8D7005B62FB /* GADRequestError.h */,
-				FF9224851998D8D7005B62FB /* libGoogleAdMobAds.a */,
-				FF9224861998D8D7005B62FB /* README.txt */,
-			);
-			name = Admob;
-			sourceTree = "<group>";
-		};
 		FF9D39BC1996F9DB0097A6C9 = {
 			isa = PBXGroup;
 			children = (
 				FF8F7BD019A4D0CB00C17F3D /* Resources */,
 				FF8F7BC419A4D0C100C17F3D /* 8chk */,
 				FF29E6BE199C458D00AF0AD6 /* img */,
-				FF9224891998D8E8005B62FB /* Admob */,
 				FF9D39CE1996F9DC0097A6C9 /* GameMatome */,
 				FF9D39ED1996F9DC0097A6C9 /* GameMatomeTests */,
 				FF9D39C71996F9DB0097A6C9 /* Frameworks */,
@@ -384,6 +358,9 @@
 		FF9D39C71996F9DB0097A6C9 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				FF04C7391AC9991F005D022A /* EventKitUI.framework */,
+				FF04C7371AC99918005D022A /* EventKit.framework */,
+				FF04C7351AC99577005D022A /* GoogleMobileAds.framework */,
 				FF8F7BDF19A4D11000C17F3D /* Security.framework */,
 				FF3390B6199D86BC006C407F /* libsqlite3.0.dylib */,
 				FF9224961998DA8A005B62FB /* CoreTelephony.framework */,
@@ -412,6 +389,8 @@
 				FF9D3A1D1996FD5E0097A6C9 /* SitesData */,
 				FF9D3A0B1996FA6C0097A6C9 /* ManagedObject */,
 				FF9D39FD1996FA250097A6C9 /* Main_iPhone.storyboard */,
+				FF04C7331AC98E34005D022A /* NewsTableViewCell.xib */,
+				FF04C73B1AC99D0E005D022A /* SettingTableViewCell.xib */,
 				FF9D39D71996F9DC0097A6C9 /* AppDelegate.h */,
 				FF9D39D81996F9DC0097A6C9 /* AppDelegate.m */,
 				FF9D39E01996F9DC0097A6C9 /* Images.xcassets */,
@@ -615,11 +594,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FF29E6CA199C503400AF0AD6 /* noimage.jpg in Resources */,
 				FF3390B1199D272D006C407F /* favorite.png in Resources */,
 				FF8F7BDA19A4D0CB00C17F3D /* 8chk.plist in Resources */,
 				FF29E6C4199C4AE600AF0AD6 /* list.png in Resources */,
 				FF29E6C6199C4AEB00AF0AD6 /* memo.png in Resources */,
+				FF04C7341AC98E34005D022A /* NewsTableViewCell.xib in Resources */,
 				FF9D39E11996F9DC0097A6C9 /* Images.xcassets in Resources */,
 				FF8F7BDB19A4D0CB00C17F3D /* 8chk.strings in Resources */,
 				FF8F7BDD19A4D0CB00C17F3D /* chk8sdk_frame_l.png in Resources */,
@@ -629,7 +608,8 @@
 				FF29E6C8199C4AEE00AF0AD6 /* settings.png in Resources */,
 				FF9D3A101996FCC10097A6C9 /* SitesData.plist in Resources */,
 				FF8F7BBF19A0A79E00C17F3D /* memo_blue.png in Resources */,
-				FF9224881998D8D7005B62FB /* README.txt in Resources */,
+				FF04C73C1AC99D0E005D022A /* SettingTableViewCell.xib in Resources */,
+				FF04C7311AC98D28005D022A /* noImage.jpg in Resources */,
 				FF8F7BDC19A4D0CB00C17F3D /* chk8sdk_close.png in Resources */,
 				FF8F7BDE19A4D0CB00C17F3D /* chk8sdk_frame_p.png in Resources */,
 			);
@@ -808,6 +788,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/SMPCM-ARC.embeddedframework",
+					"$(PROJECT_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GameMatome/GameMatome-Prefix.pch";
@@ -834,6 +815,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/SMPCM-ARC.embeddedframework",
+					"$(PROJECT_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GameMatome/GameMatome-Prefix.pch";
@@ -936,6 +918,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/SMPCM-ARC.embeddedframework",
+					"$(PROJECT_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GameMatome/GameMatome-Prefix.pch";

@@ -10,7 +10,6 @@
 #import "ForUseCoreData.h"
 #import "Game.h"
 #import "DetailSettingViewController.h"
-#import "GADBannerView.h"
 #import "ColorParser.h"
 
 @interface SettingViewController ()
@@ -47,6 +46,9 @@
     
     _tableView.delegate = self;
     _tableView.dataSource = self;
+    
+    UINib *nib = [UINib nibWithNibName:@"SettingTableViewCell" bundle:nil];
+    [_tableView registerNib:nib forCellReuseIdentifier:@"Cell"];
 }
 
 - (void)viewWillAppear:(BOOL)animated
@@ -101,11 +103,43 @@
             }
                 break;
                 
-                
             case 2:
             {
                 UILabel* label = (UILabel*)view;
                 label.text =[game name];
+            }
+                break;
+                
+            case 3:
+            {
+                //
+                UIImageView* imV = (UIImageView *)view;
+                imV.image = [UIImage imageNamed:@"noImage.jpg"];
+                NSString* imageURL=@"";
+                if (game.image != NULL){
+                    imageURL = game.image;
+                }
+                
+                if(game.imageData != NULL){
+                    imV.image = [UIImage imageWithData:game.imageData];
+                }else if(![imageURL isEqual: @""]){
+                    //
+                    
+                    dispatch_queue_t q_global = dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0);
+                    dispatch_queue_t q_main = dispatch_get_main_queue();
+                    dispatch_async(q_global, ^{
+                        
+                        NSData* data = [NSData dataWithContentsOfURL:[NSURL URLWithString:imageURL]];
+                        game.imageData = data;
+                        
+                        dispatch_async(q_main, ^{
+                            imV.image = [UIImage imageWithData:data];
+                            
+                        });
+                        
+                    });
+                    
+                }
             }
                 break;
                 
@@ -118,7 +152,10 @@
     return cell;
 }
 
-
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    [self performSegueWithIdentifier:@"goDetail" sender:self];
+}
 
 // ボタンタップ時に実行される処理
 - (void)onClickUnuseButton:(UIButton *)button event:(UIEvent *)event

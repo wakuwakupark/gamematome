@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6250" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="BqZ-kg-eja">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6250" systemVersion="14C1514" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="BqZ-kg-eja">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
@@ -57,7 +57,7 @@
                                 </items>
                             </navigationBar>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="80" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="1kk-oB-ku9">
-                                <rect key="frame" x="0.0" y="64" width="320" height="454"/>
+                                <rect key="frame" x="0.0" y="64" width="320" height="406"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="Cell" rowHeight="80" id="aJH-iL-Fqt">
@@ -107,7 +107,7 @@
                                             </subviews>
                                         </tableViewCellContentView>
                                         <connections>
-                                            <segue destination="mMG-XY-TKi" kind="modal" id="FdY-YU-dJP"/>
+                                            <segue destination="mMG-XY-TKi" kind="modal" identifier="goBrouser" id="FdY-YU-dJP"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
@@ -293,7 +293,7 @@
                                     </navigationItem>
                                 </items>
                             </navigationBar>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="58" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="bgb-8a-F9I">
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="60" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="bgb-8a-F9I">
                                 <rect key="frame" x="0.0" y="64" width="320" height="405"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
@@ -322,7 +322,7 @@
                                         </tableViewCellContentView>
                                         <color key="tintColor" red="0.74404960460000003" green="0.87190214470000005" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         <connections>
-                                            <segue destination="hI5-v5-j73" kind="modal" id="gAO-cE-Xmq"/>
+                                            <segue destination="hI5-v5-j73" kind="modal" identifier="goDetail" id="gAO-cE-Xmq"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
@@ -351,7 +351,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="67" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="xdw-nG-dMm">
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="60" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="xdw-nG-dMm">
                                 <rect key="frame" x="0.0" y="64" width="320" height="454"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
@@ -379,7 +379,7 @@
                                             </subviews>
                                         </tableViewCellContentView>
                                         <connections>
-                                            <segue destination="mMG-XY-TKi" kind="modal" id="2hq-ZR-2gz"/>
+                                            <segue destination="mMG-XY-TKi" kind="modal" identifier="goBrouser" id="2hq-ZR-2gz"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
@@ -486,7 +486,7 @@
                                             </subviews>
                                         </tableViewCellContentView>
                                         <connections>
-                                            <segue destination="mMG-XY-TKi" kind="modal" id="MqJ-wA-DES"/>
+                                            <segue destination="mMG-XY-TKi" kind="modal" identifier="goBrouser" id="MqJ-wA-DES"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
@@ -602,7 +602,7 @@
                                             </subviews>
                                         </tableViewCellContentView>
                                         <connections>
-                                            <segue destination="mMG-XY-TKi" kind="modal" id="hqB-dR-sZg"/>
+                                            <segue destination="mMG-XY-TKi" kind="modal" identifier="goBrouser" id="hqB-dR-sZg"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>

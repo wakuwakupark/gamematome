@@ -13,6 +13,7 @@
 
 @implementation News
 
+@dynamic contentHTML;
 @dynamic contentURL;
 @dynamic date;
 @dynamic image;
@@ -24,6 +25,8 @@
 @dynamic memo;
 @dynamic newsId;
 @dynamic isNew;
+@dynamic imageData;
+
 
 - (void) changeUnuseState:(int)value
 {

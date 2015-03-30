@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 #import "ChkApplicationOptional.h"
+#import "ForUseCoreData.h"
 
 @implementation AppDelegate
 
@@ -28,13 +29,14 @@
 {
     
     [ChkApplicationOptional applicationDidEnterBackground:application];
-    
+    [[ForUseCoreData getManagedObjectContext] save:NULL];
 }
 
 - (void)applicationWillEnterForeground:(UIApplication *)application
 {
     
     [ChkApplicationOptional applicationWillEnterForeground];
+    
 }
 
 - (void)applicationDidBecomeActive:(UIApplication *)application

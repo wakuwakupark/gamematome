@@ -12,8 +12,6 @@
 #import "Site.h"
 #import "Game.h"
 #import "ForUseCoreData.h"
-#import "GADBannerView.h"
-
 
 @interface BrouserViewController ()
 
@@ -81,7 +79,13 @@
 - (void)viewDidAppear:(BOOL)animated
 {
     //_firstURL = [[_firstURL componentsSeparatedByString:@"\n"] objectAtIndex:0];
-    [_webView loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString: _firstURL]]];
+    
+    
+    if(_firstHTML != NULL){
+        [_webView loadHTMLString:_firstHTML baseURL:[NSURL URLWithString: _firstURL]];
+    }else{
+        [_webView loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString: _firstURL]]];
+    }
 }
 
 - (void)viewWillDisappear:(BOOL)animated
@@ -362,13 +366,6 @@
 
     [UIApplication sharedApplication].networkActivityIndicatorVisible = NO;
     
-//    if ([error code] != NSURLErrorCancelled) {
-//
-//        NSString* errString = [NSString stringWithFormat:
-//                               @"<html><center><font size=+7 color='red'>通信エラー:<br>%@</font></center></html>",
-//                               error.localizedDescription];
-//        [webView loadHTMLString:errString baseURL:nil];
-//    }
 }
 
 #pragma mark keyboardAction
