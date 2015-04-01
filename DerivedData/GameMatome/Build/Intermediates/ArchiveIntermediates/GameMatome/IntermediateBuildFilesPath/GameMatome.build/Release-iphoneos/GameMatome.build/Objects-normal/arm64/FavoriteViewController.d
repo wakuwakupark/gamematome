@@ -1,17 +1,39 @@
 dependencies: \
   /Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/GameMatome/FavoriteViewController.m \
   /Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/GameMatome/FavoriteViewController.h \
+  /Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/GoogleMobileAds.framework/Headers/Search/GADSearchRequest.h \
+  /Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/GoogleMobileAds.framework/Headers/Search/GADSearchBannerView.h \
+  /Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/GoogleMobileAds.framework/Headers/Mediation/GADCustomEventInterstitialDelegate.h \
+  /Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/GoogleMobileAds.framework/Headers/Mediation/GADCustomEventInterstitial.h \
+  /Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/GoogleMobileAds.framework/Headers/Mediation/GADCustomEventExtras.h \
+  /Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/GoogleMobileAds.framework/Headers/Mediation/GADCustomEventRequest.h \
+  /Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/GoogleMobileAds.framework/Headers/Mediation/GADCustomEventBannerDelegate.h \
+  /Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/GoogleMobileAds.framework/Headers/Mediation/GADCustomEventBanner.h \
+  /Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/GoogleMobileAds.framework/Headers/GADAppEventDelegate.h \
+  /Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/GoogleMobileAds.framework/Headers/GADAdSizeDelegate.h \
+  /Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/GoogleMobileAds.framework/Headers/DFPRequest.h \
+  /Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/GoogleMobileAds.framework/Headers/DFPInterstitial.h \
+  /Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/GoogleMobileAds.framework/Headers/DFPCustomRenderedInterstitialDelegate.h \
+  /Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/GoogleMobileAds.framework/Headers/DFPCustomRenderedBannerViewDelegate.h \
+  /Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/GoogleMobileAds.framework/Headers/DFPCustomRenderedAd.h \
+  /Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/GoogleMobileAds.framework/Headers/DFPBannerView.h \
+  /Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/GoogleMobileAds.framework/Headers/GADInterstitialDelegate.h \
+  /Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/GoogleMobileAds.framework/Headers/GADInterstitial.h \
+  /Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/GoogleMobileAds.framework/Headers/GADInAppPurchase.h \
+  /Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/GoogleMobileAds.framework/Headers/GADExtras.h \
+  /Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/GoogleMobileAds.framework/Headers/GADRequestError.h \
+  /Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/GoogleMobileAds.framework/Headers/GADRequest.h \
+  /Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/GoogleMobileAds.framework/Headers/GADInAppPurchaseDelegate.h \
+  /Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/GoogleMobileAds.framework/Headers/GADBannerViewDelegate.h \
+  /Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/GoogleMobileAds.framework/Headers/GADBannerView.h \
+  /Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/GoogleMobileAds.framework/Headers/GADAdSize.h \
+  /Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/GoogleMobileAds.framework/Headers/GADAdNetworkExtras.h \
+  /Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/GoogleMobileAds.framework/Headers/GoogleMobileAds.h \
+  /Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/GoogleMobileAds.framework/Modules/module.modulemap \
   /Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/GameMatome/BrouserViewController.h \
   /Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/GameMatome/ForUseCoreData.h \
   /Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/GameMatome/Game.h \
   /Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/GameMatome/Site.h \
   /Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/GameMatome/News.h \
   /Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/GameMatome/Memo.h \
-  /Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/GADBannerView.h \
-  /Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/GADAdSize.h \
-  /Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/GADModules.h \
-  /Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/GADBannerViewDelegate.h \
-  /Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/GADInAppPurchaseDelegate.h \
-  /Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/GADRequest.h \
-  /Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/GADRequestError.h \
   /Users/yahagihiroyuki/Documents/Xcode4/wakuwaku/new/GameMatome/GameMatome/ColorParser.h

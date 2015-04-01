@@ -359,21 +359,33 @@
         return UITableViewCellEditingStyleDelete;
 }
 
+
+- (void)showAlertViewForDelete:(NSIndexPath *)indexPath
+{
+    UIAlertView *alertView = [[UIAlertView alloc] initWithTitle:@"注意"
+                                                        message:@"不適切なコンテンツとして報告され、削除されます"
+                                                       delegate:self
+                                              cancelButtonTitle:@"いいえ"
+                                              otherButtonTitles:@"はい", nil];
+    alertView.tag=1;
+    deletedIndex = indexPath;
+    [alertView show];
+}
+
+- (void)pressDeleteButton:(UIButton *)button event:(UIEvent *)event
+{
+    // タップされたボタンから、対応するセルを取得する
+    NSIndexPath *indexPath = [self indexPathForControlEvent:event];
+    [self showAlertViewForDelete:indexPath];
+}
+
+
 - (void)tableView:(UITableView *)tableView commitEditingStyle:(UITableViewCellEditingStyle)editingStyle forRowAtIndexPath:(NSIndexPath *)indexPath
 {
     
-    
     if (editingStyle == UITableViewCellEditingStyleDelete)
     {
-        UIAlertView *alertView = [[UIAlertView alloc] initWithTitle:@"注意"
-                                                            message:@"不適切なコンテンツとして報告され、削除されます"
-                                                           delegate:self
-                                                  cancelButtonTitle:@"いいえ"
-                                                  otherButtonTitles:@"はい", nil];
-        alertView.tag=1;
-        deletedIndex = indexPath;
-        [alertView show];
-        
+        [self showAlertViewForDelete:indexPath];
     }
 }
 
@@ -537,6 +549,15 @@
                     }
                 }
                     break;
+                case 20:
+                {
+                    UIButton* button = (UIButton *)view;
+                    [button addTarget:self action:@selector(pressDeleteButton:event:) forControlEvents:UIControlEventTouchUpInside];
+                    button.hidden = NO;
+                    
+                }
+                    
+                    break;
                 default:
                     break;
             }
@@ -590,6 +611,13 @@
                     textView.text = @"";
                 }
                     break;
+                    
+                case 20:
+                {
+                    UIButton* button = (UIButton *)view;
+                    button.hidden = YES;
+                    
+                }
                 default:
                     break;
             }
@@ -680,6 +708,13 @@
                     textView.text = [formatter stringFromDate:date];
 
                     textView.textColor = [UIColor blackColor];
+                    
+                }
+                    break;
+                case 20:
+                {
+                    UIButton* button = (UIButton *)view;
+                    button.hidden = YES;
                     
                 }
                     break;

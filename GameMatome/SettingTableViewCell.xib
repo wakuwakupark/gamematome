@@ -23,18 +23,18 @@
                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         </state>
                     </button>
-                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" tag="2" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iDY-fa-TOm">
-                        <rect key="frame" x="80" y="8" width="165" height="44"/>
-                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
-                        <nil key="highlightedColor"/>
-                    </label>
                     <imageView userInteractionEnabled="NO" tag="3" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="noImage.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="QzD-RJ-0VM">
                         <rect key="frame" x="2" y="2" width="56" height="56"/>
                     </imageView>
+                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" tag="2" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iDY-fa-TOm">
+                        <rect key="frame" x="72" y="9" width="196" height="44"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <nil key="highlightedColor"/>
+                    </label>
                 </subviews>
             </tableViewCellContentView>
             <color key="tintColor" red="0.74404960460000003" green="0.87190214470000005" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-            <point key="canvasLocation" x="300" y="293"/>
+            <point key="canvasLocation" x="300" y="292"/>
         </tableViewCell>
     </objects>
     <resources>
