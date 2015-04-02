@@ -34,13 +34,17 @@
     // Do any additional setup after loading the view.
     
     //広告の設定
-    bannerView = [[GADBannerView alloc]initWithAdSize:kGADAdSizeBanner];
-    bannerView.adUnitID = @"ca-app-pub-9624460734614700/2398975874";
-    bannerView.rootViewController = self;
-    [self.view addSubview:bannerView];
-    [bannerView loadRequest:[GADRequest request]];
-    int height = [[UIScreen mainScreen] bounds].size.height;
-    [bannerView setFrame:CGRectMake(0, height-94, 320, 50)];
+    NSUserDefaults* ud = [NSUserDefaults standardUserDefaults];
+    if([[ud valueForKey:@"test"] isEqualToString:@"0"]){
+        bannerView = [[GADBannerView alloc]initWithAdSize:kGADAdSizeBanner];
+        bannerView.adUnitID = @"ca-app-pub-9624460734614700/2398975874";
+        bannerView.rootViewController = self;
+        [self.view addSubview:bannerView];
+        [bannerView loadRequest:[GADRequest request]];
+        int height = [[UIScreen mainScreen] bounds].size.height;
+        [bannerView setFrame:CGRectMake(0, height-94, 320, 50)];
+    }
+
     
     _editButton.enabled = YES;
     if(_showingNews != NULL){
@@ -79,7 +83,10 @@
 - (void)viewDidAppear:(BOOL)animated
 {
     //_firstURL = [[_firstURL componentsSeparatedByString:@"\n"] objectAtIndex:0];
-    
+    NSUserDefaults* ud = [NSUserDefaults standardUserDefaults];
+    if([[ud valueForKey:@"test"] isEqualToString:@"0"]){
+        [_webView setFrame:CGRectMake(_webView.frame.origin.x, _webView.frame.origin.y, _webView.frame.size.width, _webView.frame.size.height - 50)];
+    }
     
     if(_firstHTML != NULL){
         [_webView loadHTMLString:_firstHTML baseURL:[NSURL URLWithString: _firstURL]];

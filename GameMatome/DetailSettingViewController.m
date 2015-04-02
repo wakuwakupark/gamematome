@@ -33,13 +33,18 @@
     [super viewDidLoad];
     
     //広告の設定
-    bannerView = [[GADBannerView alloc]initWithAdSize:kGADAdSizeBanner];
-    bannerView.adUnitID = @"ca-app-pub-9624460734614700/2538576676";
-    bannerView.rootViewController = self;
-    [self.view addSubview:bannerView];
-    [bannerView loadRequest:[GADRequest request]];
-    int height = [[UIScreen mainScreen] bounds].size.height;
-    [bannerView setFrame:CGRectMake(0, height-50, 320, 50)];
+    NSUserDefaults* ud = [NSUserDefaults standardUserDefaults];
+    if([[ud valueForKey:@"test"] isEqualToString:@"0"]){
+        //広告の設定
+        bannerView = [[GADBannerView alloc]initWithAdSize:kGADAdSizeBanner];
+        //bannerView = [[GADBannerView alloc]init];
+        bannerView.adUnitID = @"ca-app-pub-9624460734614700/2538576676";
+        bannerView.rootViewController = self;
+        [self.view addSubview:bannerView];
+        [bannerView loadRequest:[GADRequest request]];
+        int height = [[UIScreen mainScreen] bounds].size.height;
+        [bannerView setFrame:CGRectMake(0, height-50, 320, 50)];
+    }
     
     
     _tableView.delegate = self;
@@ -72,6 +77,12 @@
 - (void)viewWillAppear:(BOOL)animated
 {
     [_tableView reloadData];
+    
+    
+    NSUserDefaults* ud = [NSUserDefaults standardUserDefaults];
+    if([[ud valueForKey:@"test"] isEqualToString:@"1"]){
+        [_tableView setFrame:CGRectMake(_tableView.frame.origin.x, _tableView.frame.origin.y, _tableView.frame.size.width, _tableView.frame.size.height+50)];
+    }
 }
 
 

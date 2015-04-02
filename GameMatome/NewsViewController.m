@@ -52,6 +52,8 @@
     return self;
 }
 
+
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
@@ -68,11 +70,24 @@
     
     //str = @"https://google.com";
     
+    
     if([str isEqualToString:@"test"]){
         [ud setObject:@"1" forKey:@"on"];
         [ud setObject:@"1" forKey:@"test"];
+        
     }else{
         [ud setObject:@"0" forKey:@"test"];
+        
+        //広告の設定
+        bannerView = [[GADBannerView alloc]initWithAdSize:kGADAdSizeBanner];
+        //bannerView = [[GADBannerView alloc]init];
+        bannerView.adUnitID = @"ca-app-pub-9624460734614700/3273796273";
+        bannerView.rootViewController = self;
+        [self.view addSubview:bannerView];
+        [bannerView loadRequest:[GADRequest request]];
+        int height = [[UIScreen mainScreen] bounds].size.height;
+        [bannerView setFrame:CGRectMake(0, height-100, 320, 50)];
+        
     }
     
     [ud setObject:str forKey:@"myituneURL"];
@@ -97,15 +112,6 @@
     }
     
     
-    //広告の設定
-    bannerView = [[GADBannerView alloc]initWithAdSize:kGADAdSizeBanner];
-    //bannerView = [[GADBannerView alloc]init];
-    bannerView.adUnitID = @"ca-app-pub-9624460734614700/3273796273";
-    bannerView.rootViewController = self;
-    [self.view addSubview:bannerView];
-    [bannerView loadRequest:[GADRequest request]];
-    int height = [[UIScreen mainScreen] bounds].size.height;
-    [bannerView setFrame:CGRectMake(0, height-100, 320, 50)];
     
     //
     chkController = [[ChkController alloc]initWithDelegate:self];
@@ -145,6 +151,8 @@
     
     UINib *nib = [UINib nibWithNibName:@"NewsTableViewCell" bundle:nil];
     [_tableView registerNib:nib forCellReuseIdentifier:@"Cell"];
+    
+    
 }
 
 - (void)viewWillDisappear:(BOOL)animated
@@ -154,8 +162,15 @@
 
 - (void)viewDidAppear:(BOOL)animated
 {
+    
     [self setshowingArrayWithAdds];
     [_tableView reloadData];
+    
+    NSUserDefaults* ud = [NSUserDefaults standardUserDefaults];
+    if([[ud valueForKey:@"test"] isEqualToString:@"1"]){
+        [_tableView setFrame:CGRectMake(_tableView.frame.origin.x, _tableView.frame.origin.y, _tableView.frame.size.width, _tableView.frame.size.height+50)];
+    }
+    
 }
 
 - (void)getSitesData
